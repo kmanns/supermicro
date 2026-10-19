@@ -35,3 +35,34 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** `$stardust direct` — pin the donor system (Mode A) and author the target PRODUCT.md, DESIGN.md, DESIGN.json and page-shape briefs.
 
 ---
+
+## 2026-10-19T19:00:00Z — direct (intent) — Supermicro design-donor direction resolved
+
+**Prompt:** Continue hands-off: resolve the redesign direction with supermicro.com/en as the binding donor, preserving the Commerce drop-ins and Product Discovery Search, visual-only, six pages.
+
+**Decisions:**
+- Design-donor Mode A: palette, type families, square control shapes and data-hall imagery are pinned to supermicro.com. Content and IA evidence stay with the storefront.
+- Register `product` (home page `brand`). Expressive axis `committed`, tone `serious`, density `packed` (48 / 36 / 24px sections), ia-fidelity `reimagined`.
+- Research tier 3 (no refero or WebSearch tool), so the seed `2025-now × Neon bending × Broadcast captioning × dark` was used. The dark ground was overridden to Data Hall `#f1f1f1` and moved to the Rack Navy bands.
+- Brand-native palette roles. Power Red `#961919` is the only action colour. Contrast pairs checked; usage limits recorded (Signal Blue large-only, Rail Rule decorative-only, warning icons-only).
+- Type: Source Sans 3 + PT Sans Narrow, major-third scale. Container 1440px (resolves `T-container-cap`).
+- Home copy: the boilerplate copy is dropped; donor public category labels and the positioning line are used verbatim, marked `data-source="donor"`. Non-existent categories show "Catalog pending".
+- Motion register `kinetic-grid` (selected only; not applied without `--cinematic`).
+
+**Artifacts touched:**
+- PRODUCT.md, DESIGN.md, DESIGN.json: created (target)
+- stardust/direction.md: created
+- stardust/prototypes/{index,apparel,search,cart,customer-login,customer-account}-improvements.md: created
+- stardust/state.json: direction stamped; 6 pages → directed
+- .hlxignore: DESIGN.json added (root JSON would otherwise be served)
+
+**Findings worth flagging:**
+- The donor's `#cccccc` rule grey fails 3:1 as a control boundary, so input borders use the storefront's `#8f8f8f`.
+- The donor's blues fail AA for body text in places: Datasheet Blue is body-safe on white only; Signal Blue is large-text only.
+
+**Open questions:**
+- none
+
+**Next:** `$stardust prototype index` (then apparel, search, cart, customer-login, customer-account).
+
+---

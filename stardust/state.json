@@ -1,7 +1,7 @@
 {
   "_provenance": {
-    "writtenBy": "stardust:extract",
-    "writtenAt": "2026-10-19T18:17:19.809Z",
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-10-19T18:26:30Z",
     "stardustVersion": "0.29.1"
   },
   "site": {
@@ -19,7 +19,14 @@
       }
     ]
   },
-  "direction": null,
+  "direction": {
+    "resolvedAt": "2026-10-19T19:00:00Z",
+    "phrase": "I want to initiate a redesign of my EDS storefront, https://main--supermicro--kmanns.aem.page/, based on my demo prospect's site - https://www.supermicro.com/en/, https://store.supermicro.com/us_en/. Since my demo site is ecommerce focused, I want to make sure the commerce drop-ins on the nav are preserved. I don't have a built out product catalog yet but I'll work on that after the redesign is complete.",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "reimagined",
+    "mode": "design-donor Mode A",
+    "variantMode": "single (hands-off: one canonical direction)"
+  },
   "handsOff": true,
   "designSource": {
     "url": "https://www.supermicro.com/en/",
@@ -32,11 +39,15 @@
       "url": "https://main--supermicro--kmanns.aem.page/",
       "title": "Ready to go - B2B!",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-19T17:57:23.987Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
         }
       ],
       "stale": false,
@@ -50,11 +61,15 @@
       "url": "https://main--supermicro--kmanns.aem.page/apparel",
       "title": "Apparel",
       "type": "listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-19T17:57:24.093Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
         }
       ],
       "stale": false,
@@ -68,11 +83,15 @@
       "url": "https://main--supermicro--kmanns.aem.page/search",
       "title": "Product List Page",
       "type": "listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-19T17:57:24.263Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
         }
       ],
       "stale": false,
@@ -86,11 +105,15 @@
       "url": "https://main--supermicro--kmanns.aem.page/cart",
       "title": "Commerce Cart",
       "type": "unique",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-19T17:57:32.055Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
         }
       ],
       "stale": false,
@@ -104,11 +127,15 @@
       "url": "https://main--supermicro--kmanns.aem.page/customer/login",
       "title": "Commerce Login",
       "type": "form",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-19T17:57:32.310Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
         }
       ],
       "stale": false,
@@ -122,11 +149,15 @@
       "url": "https://main--supermicro--kmanns.aem.page/customer/account",
       "title": "Commerce Login",
       "type": "unique",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-19T17:57:32.725Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
         }
       ],
       "stale": false,

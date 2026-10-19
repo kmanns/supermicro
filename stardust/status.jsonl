@@ -15,3 +15,5 @@
 {"ts":"2026-10-19T18:17:20Z","skill":"stardust:extract","phase":"state-and-report","event":"start"}
 {"ts":"2026-10-19T18:17:43Z","skill":"stardust:extract","phase":"state-and-report","event":"end","detail":"6/6 live; donor 5/5 live; next: direct","next":"stardust direct"}
 {"ts":"2026-10-19T18:17:43Z","skill":"stardust:stardust","phase":"hands-off","event":"end","detail":"handsOff stamped in state.json"}
+{"ts":"2026-10-19T18:26:31Z","skill":"stardust:stardust","phase":"intent","event":"start","detail":"direct: design-donor Mode A, hands-off"}
+{"ts":"2026-10-19T18:26:31Z","skill":"stardust:stardust","phase":"intent","event":"end","detail":"PRODUCT.md, DESIGN.md, DESIGN.json, direction.md, 6 improvements lists; 6 pages directed","next":"stardust prototype index"}
