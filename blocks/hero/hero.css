@@ -5,20 +5,62 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 40px 16px 44px;
   min-height: 300px;
+  background-color: var(--color-rack-navy);
+  border-bottom: var(--shape-rail) solid var(--color-sky-rail);
+  color: var(--color-chassis-white);
+}
+
+/* navy scrim keeps text on photography at WCAG AA */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgb(0 58 112 / 94%) 0%, rgb(0 58 112 / 88%) 50%, rgb(0 58 112 / 76%) 100%);
+}
+
+.hero > div {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
 }
 
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+  max-width: 14ch;
+  margin: 0;
+  color: var(--color-chassis-white);
+  font: 700 clamp(4rem, 2.6rem + 3.6vw, 6.1rem)/1.02 var(--type-display-font-family);
+  letter-spacing: -0.015em;
+}
+
+.hero p {
+  max-width: 46ch;
+  margin: 12px 0 0;
+  color: var(--color-chassis-white);
+  font: var(--type-headline-2-default-font);
+}
+
+.hero a:any-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--color-chassis-white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero a:any-link:hover,
+.hero a:any-link:focus-visible {
+  color: var(--color-status-amber);
+  outline-color: var(--color-status-amber);
 }
 
 .hero picture {
   position: absolute;
-  z-index: -1;
+  z-index: -2;
   inset: 0;
   object-fit: cover;
   box-sizing: border-box;
@@ -30,8 +72,18 @@
   height: 100%;
 }
 
+@media (min-width: 600px) {
+  .hero {
+    padding: 64px 24px;
+  }
+}
+
 @media (min-width: 900px) {
   .hero {
-    padding: 40px 32px;
+    padding: 64px 32px 56px;
+  }
+
+  .hero::before {
+    background: linear-gradient(90deg, rgb(0 58 112 / 92%) 0%, rgb(0 58 112 / 86%) 40%, rgb(0 58 112 / 30%) 100%);
   }
 }

@@ -1,0 +1,43 @@
+{"ts":"2026-10-19T17:57:13Z","skill":"stardust:stardust","phase":"setup","event":"end","detail":"impeccable present (excat-extended); playwright linked; hygiene applied"}
+{"ts":"2026-10-19T17:57:13Z","skill":"stardust:stardust","phase":"hands-off","event":"start","detail":"user chose hands-off in chat 2026-10-19"}
+{"ts":"2026-10-19T17:57:21Z","skill":"stardust:extract","phase":"discovery","event":"start","detail":"6 listed primary pages + design-source https://www.supermicro.com/en/ (cap 5)"}
+{"ts":"2026-10-19T17:59:05Z","skill":"stardust:extract","phase":"discovery","event":"end","detail":"primary: 6 listed pages; donor: 5 (xai-colossus swapped for /en/products/gpu for shopping evidence); donor uncaptured first-level targets: en 145 (donor is evidence, not inventory)"}
+{"ts":"2026-10-19T17:59:05Z","skill":"stardust:extract","phase":"per-page-extraction","event":"start","detail":"crawl.mjs headless, wait slow"}
+{"ts":"2026-10-19T17:59:05Z","skill":"stardust:extract","phase":"per-page-extraction","event":"end","detail":"primary 6/6 live (customer-account redirects to /customer/login: duplicate, logged-out); donor 5/5 live"}
+{"ts":"2026-10-19T17:59:05Z","skill":"stardust:extract","phase":"vision-verification","event":"start"}
+{"ts":"2026-10-19T18:01:56Z","skill":"stardust:extract","phase":"vision-verification","event":"end","detail":"primary 6 ok; donor 4 ok, 1 suspect (ai-servers h1 order + late carousel)"}
+{"ts":"2026-10-19T18:02:03Z","skill":"stardust:extract","phase":"brand-surface-extraction","event":"start","detail":"style-census 1440+390, primary then donor (sequential)"}
+{"ts":"2026-10-19T18:10:01Z","skill":"stardust:extract","phase":"brand-surface-extraction","event":"end","detail":"census 1440+390 both origins; _brand-extraction.json for current (primary) and canon-source (design-source)"}
+{"ts":"2026-10-19T18:15:48Z","skill":"stardust:extract","phase":"seed","event":"start"}
+{"ts":"2026-10-19T18:15:48Z","skill":"stardust:extract","phase":"seed","event":"end","detail":"current PRODUCT.md/DESIGN.md/DESIGN.json; canon-source DESIGN.md/DESIGN.json; cap-probe: current 1264px (inconsistent), donor 1660px"}
+{"ts":"2026-10-19T18:15:48Z","skill":"stardust:extract","phase":"brand-review","event":"start"}
+{"ts":"2026-10-19T18:17:19Z","skill":"stardust:extract","phase":"brand-review","event":"end","detail":"brand-review.html validated clean at 1440/768/390; 8 tension cards"}
+{"ts":"2026-10-19T18:17:20Z","skill":"stardust:extract","phase":"state-and-report","event":"start"}
+{"ts":"2026-10-19T18:17:43Z","skill":"stardust:extract","phase":"state-and-report","event":"end","detail":"6/6 live; donor 5/5 live; next: direct","next":"stardust direct"}
+{"ts":"2026-10-19T18:17:43Z","skill":"stardust:stardust","phase":"hands-off","event":"end","detail":"handsOff stamped in state.json"}
+{"ts":"2026-10-19T18:26:31Z","skill":"stardust:stardust","phase":"intent","event":"start","detail":"direct: design-donor Mode A, hands-off"}
+{"ts":"2026-10-19T18:26:31Z","skill":"stardust:stardust","phase":"intent","event":"end","detail":"PRODUCT.md, DESIGN.md, DESIGN.json, direction.md, 6 improvements lists; 6 pages directed","next":"stardust prototype index"}
+{"ts":"2026-10-19T18:28:56Z","skill":"stardust:prototype","phase":"plan","event":"start","detail":"index"}
+{"ts":"2026-10-19T18:28:56Z","skill":"stardust:prototype","phase":"plan","event":"end","detail":"index-shape.md authored; validator: lineage 6/6, antiTemplatePass 4, surprise low, substrate 2, voice 6/6"}
+{"ts":"2026-10-19T18:28:56Z","skill":"stardust:prototype","phase":"render","event":"start","detail":"index via impeccable craft"}
+{"ts":"2026-10-19T18:56:36Z","skill":"stardust:prototype","phase":"render","event":"end","detail":"index-proposed.html via impeccable craft; finish review 8/8 resolved"}
+{"ts":"2026-10-19T18:56:36Z","skill":"stardust:prototype","phase":"critique","event":"start"}
+{"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"audit","event":"start"}
+{"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"adapt","event":"start"}
+{"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"critique","event":"end","detail":"26/36, 0 P0/P1 after fix"}
+{"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"audit","event":"end","detail":"0 P0/P1 after 2 rounds"}
+{"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"adapt","event":"end","detail":"mobile-adapt audit pass 320-1920"}
+{"ts":"2026-10-19T19:41:18Z","skill":"stardust:prototype","phase":"plan","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:18Z","skill":"stardust:prototype","phase":"plan","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:18Z","skill":"stardust:prototype","phase":"render","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"render","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"critique","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"critique","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"audit","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"audit","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"adapt","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"adapt","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"approval","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"approval","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"approval","event":"start","detail":"index"}
+{"ts":"2026-10-19T19:41:20Z","skill":"stardust:prototype","phase":"approval","event":"end","detail":"6/6 approved (hands-off)","next":"implement in EDS blocks + drop-in tokens"}

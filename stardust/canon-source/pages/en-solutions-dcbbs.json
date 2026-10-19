@@ -1,0 +1,1282 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-19T17:57:48.265Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "en-solutions-dcbbs",
+  "url": "https://www.supermicro.com/en/solutions/dcbbs",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-19T17:57:48.265Z",
+  "finalUrl": "https://www.supermicro.com/en/solutions/dcbbs",
+  "title": "Data Center Building Block Solutions® (DCBBS) | Supermicro",
+  "description": "End-to-end Solutions from System to Rack to Data Center Scale",
+  "og": {
+    "title": "Data Center Building Block Solutions® (DCBBS) | Supermicro",
+    "description": "End-to-end Solutions from System to Rack to Data Center Scale",
+    "image": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/DCBBS-v2-Social-1200x628px.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Data Center Building Block Solutions®"
+    },
+    {
+      "tag": "h3",
+      "text": "Rapid Time-to-Deployment with First-to-Market"
+    },
+    {
+      "tag": "h3",
+      "text": "Total Solutions with Onsite Services"
+    },
+    {
+      "tag": "h3",
+      "text": "Customized to Your Workloads"
+    },
+    {
+      "tag": "h3",
+      "text": "Validated and Tested Before Shipping"
+    },
+    {
+      "tag": "h3",
+      "text": "Data Center Building Block Solutions® (DCBBS)"
+    },
+    {
+      "tag": "h4",
+      "text": "AI and Compute Systems"
+    },
+    {
+      "tag": "h4",
+      "text": "In-Rack Solutions"
+    },
+    {
+      "tag": "h4",
+      "text": "In-Row Solutions"
+    },
+    {
+      "tag": "h4",
+      "text": "Site Infrastructure Solutions"
+    },
+    {
+      "tag": "h4",
+      "text": "Management Software Suite"
+    },
+    {
+      "tag": "h4",
+      "text": "Services & Onsite Deployment"
+    },
+    {
+      "tag": "h2",
+      "text": "AI and Compute Systems"
+    },
+    {
+      "tag": "h3",
+      "text": "GPU and CPU Systems"
+    },
+    {
+      "tag": "h3",
+      "text": "Storage Systems"
+    },
+    {
+      "tag": "h3",
+      "text": "System Building Blocks, Cold Plates"
+    },
+    {
+      "tag": "h2",
+      "text": "In-Rack Solutions"
+    },
+    {
+      "tag": "h3",
+      "text": "Coolant"
+    },
+    {
+      "tag": "h3",
+      "text": "CDUs and CDMs"
+    },
+    {
+      "tag": "h3",
+      "text": "Rear Door Heat Exchanger"
+    },
+    {
+      "tag": "h3",
+      "text": "Cooling Hose Kit"
+    },
+    {
+      "tag": "h3",
+      "text": "Power Shelves & BBUs"
+    },
+    {
+      "tag": "h3",
+      "text": "Networking Switches"
+    },
+    {
+      "tag": "h2",
+      "text": "In-Row Solutions"
+    },
+    {
+      "tag": "h3",
+      "text": "Racks"
+    },
+    {
+      "tag": "h3",
+      "text": "In-Row CDU"
+    },
+    {
+      "tag": "h3",
+      "text": "Liquid-to-air (L2A) Sidecar CDU"
+    },
+    {
+      "tag": "h3",
+      "text": "SuperCluster"
+    },
+    {
+      "tag": "h2",
+      "text": "Site Infrastructure Solutions"
+    },
+    {
+      "tag": "h3",
+      "text": "Water Cooling Towers"
+    },
+    {
+      "tag": "h3",
+      "text": "Dry Cooler"
+    },
+    {
+      "tag": "h3",
+      "text": "Battery Energy Storage System (BESS)"
+    },
+    {
+      "tag": "h3",
+      "text": "Cabling"
+    },
+    {
+      "tag": "h2",
+      "text": "Management Software Suite"
+    },
+    {
+      "tag": "h3",
+      "text": "SuperCloud Composer® (SCC)"
+    },
+    {
+      "tag": "h3",
+      "text": "SuperCloud Automation Center (SCAC)"
+    },
+    {
+      "tag": "h3",
+      "text": "SuperCloud Developer Console (SDX)"
+    },
+    {
+      "tag": "h3",
+      "text": "SuperCloud Director (SCD)"
+    },
+    {
+      "tag": "h2",
+      "text": "Services and Onsite Deployment"
+    },
+    {
+      "tag": "h3",
+      "text": "Planning and Validation"
+    },
+    {
+      "tag": "h3",
+      "text": "Onsite Deployment"
+    },
+    {
+      "tag": "h3",
+      "text": "Onsite Support"
+    },
+    {
+      "tag": "h3",
+      "text": "Data Center Fit-Out Service"
+    },
+    {
+      "tag": "h3",
+      "text": "Build Service"
+    },
+    {
+      "tag": "h2",
+      "text": "About us"
+    },
+    {
+      "tag": "h2",
+      "text": "News"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Connect & Follow"
+    }
+  ],
+  "body": [
+    "This website stores cookies on your computer to collect information about how you interact with our website and allow us to remember you. To find out more, see our Privacy Policy.",
+    "If you decline, a single cookie will be used in your browser to remember your preference not to be tracked.",
+    "Artificial Intelligence AI InfrastructureSupermicro delivers the broadest selection of AI systems and solutionsData Center Building Block Solutions® (DCBBS)AI SuperClusterFeatured: xAI ColossusAI FactoryEdge AIAI StorageAI Data PlatformData LakesIndustry AI SolutionsAI for RetailAI for TelcoAI for Financial ServicesFederal AI InfrastructureNVIDIA SolutionsNVIDIA Vera Rubin SolutionsNVIDIA Blackwell Architecture SolutionsNVIDIA RTX PRO™ Blackwell SolutionsSupermicro Super AI StationNVIDIA LaunchPadNVIDIA Hopper & Ada Lovelace SolutionsNVIDIA Jetson SolutionsAMD SolutionsRadeon™ Validated SystemsIntel SolutionsIntel Edge AIArm AGI Solutions AI Infrastructure Solutions Data Center Building Block Solutions® (DCBBS) AI SuperCluster Featured: xAI Colossus AI Factory Edge AI AI Storage Industry AI Solutions AI for Retail AI for Telco AI for Financial Services Federal AI Infrastructure AI Data Platform Data Lakes NVIDIA Solutions NVIDIA Solutions (Home) NVIDIA Vera Rubin Solutions NVIDIA Blackwell Architecture Solutions NVIDIA RTX PRO™ Blackwell Solutions Supermicro Super AI Station NVIDIA LaunchPad NVIDIA Hopper & Ada Lovelace Solutions NVIDIA Jetson Solutions AMD Solutions AMD Solutions (Home) Radeon™ Validated Systems Intel Solutions Intel Solutions (Home) Intel Edge AI Arm AGI Solutions",
+    "Products Servers & StorageBuilding BlocksEdge, Embedded & TelecomNetworkingClient Rackmount ServersSuperior Performance, Efficiency and Time-to-Market for Rapid Adoption Dual ProcessorThe industry's broadest portfolio of performance-optimized dual-processor servers for demanding workloads Single ProcessorThe industry’s broadest portfolio of single processor servers providing performance and efficiency Multi-Processor4 and 8-socket servers designed for extremely large in-memory computing and mission-critical applications GPU ServersBest GPU Servers for Modern Data Centers. The Most Comprehensive AI Systems Featuring the Latest Multi-GPU and Interconnect Technologies Liquid Cooled GPU SystemsIndustry-leading DLC technology driving AI innovation Air Cooled GPU SystemsLeading thermal innovation for traditional data center environments Twin ServersInnovative Multi-node Architectures with Reduced TCO and TCE Dual Processor Multi-NodesMaximum density configurations for HPC, cloud, and storage applications Single Processor Multi-NodesOptimized efficiency and single-processor performance for cloud, CDN, and hyperconverged applications Blade ServersHigh Performance, Density and Efficiency with Resource Saving Architecture SuperBlade®Highest Performance with Advanced Networking and NVMe MicroBlade®Highest Density, Energy-Efficiency and Value MicroCloudDense Multi-Node Solution for the Cloud Storage ServersScalable and Flexible NVMe and Hybrid Storage Architectures All Storage Systems All-Flash NVMeHighest Performing Storage Solutions for Advanced Computing Top-Loading StorageDensity Maximized Storage Systems Optimized for Software-Defined Data Centers JBOF Petascale Grace StoragePetascale All-Flash Array with NVIDIA Grace CPU Superchip and E3.S PCIe Gen5 SSDs Enterprise-Optimized StorageApplication Optimized High-Performance Storage Solutions JBOD Storage Enclosures Gold Series Servers Data Center Building Block Solutions® (DCBBS) Liquid Cooling (DLC-2) System Management Software Motherboards Server Boards Workstation Boards Embedded / IoT Boards Desktop / Gaming Boards Motherboard Matrix Global SKUs Chassis 1U Chassis 2U Chassis 3U Chassis 4U / Tower Chassis Mid / Mini-Tower Embedded / IoT Chassis Mobile Racks / Drive Kits JBOD Storage Enclosures Global SKUs SuperRack® Rack Integration Service Accessories Cable Matrix Riser Card Matrix Storage AOC Matrix Power Supply Matrix Heatsink Matrix System Fan Matrix Mobile Racks / Drive Kits Front Chassis Bezels Storage, I/O, Security All Products All Accessories Edge AI and IoT SystemsShort-depth and small form factor systems designed to deliver compute, AI, and connectivity performance to the edge of the networkCompact Edge SystemsSmall Form Factor Systems for Deployments AnywhereRackmount Edge ServersShort-depth Servers for Remote and Embedded WorkloadsEmbedded ComponentsMotherboards and chassis designed for high-density, high-performance computing performance in space-constrained and embedded use caseEmbedded MotherboardsMotherboards supporting high-performance, low-power processing to meet the needs of all types of embedded applicationsEmbedded ChassisChassis purpose-built for high-density computing in space-constrained environmentsGold Series Edge SystemsEdge AI SolutionsEdge AI & IoT Brochure Switches Standard Ethernet Switches Switch/OS Compatibility Adapters Add-on Cards 1G Ethernet10G Ethernet25G Ethernet100G Ethernet200G Ethernet400G EthernetInfiniBandFibre ChannelOmni-Path All Networking Products Cable/Transceiver Compatibility Cables Transceivers ClientPowerful graphics capabilities for rendering, image processing, scientific, and engineering applications SuperWorkstations Desktop Supero™ Gaming SolutionsServer quality, built for gaming – SUPERO systems by Supermicro are optimized for high performance and reliability, providing options for gamers at all levels Servers & Storage Rackmounts Rackmount Servers Dual Processor Single Processor Multi-Processor GPU Systems All GPU Systems Liquid Cooled GPU Systems Air Cooled GPU Systems Twin All Twin Products Dual Processor Multi-Node Single Processor Multi-Nodes Blades All Blade Products SuperBlade® MicroBlade® MicroCloud Storage All Storage Systems All-Flash NVMe Top-Loading Storage JBOF Enterprise-Optimized Storage JBOD Storage Enclosures Gold Series Servers Data Center Building Block Solutions® (DCBBS) Liquid Cooling (DLC-2) System Management Software Building Blocks Motherboards All Motherboard Products Server Boards Workstation Boards Embedded / IoT Boards Desktop / Gaming Boards Motherboard Matrix Chassis All Chassis Products 1U Chassis 2U Chassis 3U Chassis 4U / Tower Chassis Mid / Mini-Tower Embedded / IoT Chassis Mobile Racks / Drive Kits JBOD Storage Enclosures SuperRack® Supermicro Rack Series Rack Integration Service Accessories Cable Matrix Riser Card Matrix Storage AOC Matrix Power Supply Matrix Heatsink Matrix System Fan Matrix Mobile Racks / Drive Kits Front Chassis Bezels Storage, I/O, Security All Products All Accessories Edge, Embedded & Telecom Edge AI & IoT Systems All Edge AI & IoT Systems Compact Edge Systems Rackmount Edge Servers Embedded Components Embedded Motherboards Embedded Chassis Networking All Networking Products Networking Switches Networking Adapters Cable/Transceiver Compatibility Cables Transceivers Client SuperWorkstations Desktop Supero™ Gaming Solutions",
+    "Solutions IndustriesSupermicro solutions optimized for a wide variety of industrial applicationsFederalFinancial ServicesAI for Financial ServicesFSI SolutionsHealthcareManufacturingIoT Edge – ManufacturingMedia &EntertainmentRetailAMD Solutions for Retail AITelecomAI for Telco5G NetworkingTransportationHPCPlug-and-Play HPC cluster solutionsRack SolutionsLiquid CoolingData ManagementTCO Optimized Design, high density and scaling architecture to manage and protect your dataAI StorageAI Data PlatformData LakesSoftware-Defined Storage and MemoryHyperconverged InfrastructureAzure LocalSteelDome HyperServ™VMware vSANVeeamData Analytics & Enterprise ApplicationsPurpose-Built Scalable Compute for Structured and Unstructured Data AnalyticsData EngineeringDatabase & ERPMicrosoftCloud & VirtualizationComplete Solutions to Build Flexible Cloud Environments and Accelerate Digital TransformationCloud Service Providers (CSPs)IT / Hosting ServicesAMD SolutionGoogle Distributed CloudCanonical OpenStackRed Hat OpenStackKubernetesCanonical KubernetesRed Hat OpenShiftVirtual Desktop5G, IoT, and Edge ComputingOptimized Solutions for 5G Networks and Intelligent Device ManagementTelecom Solutions5G SolutionsAI for TelcoIoT Edge SolutionsHealthcareManufacturingRetailTransportationEdge AIHyperscale InfrastructureDesigned for the massively-scalable modern Data CenterOCP SolutionSuperCloud Composer® (SCC) Industries Federal Financial Services AI for Financial Services FSI Solutions Healthcare Manufacturing Manufacturing (Home) IoT Edge – Manufacturing Media & Entertainment Retail Retail (Home) AMD Solutions for Retail AI Telecom Telecom (Home) AI for Telco 5G Networking Transportation HPC HPC Solutions Rack Solutions Liquid Cooling Data Management AI Storage AI Data Platform Data Lakes Software-Defined Storage and Memory Hyperconverged Infrastructure Azure Local SteelDome HyperServ™ VMware vSAN Veeam Enterprise Applications & Data Analytics Data Engineering Database & ERP Microsoft Red Hat Product Guide (.pdf) NETINT 4K Real-Time Streaming (.pdf) Cloud & Virtualization Cloud Service Providers (CSPs) IT / Hosting Services AMD Solution Google Distributed Cloud Canonical OpenStack Red Hat OpenStack Kubernetes Canonical Kubernetes Red Hat OpenShift Virtual Desktop 5G, Edge Computing, and IoT Telecom Solutions Telecom Solutions (Home) 5G Solutions AI for Telco IoT Edge Solutions Healthcare Manufacturing Retail Transportation Edge AI Hyperscale Infrastructure OCP Solution SuperCloud Composer® (SCC)",
+    "Company About Us Careers Green Computing Contact Investor Relations Policies News & Events Press Releases Supermicro in the News Product Reviews Events Webinars Resources White Papers Solution Briefs Success Stories Product Briefs About About Us Careers Green Computing Contact Investor Relations Policies News Press Releases Supermicro in the News Product Reviews Events Webinars All News Resources White Papers Success Stories Thought Leadership Product Briefs All Resources",
+    "Support Support FAQs Security Center Technical Support Technical Resources Resources & Downloads Management Software Download Manuals Quick-Reference Guides Product Matrices (historical product lists) Services Onsite Services RMA Warranty Information Partners (MySupermicro) Partner Portal Where to Buy Resources Services and Support – Home Support FAQs Security Center Technical Support Services Onsite Services RMA Warranty Information Technical Resources Technical Resources – Home Downloads Management Software Download Manuals Quick Reference Guides Product Matrices (historical product lists) Partners (MySupermicro) Partner Portal Where to Buy Resources",
+    "Buy eStoreSupermicro online storeBuy from Our PartnersFind a Supermicro Authorized Partner eStore Buy from Our Partners",
+    "DCBBS",
+    "AI and Compute Systems",
+    "In-Rack Solutions",
+    "In-Row Solutions",
+    "Site Infrastructure Solutions",
+    "Management Software Suite",
+    "Services and Onsite Deployment",
+    "Supermicro's Data Center Building Block Solutions (DCBBS) delivers complete, modular AI infrastructure. Built from validated components and sub-systems, DCBBS provides end-to-end deployment flexibility – from individual GPUs and networking switches to complete racks, site infrastructure, management software, and professional services.",
+    "Industry's broadest AI and compute system portfolio with unmatched customization – from GPU systems to petascale storage, multi-node systems, and liquid cooling.",
+    "Complete in-rack integration: cooling distribution units & manifolds, hose kits, networking switches, power shelf, and battery backup unit, RDHx for maximum density and efficiency.",
+    "Scalable liquid cooling from 500kW Liquid-to-Air Sidecars to 2.2MW In-Row CDUs, plus pre-validated SuperCluster solutions with integrated networking for turnkey multi-rack deployment.",
+    "Site-level cooling infrastructure with scalable water and dry cooling towers for thermal and power management. Optimized cabling design and implementation for high-performance data pipeline.",
+    "End-to-end SuperCloud software from bare metal to AI workloads – delivering unified infrastructure control, deployment automation, developer tools, and multi-tenant GPU cloud management.",
+    "Comprehensive professional services from data center design and solution validation through on-site deployment and ongoing support, with 4-hour response options for mission-critical uptime.",
+    "Choose from the industry's broadest portfolio of AI and compute systems, powered by the latest technology from NVIDIA, AMD, and Intel. Supermicro’s Building Block approach delivers unmatched customization and optimization – from GPU-dense AI systems to petascale storage systems – allowing you to fine-tune every component for your workload. With liquid cooling cold plates that remove up to 98% of heat from critical electronics and seamless integration with leading software-defined storage partners, every system is optimized for maximum performance and efficiency from the ground up.",
+    "Learn More",
+    "Broad range of density, efficiency, and scalability-optimized systems featuring the latest AI and compute technology from NVIDIA, AMD, and Intel in various form factors designed for diverse workloads – from AI training and inference to high-performance computing.",
+    "Petascale and object storage servers with seamless integration across leading software-defined storage partners, delivering maximum throughput and scalability for data-intensive AI workloads and large-scale AI model training and high-volume inference.",
+    "Supermicro-designed liquid cooling cold plates that efficiently remove up to 98% of heat from critical electronics in systems, plus modular building block components that enable precise system customization and optimization for specific workload requirements.",
+    "Power, cool, and connect the most demanding AI and compute systems with purpose-built in-rack integration. Supermicro delivers Coolant Distribution Units supporting up to 250kW of liquid cooling capacity, high-performance networking switches including NVIDIA InfiniBand and Ethernet solutions. Combined with 33kW Power Shelves and Battery Backup Units that provide 90 seconds of 48V DC power for application checkpointing, Supermicro's In-Rack Solutions deliver the thermal management, networking fabric, power delivery, and resilience required for next-generation AI data centers – all optimized for maximum rack density and operational efficiency.",
+    "Learn More",
+    "Supermicro Coolant is a high-performance, PG-based synthetic liquid coolant engineered specifically for direct-to-chip liquid cooling in high-density AI and HPC data centers, delivering long-term thermal and chemical stability, broad compatibility with metals, plastics, and elastomers (including EPDM and silicone), advanced multi-metal corrosion protection, and superior anti-bacterial performance.",
+    "Coolant Distribution Units and Manifolds in various configurations, including vertical CDMs for higher server densities. In-Rack CDUs accommodate up to 250kW of cooling capacity for liquids up to 45°C, with redundant power supplies and pumps as standard for maximum reliability.",
+    "Rear Door Heat Exchangers attach directly to server racks to remove heat at the source, significantly reducing data center air conditioning requirements while maintaining optimal operating temperatures for high-density AI infrastructure.",
+    "Flexible hose kits designed to connect liquid-cooled racks directly to data center primary water supply or cooling towers. Pre-installed hose kits enable plug-and-play, toolless deployment with seamless integration into new or existing facility piping.",
+    "33kW Power Shelves engineered for the latest generation of high-density AI racks, combined with Battery Backup Units providing 90 seconds of 48V DC power for application checkpointing during power failures – eliminating the need for complete application restarts.",
+    "NVIDIA Ethernet and InfiniBand platforms including NVIDIA Spectrum-X and Quantum-2 for optimized AI cluster networking, as well as qualified partner solutions. Supermicro Ethernet switches with up to 800 GbE link speeds and 51.2 Tbps throughput are also available for diverse workload requirements.",
+    "Scale your liquid cooling infrastructure with flexible in-row solutions designed for multi-rack deployments. Supermicro In-Row CDUs deliver up to 2.2MW of cooling capacity across multiple racks, while Liquid-to-Air Sidecars provide up to 500kW of standalone cooling with no external infrastructure modifications. For complete turnkey deployment, SuperCluster delivers pre-validated, plug-and-play multi-rack solutions with integrated networking fabric and rigorous L11/L12 testing—enabling seamless scaling from pilot projects to full production.",
+    "Learn More",
+    "Supermicro-branded racks deliver a one-stop, end-to-end platform – from rack structure and system integration to cooling readiness and factory validation. With full in-house engineering and manufacturing, every rack is built to meet strict quality standards while ensuring seamless compatibility across the entire system.",
+    "High-capacity In-Row Coolant Distribution Units designed to accommodate multiple high-powered liquid-cooled server racks, delivering up to 2.2MW of cooling capacity for scalable, multi-rack deployments in dense AI data center environments.",
+    "Independent cooling units that convert hot liquid from servers back to cool liquid within the data center, providing up to 500kW of cooling capacity with no external infrastructure modifications – ideal for retrofitting and rapidly deploying liquid-cooled systems.",
+    "Highly customizable, plug-and-play cluster solutions with multiple racks and integrated networking fabric. Each system undergoes rigorous L11 or L12 validation testing before shipping, ensuring turnkey deployments that enable seamless scaling from pilot projects to full production AI infrastructure.",
+    "Build a high-performance data center foundation with fully engineered cabling, power, and cooling infrastructure. Supermicro delivers optimized cabling design and implementation with complete documentation including routing, port mapping, and cable length optimization that reduces time-to-online, material costs, and labor. For site-level thermal management, Supermicro offers water cooling towers in scalable configurations and dry cooling towers that eliminate water consumption – all designed for easy installation and parallel expansion as your infrastructure grows.",
+    "Learn More",
+    "Primary liquid loop facility supporting scalable cooling capacity from 1 MW to 50 MW or more with modular designs for faster time-to-operation. Closed-loop systems with EC fan design and N+1 submersible pumps ensure energy-efficient, reliable operation with reduced power and water usage versus conventional air-cooled systems.",
+    "Delivers low PUE/WUE cooling for water-constrained regions, with scalable capacities from 1 MW to over 50 MW. Adiabatic-assisted mode enables air pre-cooling for superior performance in high-temperature environments. Closed-loop design keeps coolant clean and non-corrosive, ensuring exceptional efficiency, minimal maintenance, and long-term reliability.",
+    "Delivers a self-contained, liquid-cooled 1.5 MW/3.1 MWh energy storage solution purpose-built for mission-critical AI data centers. Safe LFP cells with advanced cell-level management, multi-layer fire barriers, clean-agent suppression, and explosion prevention ensure maximum safety and reliability, while peak shaving and power smoothing reduce energy costs and stabilize fluctuating AI workloads.",
+    "Optimized traffic engineering with complete cabling design, documentation, and implementation services including routing, port mapping, and cable length optimization. Engineered solutions reduce time-to-online, material costs, and labor while ensuring high-performance data flow for multi-rack deployments.",
+    "From bare metal to AI workloads, SuperCloud Software Suite as part of Data Center Building Block Solutions delivers end-to-end management for modern data centers. Unify infrastructure control, automate deployment pipelines, empower developers with self-service AI tools, and optimize multi-tenant GPU cloud operations—all purpose-built for the scale and complexity of AI factories and hyperscale environments.",
+    "Try Live Demo",
+    "SuperCloud Composer delivers unified rack-scale and liquid cooling management across servers, networks, PDUs, CDUs, and 3rd-party systems. It provides power management, advanced leak detection, protection, and alerts to safeguard GPU and cooling infrastructure. With observability and tuning at scale, SuperCloud Composer manages 20K+ hosts through a single portal.",
+    "SuperCloud Automation Center delivers pre-built, enterprise\u0002-grade automation for data center and edge infrastructure. It covers everything from firmware and OS provisioning to Kubernetes and AI workload enablement while ensuring security, scalability and governance.",
+    "SuperCloud Developer Console is a developer-oriented AI experience console that brings GPU as a Service (GPUaaS), Kubernetes, Machine Learning pipelines, and data services into one workspace. Unlike other infrastructure-only consoles, it delivers turnkey developer agility with self-service provisioning, AI-native workflows, and built in observability, empowering teams to go from code to model faster and safer.",
+    "SuperCloud Director delivers multi-tenant AI cloud control with integrated bare metal, Ethernet & Infiniband network multi-tenancy, and storage management, optimizing performance, security, and developer agility. Unlike generic cloud management tools, this software is purpose-built for GPU as a Service (GPUaaS), AI factory deployments, and hyperscale operations.",
+    "Accelerate your data center deployment with comprehensive professional services from planning through ongoing support. Supermicro Global Services delivers end-to-end expertise including data center design, solution validation, and professional on-site deployment – whether you're building from bare land, retrofitting air-to-liquid cooling, or deploying in co-location facilities. Our integrated approach reduces time-to-online and ensures higher-quality installations, backed by continued on-site support and 4-hour response time options for mission-critical uptime.",
+    "Learn More",
+    "Projects are thoroughly planned, including designs for the data center floor plan, rack layout, port mapping, and more. Before shipping, Supermicro goes beyond industry standards with testing that includes rack (L11) and cluster-level (L12) validation.",
+    "End-to-end deployment starts with Supermicro’s white-glove delivery service, ensuring the utmost care. On-site service team members handle racking and stacking, with optional software installation available.",
+    "Supermicro ensures a smooth transition after deployment, with full documentation and ongoing support to ensure long-term success. Global Services provide options for on-site response time as short as 4 hours and parts replacement services.",
+    "Turn-key solution transforming data center shells to operational environments. Includes design, engineering, permitting, electrical from PDUs to servers, mechanical systems with racks and CDUs, and liquid cooling infrastructure for complete readiness.",
+    "Buildout services significantly reduce lead time for new data center construction. Supermicro ensures success for bare-land builds, data center retrofitting for liquid-cooling with end-to-end project management.",
+    "Contact Supermicro today to design your next-generation AI data center.",
+    "Contact Us",
+    "Home",
+    "Solutions",
+    "Data Center Building Block Solutions® (DCBBS)"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.supermicro.com/en/about/policies/privacy"
+    },
+    {
+      "label": "Accept",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Decline",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Artificial Intelligence",
+      "href": "/en/solutions/ai-servers"
+    },
+    {
+      "label": "Products",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Solutions",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Company",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Support",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Buy",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "View the Brochure",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf"
+    },
+    {
+      "label": "DCBBS",
+      "href": "#intro"
+    },
+    {
+      "label": "AI and Compute Systems",
+      "href": "#ai-compute-systems"
+    },
+    {
+      "label": "In-Rack Solutions",
+      "href": "#in-rack-solutions"
+    },
+    {
+      "label": "In-Row Solutions",
+      "href": "#in-row-solutions"
+    },
+    {
+      "label": "Site Infrastructure Solutions",
+      "href": "#site-infrastructure-solutions"
+    },
+    {
+      "label": "Management Software Suite",
+      "href": "#management-software-suite"
+    },
+    {
+      "label": "Services and Onsite Deployment",
+      "href": "#services-onsite-deployment"
+    },
+    {
+      "label": "Learn More",
+      "href": "#ai-compute-systems"
+    },
+    {
+      "label": "Learn More",
+      "href": "#in-rack-solutions"
+    },
+    {
+      "label": "Learn More",
+      "href": "#in-row-solutions"
+    },
+    {
+      "label": "Learn More",
+      "href": "#site-infrastructure-solutions"
+    },
+    {
+      "label": "Learn More",
+      "href": "#management-software-suite"
+    },
+    {
+      "label": "Learn More",
+      "href": "#services-onsite-deployment"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=5"
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/products/gpu"
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/products/storage"
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/solutions/liquid-cooling#solution-details"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=6"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_Supermicro_Coolant.pdf"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_In_Rack_CDU.pdf"
+    },
+    {
+      "label": "View Product",
+      "href": "/en/products/rdhx"
+    },
+    {
+      "label": "View Solution",
+      "href": "/en/solutions/liquid-cooling#solution-details"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_33kW_Power_Shelf.pdf"
+    },
+    {
+      "label": "View Product",
+      "href": "/en/products/networking/switches#standard"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=10"
+    },
+    {
+      "label": "View Product",
+      "href": "/en/products/rack"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_In_Row_CDU.pdf"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_Sidecar_CDU.pdf"
+    },
+    {
+      "label": "View Solution",
+      "href": "/en/solutions/ai-supercluster"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=11"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_Water_Cooling_Tower.pdf"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_Dry_Cooler.pdf"
+    },
+    {
+      "label": "Read Datasheet",
+      "href": "/datasheet/datasheet_BESS.pdf"
+    },
+    {
+      "label": "Read Brochure",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=11"
+    },
+    {
+      "label": "Try Live Demo",
+      "href": null
+    },
+    {
+      "label": "SDX",
+      "href": null
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/solutions/management-software/supercloud-composer"
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/solutions/management-software/scac"
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/solutions/management-software/sdx"
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/solutions/management-software/scd"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=13"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=13"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=13"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=13"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=14"
+    },
+    {
+      "label": "Learn More",
+      "href": "/manuals/brochure/Brochure-DCBBS.pdf#page=14"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/en/contact"
+    },
+    {
+      "label": "Home",
+      "href": "/en"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/en/contact"
+    },
+    {
+      "label": "Company Profile",
+      "href": "/en/about"
+    },
+    {
+      "label": "Green Computing",
+      "href": "/en/about/green-computing"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://ir.supermicro.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "/en/jobs"
+    },
+    {
+      "label": "Site Map",
+      "href": "/en/about/sitemap"
+    },
+    {
+      "label": "Glossary",
+      "href": "/en/glossary"
+    },
+    {
+      "label": "Press Releases",
+      "href": "/en/newsroom/pressreleases"
+    },
+    {
+      "label": "Supermicro in the News",
+      "href": "/en/newsroom/news"
+    },
+    {
+      "label": "Product Reviews",
+      "href": "/en/newsroom/product-reviews"
+    },
+    {
+      "label": "Press Kits",
+      "href": "/en/newsroom/press-kits"
+    },
+    {
+      "label": "Events",
+      "href": "/en/newsroom#events"
+    },
+    {
+      "label": "Webinars",
+      "href": "/en/newsroom/webinars"
+    },
+    {
+      "label": "Brochures",
+      "href": "/en/resources?type%5BBrochure%5D=Brochure"
+    },
+    {
+      "label": "Product Briefs",
+      "href": "/en/resources?type%5BProduct+Brief%5D=Product+Brief"
+    },
+    {
+      "label": "Solution Briefs",
+      "href": "/en/resources?type%5BSolution+Brief%5D=Solution+Brief"
+    },
+    {
+      "label": "Success Stories",
+      "href": "/en/resources?type%5BSuccess+Story%5D=Success+Story"
+    },
+    {
+      "label": "Videos",
+      "href": "/en/resources?type%5BVideo%5D=Video"
+    },
+    {
+      "label": "White Papers",
+      "href": "/en/resources?type%5BWhite+Paper%5D=White+Paper"
+    },
+    {
+      "label": "Thought Leadership",
+      "href": "/en/resources?type%5BThought+Leadership%5D=Thought+Leadership"
+    },
+    {
+      "label": "Validated Designs",
+      "href": "/en/resources?type%5BValidated+Design%5D=Validated+Design"
+    },
+    {
+      "label": "MySupermicro",
+      "href": "/en/mysupermicro"
+    },
+    {
+      "label": "Blog",
+      "href": "https://learn-more.supermicro.com/data-center-stories"
+    },
+    {
+      "label": "Support Home",
+      "href": "/en/support"
+    },
+    {
+      "label": "Onsite Services",
+      "href": "/en/support/onsite-services"
+    },
+    {
+      "label": "Technical Support",
+      "href": "https://webpr3.supermicro.com/SupportPortal/"
+    },
+    {
+      "label": "RMA",
+      "href": "/en/support/rma"
+    },
+    {
+      "label": "System Management",
+      "href": "/en/support/resources/downloadcenter/smsdownload"
+    },
+    {
+      "label": "Product Resources",
+      "href": "/en/support/product-resources"
+    },
+    {
+      "label": "Security Center",
+      "href": "/en/support/security_center"
+    },
+    {
+      "label": "Warranty Policy",
+      "href": "/en/support/warranty"
+    },
+    {
+      "label": "FAQs",
+      "href": "/FAQ/index.php?mlg=0"
+    },
+    {
+      "label": "Locations",
+      "href": "/en/about/contact"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/en/contact/feedback"
+    },
+    {
+      "label": "Newsletter Sign-up",
+      "href": "/en/news/newsletter-sign-up"
+    },
+    {
+      "label": "Click for Logo Guidelines",
+      "href": "/manuals/SUPERMICRO_Logo_Guidelines.pdf"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/en/about/policies/privacy"
+    },
+    {
+      "label": "Anti-Slavery and Human Trafficking Statement",
+      "href": "/about/policies/Anti-Slavery_Human_Trafficking_Statement.pdf"
+    }
+  ],
+  "links": [
+    "https://www.supermicro.com/en/about/policies/privacy",
+    "javascript:void(0);",
+    "https://www.supermicro.com/en/solutions/dcbbs#main-content",
+    "https://www.supermicro.com/en/",
+    "https://www.supermicro.com/en/solutions/ai-servers",
+    "https://www.supermicro.com/en/solutions/dcbbs",
+    "https://www.supermicro.com/en/solutions/ai-supercluster",
+    "https://www.supermicro.com/en/featured/xai-colossus",
+    "https://www.supermicro.com/en/accelerators/nvidia/ai-factory",
+    "https://www.supermicro.com/en/solutions/edge-ai",
+    "https://www.supermicro.com/en/solutions/ai-storage",
+    "https://www.supermicro.com/en/solutions/ai-storage/nvidia-ai-data-platform",
+    "https://www.supermicro.com/en/solutions/ai-storage/data-lakes",
+    "https://www.supermicro.com/en/solutions/retail",
+    "https://www.supermicro.com/en/solutions/ai/telco",
+    "https://www.supermicro.com/en/solutions/ai/finance",
+    "https://www.supermicro.com/en/solutions/ai/federal",
+    "https://www.supermicro.com/en/accelerators/nvidia",
+    "https://www.supermicro.com/en/accelerators/nvidia/vera-rubin",
+    "https://www.supermicro.com/en/accelerators/nvidia/blackwell",
+    "https://www.supermicro.com/en/accelerators/nvidia/supermicro-rtx-pro-bse",
+    "https://www.supermicro.com/en/accelerators/nvidia/super-ai-station",
+    "https://www.supermicro.com/en/accelerators/nvidia/launchpad",
+    "https://www.supermicro.com/en/accelerators/nvidia/hopper-ada-lovelace",
+    "https://www.supermicro.com/en/products/nvidia-jetson",
+    "https://www.supermicro.com/en/accelerators/amd",
+    "https://www.supermicro.com/en/accelerators/amd/radeon-validated-systems",
+    "https://www.supermicro.com/en/accelerators/intel",
+    "https://www.supermicro.com/en/products/intel-edge-ai",
+    "https://www.supermicro.com/en/solutions/arm-agi",
+    "https://www.supermicro.com/en/solutions/dcbbs?mlg=0",
+    "https://www.supermicro.com/accelerators/nvidia/blackwell?mlg=0",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/0",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/1",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/2",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/3",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/4",
+    "https://www.supermicro.com/en/products/rackmount",
+    "https://www.supermicro.com/en/products/dual-processor",
+    "https://www.supermicro.com/en/products/single-processor",
+    "https://www.supermicro.com/en/products/mp",
+    "https://www.supermicro.com/en/products/gpu",
+    "https://www.supermicro.com/en/products/gpu/liquid-cooled",
+    "https://www.supermicro.com/en/products/gpu/air-cooled",
+    "https://www.supermicro.com/en/products/twin",
+    "https://www.supermicro.com/en/products/twin/dual-processor",
+    "https://www.supermicro.com/en/products/twin/single-processor",
+    "https://www.supermicro.com/en/products/blade",
+    "https://www.supermicro.com/en/products/superblade",
+    "https://www.supermicro.com/en/products/microblade",
+    "https://www.supermicro.com/en/products/microcloud",
+    "https://www.supermicro.com/en/products/storage",
+    "https://www.supermicro.com/en/products/nvme",
+    "https://www.supermicro.com/en/products/top-loading-storage",
+    "https://www.supermicro.com/en/products/jbof",
+    "https://www.supermicro.com/en/products/petascale-grace-storage",
+    "https://www.supermicro.com/en/products/general-purpose-storage",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dfeature%26feature%3DJBOD",
+    "https://www.supermicro.com/en/products/gold-series",
+    "https://www.supermicro.com/en/solutions/liquid-cooling",
+    "https://www.supermicro.com/en/solutions/management-software",
+    "https://store.supermicro.com/?utm_source=corp_menu&utm_medium=referral",
+    "https://www.supermicro.com/en/products/motherboards",
+    "https://www.supermicro.com/en/products/motherboards/server-boards",
+    "https://www.supermicro.com/en/products/motherboards/workstation-boards",
+    "https://www.supermicro.com/en/products/motherboards/embedded-iot-boards",
+    "https://www.supermicro.com/en/products/motherboards/desktop-gaming-boards",
+    "https://www.supermicro.com/en/products/motherboards/matrix",
+    "https://www.supermicro.com/en/products/SMC_Global_skus#motherboards",
+    "https://www.supermicro.com/en/products/chassis",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D1U%2CMini-1U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D2U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D3U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D4U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3DMid-Tower%2CMini-Tower%2CCompact%20Mini-Tower",
+    "https://www.supermicro.com/en/products/chassis/embedded-iot",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dfeature%26feature%3DMobile%20Rack",
+    "https://www.supermicro.com/en/products/SMC_Global_skus#chassis",
+    "https://www.supermicro.com/en/products/rack",
+    "https://www.supermicro.com/en/solutions/rack-integration",
+    "https://www.supermicro.com/en/products/accessories",
+    "https://www.supermicro.com/en/support/resources/cable",
+    "https://www.supermicro.com/en/support/resources/riser",
+    "https://www.supermicro.com/en/products/storage/cards",
+    "https://www.supermicro.com/en/support/resources/pws",
+    "https://www.supermicro.com/en/support/resources/heatsink",
+    "https://www.supermicro.com/en/support/resources/thermal",
+    "https://www.supermicro.com/en/products/chassis?pro=feature%3DMobile%20Rack",
+    "https://www.supermicro.com/en/support/resources/bezels",
+    "https://www.supermicro.com/en/products/accessories/type",
+    "https://www.supermicro.com/en/support/product-matrices",
+    "https://www.supermicro.com/en/products/edge/servers",
+    "https://www.supermicro.com/en/products/edge/compact-edge-systems",
+    "https://www.supermicro.com/en/products/edge/rackmount-edge-servers",
+    "https://www.supermicro.com/en/products/gold-series#intelligent-edge",
+    "https://www.supermicro.com/manuals/brochure/Brochure_Edge-AI-IoT.pdf",
+    "https://www.supermicro.com/en/products/networking/switches",
+    "https://www.supermicro.com/en/products/networking/switches#standard",
+    "https://www.supermicro.com/en/products/networking/switches#compatibility",
+    "https://www.supermicro.com/en/products/networking/adapters",
+    "https://www.supermicro.com/en/products/networking/adapters?type=208#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=207#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=209#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=261#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=290#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=295#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=210#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=254#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=341#product_list",
+    "https://www.supermicro.com/en/products/networking",
+    "https://www.supermicro.com/en/support/resources/aoc/cables-transceivers",
+    "https://store.supermicro.com/cable/networking.html",
+    "https://store.supermicro.com/transceiver.html",
+    "https://www.supermicro.com/en/products/client",
+    "https://www.supermicro.com/en/products/superworkstation",
+    "https://www.supermicro.com/en/products/client-systems",
+    "https://www.supermicro.com/en/products/SuperO",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D1U",
+    "https://www.supermicro.com/en/solutions/dcbbs#",
+    "https://www.supermicro.com/en/solutions/finance",
+    "https://www.supermicro.com/en/solutions/iot-edge/healthcare",
+    "https://www.supermicro.com/en/solutions/manufacturing",
+    "https://www.supermicro.com/en/solutions/iot-edge/manufacturing",
+    "https://www.supermicro.com/en/featured/media-entertainment",
+    "https://www.supermicro.com/en/solutions/ai/retail/amd",
+    "https://www.supermicro.com/en/solutions/telco",
+    "https://www.supermicro.com/en/solutions/5g",
+    "https://www.supermicro.com/en/solutions/iot-edge/transportation",
+    "https://www.supermicro.com/en/solutions/high-performance-computing",
+    "https://www.supermicro.com/en/solutions/software-defined-storage",
+    "https://www.supermicro.com/en/solutions/azure-local",
+    "https://www.supermicro.com/en/solutions/steeldome",
+    "https://www.supermicro.com/en/solutions/vmware-vsan",
+    "https://www.supermicro.com/en/solutions/veeam",
+    "https://www.supermicro.com/en/solutions/data-engineering",
+    "https://www.supermicro.com/en/solutions/database-erp",
+    "https://www.supermicro.com/en/solutions/data-management",
+    "https://www.supermicro.com/en/solutions/csp",
+    "https://www.supermicro.com/en/featured/epyc4004",
+    "https://www.supermicro.com/en/solutions/google-distributed-cloud-virtual",
+    "https://www.supermicro.com/en/solutions/canonical",
+    "https://www.supermicro.com/en/solutions/red-hat-openstack",
+    "https://www.supermicro.com/en/solutions/kubernetes-canonical",
+    "https://www.supermicro.com/en/solutions/red-hat-openshift",
+    "https://www.supermicro.com/en/accelerators/nvidia/vgpu",
+    "https://www.supermicro.com/en/solutions/iot-edge",
+    "https://www.supermicro.com/en/solutions/ocp",
+    "https://www.supermicro.com/en/solutions/management-software/supercloud-composer",
+    "https://www.supermicro.com/solutions/Product_Guide_RedHat-SMCI.pdf?mlg=0",
+    "https://www.supermicro.com/solutions/Solution-Brief_NETINT_4K_Streaming.pdf?mlg=0",
+    "https://www.supermicro.com/featured/epyc4004?mlg=0",
+    "https://www.supermicro.com/en/about",
+    "https://www.supermicro.com/en/jobs",
+    "https://www.supermicro.com/en/about/green-computing",
+    "https://www.supermicro.com/en/about/contact",
+    "https://ir.supermicro.com/",
+    "https://www.supermicro.com/en/about/policies",
+    "https://www.supermicro.com/en/newsroom",
+    "https://www.supermicro.com/en/newsroom/pressreleases",
+    "https://www.supermicro.com/en/newsroom/news",
+    "https://www.supermicro.com/en/newsroom/product-reviews",
+    "https://www.supermicro.com/en/newsroom#events",
+    "https://www.supermicro.com/en/newsroom/webinars",
+    "https://www.supermicro.com/en/resources",
+    "https://www.supermicro.com/en/resources?type%5BWhite+Paper%5D=White+Paper",
+    "https://www.supermicro.com/en/resources?type%5BSolution+Brief%5D=Solution+Brief",
+    "https://www.supermicro.com/en/resources?type%5BSuccess+Story%5D=Success+Story",
+    "https://www.supermicro.com/en/resources?type%5BProduct+Brief%5D=Product+Brief",
+    "https://www.supermicro.com/en/resources?type%5BWhite%20Paper%5D=White%20Paper",
+    "https://www.supermicro.com/en/resources?type%5BSuccess%20Story%5D=Success%20Story",
+    "https://www.supermicro.com/en/resources?type%5BThought%20Leadership%5D=Thought%20Leadership",
+    "https://www.supermicro.com/en/resources?type%5BProduct%20Brief%5D=Product%20Brief",
+    "https://www.supermicro.com/en/support",
+    "https://www.supermicro.com/FAQ/index.php?utm_source=corp&utm_medium=support&mlg=0",
+    "https://www.supermicro.com/en/support/security_center",
+    "https://webpr3.supermicro.com/SupportPortal/",
+    "https://www.supermicro.com/en/support/product-resources",
+    "https://www.supermicro.com/en/support/resources/downloadcenter/swdownload",
+    "https://www.supermicro.com/en/support/resources/downloadcenter/smsdownload",
+    "https://www.supermicro.com/support/manuals/?mlg=0",
+    "https://www.supermicro.com/support/quickrefs/?mlg=0",
+    "https://www.supermicro.com/en/support/onsite-services",
+    "https://www.supermicro.com/en/support/rma",
+    "https://www.supermicro.com/en/support/warranty",
+    "https://www.supermicro.com/en/mysupermicro",
+    "https://www.supermicro.com/en/wheretobuy?utm_source=corp&utm_medium=wheretobuy",
+    "https://www.supermicro.com/support/manuals?mlg=0",
+    "https://www.supermicro.com/support/quickrefs?mlg=0",
+    "https://www.supermicro.com/en/support/product-matrices?utm_source=corp&utm_medium=matrix",
+    "https://store.supermicro.com/?utm_source=corp_header&utm_medium=referral",
+    "https://www.supermicro.com/en/accelerators/nvidia/vera-rubin#vera-rubin-nvl-72-scalable-unit",
+    "https://www.supermicro.com/manuals/brochure/Brochure-DCBBS.pdf",
+    "https://www.supermicro.com/en/solutions/dcbbs#intro",
+    "https://www.supermicro.com/en/solutions/dcbbs#ai-compute-systems",
+    "https://www.supermicro.com/en/solutions/dcbbs#in-rack-solutions",
+    "https://www.supermicro.com/en/solutions/dcbbs#in-row-solutions",
+    "https://www.supermicro.com/en/solutions/dcbbs#site-infrastructure-solutions",
+    "https://www.supermicro.com/en/solutions/dcbbs#management-software-suite",
+    "https://www.supermicro.com/en/solutions/dcbbs#services-onsite-deployment",
+    "https://www.supermicro.com/manuals/brochure/Brochure-DCBBS.pdf#page=5",
+    "https://www.supermicro.com/en/solutions/liquid-cooling#solution-details",
+    "https://www.supermicro.com/manuals/brochure/Brochure-DCBBS.pdf#page=6",
+    "https://www.supermicro.com/datasheet/datasheet_Supermicro_Coolant.pdf",
+    "https://www.supermicro.com/datasheet/datasheet_In_Rack_CDU.pdf",
+    "https://www.supermicro.com/en/products/rdhx",
+    "https://www.supermicro.com/datasheet/datasheet_33kW_Power_Shelf.pdf",
+    "https://www.supermicro.com/manuals/brochure/Brochure-DCBBS.pdf#page=10",
+    "https://www.supermicro.com/datasheet/datasheet_In_Row_CDU.pdf",
+    "https://www.supermicro.com/datasheet/datasheet_Sidecar_CDU.pdf",
+    "https://www.supermicro.com/manuals/brochure/Brochure-DCBBS.pdf#page=11",
+    "https://www.supermicro.com/datasheet/datasheet_Water_Cooling_Tower.pdf",
+    "https://www.supermicro.com/datasheet/datasheet_Dry_Cooler.pdf",
+    "https://www.supermicro.com/datasheet/datasheet_BESS.pdf",
+    "https://www.supermicro.com/en/solutions/management-software/scac",
+    "https://www.supermicro.com/en/solutions/management-software/sdx",
+    "https://www.supermicro.com/en/solutions/management-software/scd",
+    "https://www.supermicro.com/manuals/brochure/Brochure-DCBBS.pdf#page=13",
+    "https://www.supermicro.com/manuals/brochure/Brochure-DCBBS.pdf#page=14",
+    "https://www.supermicro.com/en/contact",
+    "https://www.supermicro.com/en",
+    "https://www.supermicro.com/en/about/sitemap",
+    "https://www.supermicro.com/en/glossary",
+    "https://www.supermicro.com/en/newsroom/press-kits",
+    "https://www.supermicro.com/en/resources?type%5BBrochure%5D=Brochure",
+    "https://www.supermicro.com/en/resources?type%5BVideo%5D=Video",
+    "https://www.supermicro.com/en/resources?type%5BThought+Leadership%5D=Thought+Leadership",
+    "https://www.supermicro.com/en/resources?type%5BValidated+Design%5D=Validated+Design",
+    "https://learn-more.supermicro.com/data-center-stories",
+    "https://www.supermicro.com/FAQ/index.php?mlg=0",
+    "https://www.supermicro.com/en/contact/feedback",
+    "https://www.supermicro.com/en/news/newsletter-sign-up",
+    "https://www.facebook.com/Supermicro",
+    "https://x.com/Supermicro",
+    "https://www.linkedin.com/company/supermicro",
+    "https://www.instagram.com/supermicro_smci/",
+    "https://www.youtube.com/supermicro",
+    "https://www.supermicro.com/manuals/SUPERMICRO_Logo_Guidelines.pdf",
+    "https://www.supermicro.com/about/policies/Anti-Slavery_Human_Trafficking_Statement.pdf",
+    "javascript:void(0)"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.supermicro.com/sites/default/files/Super_Micro_Computer_Logo.svg",
+        "alt": "Home",
+        "w": 283,
+        "h": 150
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/icons/estore_logo.svg",
+        "alt": "eStore",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/smci-wordmark-logo.svg",
+        "alt": "Supermicro",
+        "w": 1544,
+        "h": 210
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/smci-wordmark-logo.svg",
+        "alt": "Supermicro",
+        "w": 1544,
+        "h": 210
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/feature-icon-rapid-deployment.svg",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/feature-icon-one-stop-shop.svg",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/feature-icon-customized.svg",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/feature-icon-validated.svg",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/toc-ai-compute-systems.png",
+        "alt": "",
+        "w": 1018,
+        "h": 562
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/toc-in-rack-solutions.png",
+        "alt": "",
+        "w": 493,
+        "h": 272
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/toc-in-row-solutions.png",
+        "alt": "",
+        "w": 1018,
+        "h": 562
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/toc-site-infrastructure-solutions.png",
+        "alt": "",
+        "w": 1018,
+        "h": 562
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/toc-management-software-suite.png",
+        "alt": "",
+        "w": 1018,
+        "h": 562
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/toc-services-onsite-deployment.png",
+        "alt": "",
+        "w": 1018,
+        "h": 562
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/systems-portfolio-shot.png",
+        "alt": "Supermicro DCBBS server portfolio shot",
+        "w": 1540,
+        "h": 751
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/gpu-and-cpu-systems.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/storage-systems.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/system-building-blocks-cold-plates.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/in-rack-solution-shot.png",
+        "alt": "Supermicro DCBBS rack solution shot",
+        "w": 1077,
+        "h": 1309
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/coolant.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/cdus-cdms.jpg",
+        "alt": "",
+        "w": 882,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/rear-door-heat-exchanger.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/cooling-hose-kit.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/power-shelves-bbus.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/networking-switches.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/in-row-cluster-shot.png",
+        "alt": "Supermicro In-Row Cluster Shot",
+        "w": 1540,
+        "h": 465
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/racks.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/in-row-cdu.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/l2a-sidecar-cdu.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/supercluster.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/site-infrastructure-shot.png",
+        "alt": "Supermicro DCBBS site infrastructure shot",
+        "w": 1540,
+        "h": 836
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/water-cooling-towers.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/dry-cooler.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/BESS.jpg",
+        "alt": "",
+        "w": 1176,
+        "h": 800
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/cabling.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/management-software-suites.png",
+        "alt": "",
+        "w": 940,
+        "h": 800
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/screenshot-scd.png",
+        "alt": "Screenshot - SuperCloud Director (SCD)",
+        "w": 1920,
+        "h": 866
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/screenshot-scc.png",
+        "alt": "Screenshot - SuperCloud Composer® (SCC)",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/screenshot-scac.png",
+        "alt": "Screenshot - SuperCloud Automation Center (SCAC)",
+        "w": 1919,
+        "h": 958
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/screenshot-sdx.png",
+        "alt": "Screenshot - SuperCloud Developer Console (SDX)",
+        "w": 1203,
+        "h": 665
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/screenshot-scd.png",
+        "alt": "Screenshot - SuperCloud Director (SCD)",
+        "w": 1920,
+        "h": 866
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/screenshot-scc.png",
+        "alt": "Screenshot - SuperCloud Composer® (SCC)",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/scc.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/scac.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/sdx.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/scd.jpg",
+        "alt": "",
+        "w": 1128,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/services-onsite-deployment.png",
+        "alt": "",
+        "w": 770,
+        "h": 628
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/planning-validation.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/onsite-deployment.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/onsite-support.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/data-center-fit-out-service.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/build-service.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 600
+      }
+    ],
+    "allImgCount": 64,
+    "cssBackgrounds": [
+      "https://www.supermicro.com/sites/default/files/content_resources/2026-05/banner-dcbbs-vera-rubin-nvl72-2050x1200.jpg",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/banner-dcbbs-foreground-v2.png",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-dcbbs-intro.jpg",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-ai-compute-systems.jpg",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-nvidia-hgx-system.png",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-in-rack-solutions.png",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-in-row-solutions.jpg",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-site-infrastructure-solutions.png",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-management-software-suite.jpg",
+      "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/bgc-services-onsite-deployment.jpg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.youtube.com/embed/CHedQ6Hi8Rs?rel=0&playlist=CHedQ6Hi8Rs&loop=1&enablejsapi=1&origin=https%3A%2F%2Fwww.supermicro.com",
+        "title": "Data Center Building Block Solutions (DCBBS)"
+      }
+    ]
+  },
+  "customProps": {
+    "--body-00-size": "22px",
+    "--body-0-size": "20px",
+    "--body-1-size": "18px",
+    "--body-2-size": "16px",
+    "--heading-00-size": "54px",
+    "--heading-0-size": "48px",
+    "--heading-1-size": "40px",
+    "--heading-2-size": "36px",
+    "--heading-3-size": "30px",
+    "--heading-4-size": "28px",
+    "--heading-5-size": "24px",
+    "--heading-6-size": "22px",
+    "--heading-7-size": "20px",
+    "--title-gradient": "linear-gradient(90deg, #2294D6 0%, #0c82c4 36%, #186296 72%, rgba(0, 58, 112, 0.86) 100%)",
+    "--title-fallback-color": "#0c82c4",
+    "--red": "#961919",
+    "--red-light": "#d30015"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 44,
+    "mainTextLen": 82712,
+    "realImageCount": 52,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/en-solutions-dcbbs.png",
+  "renderedHtml": "pages/en-solutions-dcbbs.html"
+}

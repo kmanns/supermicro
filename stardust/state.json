@@ -1,0 +1,226 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-10-19T19:40:48Z",
+    "stardustVersion": "0.29.1"
+  },
+  "site": {
+    "originUrl": "https://main--supermicro--kmanns.aem.page",
+    "deployUrl": null,
+    "extractedAt": "2026-10-19T18:17:19.809Z",
+    "pageCap": 6,
+    "totalDiscovered": 6,
+    "crawled": 6,
+    "scopeSource": "--pages (user-chosen: four core pages plus sign-in and account)",
+    "unavailableSources": [
+      {
+        "url": "https://store.supermicro.com/us_en/",
+        "reason": "HTTP 403 Access Denied in a real browser (bot management); not captured"
+      }
+    ]
+  },
+  "direction": {
+    "resolvedAt": "2026-10-19T19:00:00Z",
+    "phrase": "I want to initiate a redesign of my EDS storefront, https://main--supermicro--kmanns.aem.page/, based on my demo prospect's site - https://www.supermicro.com/en/, https://store.supermicro.com/us_en/. Since my demo site is ecommerce focused, I want to make sure the commerce drop-ins on the nav are preserved. I don't have a built out product catalog yet but I'll work on that after the redesign is complete.",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "reimagined",
+    "mode": "design-donor Mode A",
+    "variantMode": "single (hands-off: one canonical direction)"
+  },
+  "handsOff": true,
+  "designSource": {
+    "url": "https://www.supermicro.com/en/",
+    "capturedAt": "2026-10-19T18:17:19.809Z",
+    "path": "stardust/canon-source/"
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://main--supermicro--kmanns.aem.page/",
+      "title": "Ready to go - B2B!",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:23.987Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T18:56:37Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T18:56:37Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "apparel",
+      "url": "https://main--supermicro--kmanns.aem.page/apparel",
+      "title": "Apparel",
+      "type": "listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:24.093Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T19:40:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T19:40:47Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/apparel.json",
+      "prototypePath": "stardust/prototypes/apparel-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "search",
+      "url": "https://main--supermicro--kmanns.aem.page/search",
+      "title": "Product List Page",
+      "type": "listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:24.263Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T19:40:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T19:40:47Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/search.json",
+      "prototypePath": "stardust/prototypes/search-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "cart",
+      "url": "https://main--supermicro--kmanns.aem.page/cart",
+      "title": "Commerce Cart",
+      "type": "unique",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:32.055Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T19:40:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T19:40:47Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/cart.json",
+      "prototypePath": "stardust/prototypes/cart-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-login",
+      "url": "https://main--supermicro--kmanns.aem.page/customer/login",
+      "title": "Commerce Login",
+      "type": "form",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:32.310Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T19:40:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T19:40:48Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-login.json",
+      "prototypePath": "stardust/prototypes/customer-login-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-account",
+      "url": "https://main--supermicro--kmanns.aem.page/customer/account",
+      "title": "Commerce Login",
+      "type": "unique",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:32.725Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-19T18:26:30Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T19:40:48Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T19:40:48Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-account.json",
+      "prototypePath": "stardust/prototypes/customer-account-proposed.html",
+      "migratedPath": null,
+      "note": "Signed-out visit redirects to /customer/login (duplicateOf customer-login). Account UI is unverified: no customer session, no account data observed.",
+      "verification": "unverified"
+    }
+  ]
+}

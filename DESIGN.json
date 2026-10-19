@@ -1,0 +1,554 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-10-19T18:23:57.949Z",
+    "againstDirection": "stardust/direction.md#active-direction",
+    "readArtifacts": [
+      "stardust/canon-source/DESIGN.json",
+      "stardust/canon-source/_brand-extraction.json",
+      "stardust/current/_brand-extraction.json",
+      "DESIGN.md"
+    ],
+    "synthesizedInputs": [
+      "type scale",
+      "container width",
+      "state colours"
+    ],
+    "stardustVersion": "0.29.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T18:23:57.949Z",
+  "title": "Design System: Supermicro Storefront",
+  "extensions": {
+    "colorMeta": {
+      "data-hall": {
+        "role": "neutral",
+        "displayName": "Data Hall",
+        "use": "page ground",
+        "source": "donor palette background #f1f1f1"
+      },
+      "chassis-white": {
+        "role": "neutral",
+        "displayName": "Chassis White",
+        "use": "cards, inputs, panels",
+        "source": "donor surface #ffffff"
+      },
+      "schematic": {
+        "role": "neutral",
+        "displayName": "Schematic",
+        "use": "body text",
+        "source": "donor text-primary #242424"
+      },
+      "spec-grey": {
+        "role": "neutral",
+        "displayName": "Spec Grey",
+        "use": "secondary text",
+        "source": "donor ledes/body #636569 (census text colour)"
+      },
+      "rail-rule": {
+        "role": "neutral",
+        "displayName": "Rail Rule",
+        "use": "decorative dividers only",
+        "source": "donor border #cccccc"
+      },
+      "field-edge": {
+        "role": "neutral",
+        "displayName": "Field Edge",
+        "use": "input and control borders",
+        "source": "donor text grey #7a7a7a (census); replaces storefront #8f8f8f, which fails 3:1 against the Data Hall ground"
+      },
+      "rack-navy": {
+        "role": "brand",
+        "displayName": "Rack Navy",
+        "use": "bands, utility strip, footer, badges",
+        "source": "donor #003a70 (hero display, band backgrounds)"
+      },
+      "datasheet-blue": {
+        "role": "brand",
+        "displayName": "Datasheet Blue",
+        "use": "headings, links on white",
+        "source": "donor heading #1d7bb6"
+      },
+      "signal-blue": {
+        "role": "brand",
+        "displayName": "Signal Blue",
+        "use": "large headings and rails on white",
+        "source": "donor accent #0c82c4"
+      },
+      "sky-rail": {
+        "role": "brand",
+        "displayName": "Sky Rail",
+        "use": "rails and large labels on navy",
+        "source": "donor h2 #4698d5"
+      },
+      "power-red": {
+        "role": "action",
+        "displayName": "Power Red",
+        "use": "primary actions only",
+        "source": "donor primary #961919 (every captured CTA)"
+      },
+      "power-red-live": {
+        "role": "action",
+        "displayName": "Power Red Live",
+        "use": "action hover / active",
+        "source": "donor hover #d30015"
+      },
+      "status-amber": {
+        "role": "reserved",
+        "displayName": "Status Amber",
+        "use": "hover/focus on navy grounds only",
+        "source": "donor footer headings / link hover #ffad00"
+      },
+      "state-positive": {
+        "role": "state",
+        "displayName": "State Positive",
+        "use": "success messages",
+        "source": "storefront --color-positive-800"
+      },
+      "state-alert": {
+        "role": "state",
+        "displayName": "State Alert",
+        "use": "errors",
+        "source": "storefront --color-alert-800"
+      },
+      "state-warning": {
+        "role": "state",
+        "displayName": "State Warning",
+        "use": "warning icons/borders only (3.3:1 fails as text)",
+        "source": "storefront --color-warning-800"
+      },
+      "state-info": {
+        "role": "state",
+        "displayName": "State Info",
+        "use": "informational messages",
+        "source": "storefront --color-informational-800"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero headline only (PT Sans Narrow 700, donor hero face)."
+      },
+      "h1": {
+        "displayName": "Page title",
+        "purpose": "One per page."
+      },
+      "h2": {
+        "displayName": "Section heading",
+        "purpose": "Datasheet Blue on white, white on navy."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Metadata labels, eyebrows, badges (broadcast-captioning register)."
+      },
+      "scale": {
+        "ratio": 1.25,
+        "name": "major-third",
+        "basis": "committed expressive axis; donor scale was ad-hoc (76 \u2192 42 \u2192 20 \u2192 18)"
+      },
+      "fonts": {
+        "Source Sans 3": "OFL (Google Fonts), successor of the donor Source Sans Pro",
+        "PT Sans Narrow": "OFL (Google Fonts), donor hero face"
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-rest",
+        "value": "0 1px 2px rgba(0,0,0,.18)",
+        "purpose": "Resting chassis cards."
+      },
+      {
+        "name": "card-hover",
+        "value": "0 6px 15px rgba(0,0,0,.2)",
+        "purpose": "Card hover with -2px lift (donor card shadow)."
+      },
+      {
+        "name": "button",
+        "value": "1px 1px 2px rgba(0,0,0,.3)",
+        "purpose": "Primary buttons (donor value, 109 uses)."
+      },
+      {
+        "name": "overlay",
+        "value": "0 12px 32px rgba(0,0,0,.28)",
+        "purpose": "Search overlay, mini-cart, menus."
+      }
+    ],
+    "motion": {
+      "register": "kinetic-grid",
+      "registerRationale": "PRODUCT.md Brand Commitments personality lists `transactional` and `modular-catalogue` \u2192 kinetic-grid (selection heuristic). Not applied unless --cinematic.",
+      "easings": {
+        "entrance": "cubic-bezier(0.42, 0, 0, 1)",
+        "transition": "cubic-bezier(0.42, 0, 0, 1)"
+      },
+      "durations": {
+        "enter": 500,
+        "stagger": 70
+      },
+      "lift": {
+        "translate": -2,
+        "duration": 380,
+        "note": "register default is -4px; reduced to -2px to match the packed density"
+      }
+    },
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "600px"
+      },
+      {
+        "name": "desktop",
+        "value": "900px"
+      },
+      {
+        "name": "wide",
+        "value": "1200px"
+      }
+    ],
+    "container": {
+      "maxWidth": "1440px",
+      "basis": "storefront caps at 1264px (inconsistently: fluid home shell, capped cart), donor content caps at 1660px; 1440 gives 4-up listing cards at 1200+ without over-long text lines and resolves T-container-cap with one rule"
+    },
+    "divergence": {
+      "toolkit_version": "v1.0 (stardust v2)",
+      "mode": "design-donor Mode A (brand-faithful to https://www.supermicro.com/en/); signal-strong (8 palette roles, named families Source Sans Pro + PT Sans Narrow)",
+      "research": {
+        "tier": 3,
+        "detail": "refero MCP absent; no WebSearch tool in this runtime \u2192 seed fallback for un-pinned dimensions",
+        "picked_by_default": "deterministic (research unavailable)"
+      },
+      "seed": {
+        "input": "Supermicro|2026-10-19",
+        "md5": "a98cf364dab160dd499a1c0a73a6378a",
+        "decade": "2025-now",
+        "craft": "Neon bending",
+        "register": "Broadcast captioning",
+        "ground_family": "dark",
+        "picked_by": "deterministic (research unavailable)",
+        "overrides": [
+          {
+            "dimension": "ground_family",
+            "override": "brand-faithful",
+            "value": "data-hall #f1f1f1 page ground",
+            "note": "Mode C: donor ground wins; the dark roll informs the alt-section surface \u2192 Rack Navy bands, header utility strip, footer"
+          }
+        ],
+        "translation": {
+          "decade": "2025-now: current product-UI conventions (persistent search field, honest empty states, fluid clamp type)",
+          "craft": "Neon bending \u2192 thin luminous 2px rails on band edges and the active header item, read as rack status-LED lines; no glow, no blur, no neon colours outside the donor palette",
+          "register": "Broadcast captioning \u2192 caption-style metadata labels (13px/600/+0.04em), terse factual headings, one-line state messages"
+        }
+      },
+      "font_deck": {
+        "name": "brand-inherited",
+        "picked_by": "user-constraint",
+        "families": [
+          "Source Sans 3 (Source Sans Pro successor)",
+          "PT Sans Narrow"
+        ]
+      },
+      "palette_source": {
+        "source": "inherited from stardust/canon-source/_brand-extraction.json (design donor)",
+        "picked_by": "user-constraint",
+        "role_renaming": "brand-native names (toolkit \u00a7 4): Data Hall, Chassis White, Schematic, Rack Navy, Datasheet Blue, Signal Blue, Sky Rail, Power Red, Status Amber",
+        "additions": [
+          "field-edge #7a7a7a from the donor greys (donor #cccccc fails 3:1 as a control boundary; storefront #8f8f8f fails 3:1 on Data Hall)",
+          "state-* from storefront drop-in tokens (donor captured none)"
+        ]
+      },
+      "anti_toolbox_count": 2,
+      "anti_toolbox_hits": [
+        {
+          "move": "Sticky top navigation",
+          "justification": "Storefront workflow priority: the header carries the Product Discovery search, mini-cart count and account entry that both B2B audiences use from every page; the captured storefront header is already persistent (--nav-height 64px). Inherited site convention, not added."
+        },
+        {
+          "move": "UPPERCASE condensed sans as the primary display register",
+          "justification": "Avoided as primary: PT Sans Narrow is used mixed-case and only for the home display headline, exactly as the donor uses it on its hero (66px/700 navy). Logged because a condensed face is present."
+        }
+      ],
+      "off_toolbox_moves": [
+        {
+          "move": "Rack-elevation rails: 2px Signal Blue / Sky Rail lines on band edges and the active header item",
+          "basis": "server status-LED lines; Supermicro-specific hardware reference, from the Neon bending seed translated into the donor blues"
+        },
+        {
+          "move": "Caption labels as the metadata system",
+          "basis": "Broadcast captioning seed applied to commerce metadata (category, results count, account state)"
+        }
+      ],
+      "audit_adjustments": [
+        {
+          "from": "off_toolbox_moves",
+          "to": "removed",
+          "move": "Donor blue band gradient (#2294d6 \u2192 #003a70) as section header fill",
+          "reason": "gradient band is the donor motif, but the self-audit reads it as decoration competing with the action red at packed density; replaced by flat Rack Navy bands with a rail"
+        }
+      ],
+      "references_used": [
+        {
+          "source": "design-donor",
+          "title": "Supermicro corporate site",
+          "url": "https://www.supermicro.com/en/",
+          "grounds": "binding palette, type, shapes, imagery, header/mega-menu organisation",
+          "tag": "off-toolbox"
+        }
+      ],
+      "brand_faithful_inversions": [
+        "Hex format retention: colour tokens are hex (matches the donor capture and the DESIGN.md Stitch frontmatter). OKLCH applies to new authoring; this is inheritance.",
+        "Pure-white retention: #ffffff kept as Chassis White for cards and inputs (donor surface). The no-pure-white reflex is inverted per brand-faithful direction; the page ground is #f1f1f1, not white.",
+        "Saturated colour retention: Power Red #961919 (channel spread 125) kept as the only action colour (donor uses it on every captured CTA). The tinted-neutral-primary reflex is inverted.",
+        "Sharp 0px corner retention (scoped): buttons, inputs and badges stay square (all captured donor buttons are 0px). Cards keep the donor 6px. The rounded-everything reflex is inverted for controls only.",
+        "Reserved colour: Status Amber #ffad00 retained only for hover/focus on navy and the active header rail (donor uses it for footer headings and link hover on dark grounds)."
+      ]
+    },
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "{colors.power-red}",
+          "color": "#f4f4f4",
+          "borderRadius": "0px",
+          "minHeight": "44px",
+          "padding": "10px 16px",
+          "fontWeight": 600,
+          "shadow": "1px 1px 2px rgba(0,0,0,.3)",
+          "hover": "{colors.power-red-live}"
+        },
+        "secondary": {
+          "background": "transparent",
+          "color": "{colors.power-red}",
+          "border": "1px solid {colors.power-red}",
+          "borderRadius": "0px",
+          "hover": "fill power-red"
+        },
+        "inverse": {
+          "background": "transparent",
+          "color": "#ffffff",
+          "border": "2px solid #ffffff",
+          "borderRadius": "0px",
+          "hover": "fill power-red-live"
+        }
+      },
+      "dualCTAPattern": "primary-then-text-link (never solid + outline twin in a hero)",
+      "cards": {
+        "background": "{colors.chassis-white}",
+        "borderRadius": "6px",
+        "padding": "24px",
+        "shadow": "card-rest",
+        "hover": "translateY(-2px) + card-hover"
+      },
+      "inputs": {
+        "borderRadius": "0px",
+        "padding": "10px 12px",
+        "border": "1px solid {colors.field-edge}",
+        "focusRing": "2px solid {colors.signal-blue}",
+        "label": "visible, caption style, above the field"
+      }
+    },
+    "systemComponentRoles": {
+      "utility-strip": {
+        "purpose": "B2B account tools (quick order, order search, company account, sign in / my account)",
+        "position": "top of header, \u2265900px; folds into the mobile menu below 900px",
+        "constraint": "links route to the existing storefront paths; labels reuse the storefront strings"
+      },
+      "header": {
+        "purpose": "logo, catalog navigation, persistent search, wishlist / mini-cart / account controls",
+        "position": "persistent top",
+        "constraint": "search field opens the existing Product Discovery overlay (no second client); mini-cart and account remain the drop-in controls"
+      },
+      "catalog-navigation": {
+        "purpose": "portfolio-shaped category navigation",
+        "position": "header (desktop), menu panel (mobile)",
+        "constraint": "only routes that exist in the storefront are live links; other portfolio groups render as catalog-pending"
+      },
+      "cta-band": {
+        "purpose": "one orienting band per page on Rack Navy with a single action",
+        "position": "between content groups",
+        "constraint": "one primary action, no twin-CTA pair"
+      },
+      "empty-state": {
+        "purpose": "designed state for empty listing, search and cart",
+        "position": "in place of the empty collection",
+        "constraint": "system strings verbatim, one next action, no sample products"
+      },
+      "unverified-marker": {
+        "purpose": "labels designs for states not observed (PDP, signed-in account, orders, checkout)",
+        "position": "caption badge on the affected section",
+        "constraint": "visible in prototypes; removed only after validation against real data"
+      },
+      "footer": {
+        "purpose": "legal links today; room for portfolio/support columns once authored",
+        "position": "bottom, Rack Navy",
+        "constraint": "only links that exist; column headings in Status Amber are reserved for authored content"
+      },
+      "placeholder-frame": {
+        "purpose": "marks slots for data that does not exist yet",
+        "position": "in place of the missing content",
+        "constraint": "2px dashed Power Red outline (sanctioned One Red Rule exception), neutral fill, Spec Grey PLACEHOLDER label; never shipped to production"
+      }
+    },
+    "voice": {
+      "tone": "serious, technical-precise, terse",
+      "do": [
+        "Name the action: \"Search\", \"Add to cart\", \"Sign in\", \"Quick Order\".",
+        "Use the storefront system strings verbatim (\"Your cart is empty\", \"Start shopping\", \"Your search returned no results.\").",
+        "Caption metadata: \"Category\", \"Search results\", \"Account\".",
+        "Mixed-case headings."
+      ],
+      "dont": [
+        "Marketing adjectives (premium, curated, bespoke, seamless).",
+        "Exclamation marks (the boilerplate \"Ready to go - B2B!\" is not carried forward).",
+        "Editorial vocabulary (journal, atelier, dispatches).",
+        "Invented claims about products, availability, or delivery."
+      ],
+      "houseStandards": [
+        "7.1 banned marketing adjectives (opt-in)",
+        "7.2 no exclamation points (opt-in)"
+      ]
+    },
+    "iaPriorities": [
+      {
+        "signal": "search-led IA",
+        "evidence": "pages/*.json header controls: \"Search\" button on 6/6 pages opens the Product Discovery overlay (blocks/header/header.js); results route /search?q=",
+        "preserveAs": "first-viewport, persistent header on every page and viewport",
+        "scope": "site-wide",
+        "mutability": "movable"
+      },
+      {
+        "signal": "commercial conversion",
+        "evidence": "header \"Cart\" (mini-cart) on 6/6 pages; cart page CTA \"Start shopping\"; listing at /apparel",
+        "preserveAs": "mini-cart control in the header at every width; primary action on cart and listing states",
+        "scope": "site-wide",
+        "mutability": "movable"
+      },
+      {
+        "signal": "audience routing (B2B account tools)",
+        "evidence": "header nav: Sign in, My Account, Create New Company Account, Quick Order, Search Order on 6/6 pages",
+        "preserveAs": "first-viewport utility strip (desktop) / top of menu (mobile)",
+        "scope": "site-wide",
+        "mutability": "movable"
+      },
+      {
+        "signal": "workflow priority (product register)",
+        "evidence": "customer-login.json: Email, Password, Sign in, Forgot password?",
+        "preserveAs": "sign-in form is the first content on /customer/login; nothing above it but the page title",
+        "scope": "customer-login, customer-account",
+        "mutability": "movable"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The only action fill. Add to cart, Sign in, Start shopping, Search.",
+      "html": "<button class=\"ds-btn-primary\">Start shopping</button>",
+      "css": ".ds-btn-primary{background:#961919;color:#f4f4f4;border:1px solid #961919;border-radius:0;min-height:44px;padding:10px 16px;font:600 16px/1.2 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;box-shadow:1px 1px 2px rgba(0,0,0,.3);cursor:pointer;transition:background .18s,border-color .18s}.ds-btn-primary:hover{background:#d30015;border-color:#d30015;color:#fff}.ds-btn-primary:focus-visible{outline:2px solid #0c82c4;outline-offset:2px}.ds-btn-primary:active{background:#d30015}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined action next to a primary, e.g. Create account beside Sign in.",
+      "html": "<button class=\"ds-btn-secondary\">Create an account</button>",
+      "css": ".ds-btn-secondary{background:transparent;color:#961919;border:1px solid #961919;border-radius:0;min-height:44px;padding:10px 16px;font:600 16px/1.2 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;cursor:pointer;transition:background .18s,color .18s}.ds-btn-secondary:hover{background:#961919;color:#f4f4f4}.ds-btn-secondary:focus-visible{outline:2px solid #0c82c4;outline-offset:2px}"
+    },
+    {
+      "name": "Inverse Button",
+      "kind": "button",
+      "refersTo": "button-inverse",
+      "description": "Action on Rack Navy bands.",
+      "html": "<div style=\"background:#003a70;padding:16px\"><button class=\"ds-btn-inverse\">Browse the catalog</button></div>",
+      "css": ".ds-btn-inverse{background:transparent;color:#fff;border:2px solid #fff;border-radius:0;min-height:44px;padding:10px 16px;font:600 16px/1.2 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;cursor:pointer;transition:background .18s,border-color .18s}.ds-btn-inverse:hover{background:#d30015;border-color:#d30015}.ds-btn-inverse:focus-visible{outline:2px solid #ffad00;outline-offset:2px}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Square field with a visible label; used by sign-in and search.",
+      "html": "<label class=\"ds-field\"><span>Email</span><input class=\"ds-input\" type=\"email\" placeholder=\"name@company.com\"></label>",
+      "css": ".ds-field{display:grid;gap:6px;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em;color:#242424}.ds-input{background:#fff;color:#242424;border:1px solid #7a7a7a;border-radius:0;min-height:44px;padding:10px 12px;font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-input:focus{outline:2px solid #0c82c4;outline-offset:0;border-color:#0c82c4}"
+    },
+    {
+      "name": "Chassis Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "White catalog card on the Data Hall ground with caption, title and link.",
+      "html": "<article class=\"ds-card\"><p class=\"ds-caption\">Category</p><h3>Rackmount Servers</h3><a href=\"#\">Browse category</a></article>",
+      "css": ".ds-card{background:#fff;color:#242424;border-radius:6px;padding:24px;box-shadow:0 1px 2px rgba(0,0,0,.18);font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;transition:transform .38s cubic-bezier(.42,0,0,1),box-shadow .38s cubic-bezier(.42,0,0,1)}.ds-card:hover{transform:translateY(-2px);box-shadow:0 6px 15px rgba(0,0,0,.2)}.ds-card h3{margin:4px 0 12px;font:600 20px/1.25 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-card a{color:#1d7bb6;font-weight:600}.ds-card a:hover{color:#961919}.ds-card a:focus-visible{outline:2px solid #0c82c4;outline-offset:2px}.ds-caption{margin:0;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em;color:#636569}"
+    },
+    {
+      "name": "Caption Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Square navy label for metadata such as \"Unverified\" or \"Catalog pending\".",
+      "html": "<span class=\"ds-badge\">Catalog pending</span>",
+      "css": ".ds-badge{display:inline-block;background:#003a70;color:#fff;border-radius:0;padding:2px 8px;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em}"
+    },
+    {
+      "name": "Utility Strip + Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Navy utility strip above a white header with logo, catalog nav, search field and commerce icons.",
+      "html": "<div class=\"ds-strip\"><a href=\"#\">Quick Order</a><a href=\"#\">Search Order</a><a href=\"#\">Sign in</a></div><div class=\"ds-head\"><strong>SUPERMICRO</strong><label class=\"ds-search\"><span class=\"sr\">Search</span><input placeholder=\"Search the catalog\"></label><button aria-label=\"Cart\">Cart</button></div>",
+      "css": ".ds-strip{background:#003a70;display:flex;gap:20px;justify-content:flex-end;padding:6px 24px;border-bottom:2px solid #4698d5;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em}.ds-strip a{color:#fff;text-decoration:none}.ds-strip a:hover,.ds-strip a:focus-visible{color:#ffad00}.ds-head{background:#fff;display:flex;align-items:center;gap:24px;padding:10px 24px;border-bottom:1px solid #cccccc;font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-search{flex:1}.ds-search input{width:100%;min-height:40px;border:1px solid #7a7a7a;border-radius:0;padding:8px 12px;font:inherit}.ds-search input:focus{outline:2px solid #0c82c4}.ds-head button{min-height:40px;background:none;border:1px solid #7a7a7a;border-radius:0;padding:0 12px;font:600 14px \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;cursor:pointer}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}"
+    },
+    {
+      "name": "Empty State",
+      "kind": "custom",
+      "refersTo": "empty-state",
+      "description": "Designed empty state for catalog, search and cart: icon, heading, one sentence, one action.",
+      "html": "<section class=\"ds-empty\"><h2>Your cart is empty</h2><p>Items you add while browsing appear here.</p><button class=\"ds-btn-primary\">Start shopping</button></section>",
+      "css": ".ds-empty{background:#fff;border-radius:6px;border-top:2px solid #0c82c4;padding:32px 24px;text-align:left;font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;color:#242424}.ds-empty h2{margin:0 0 8px;font:600 25px/1.2 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-empty p{margin:0 0 20px;color:#636569}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Rack Elevation",
+    "overview": "A storefront that reads like a well-labelled server rack: everything in its slot, labelled in plain captions, and lit by small precise signals. Data Hall grey and Chassis White carry the catalog; Rack Navy bands frame the moments that orient; Datasheet blues organise; one Power Red marks every action.",
+    "keyCharacteristics": [
+      "Navy bands with thin luminous blue rails (status-LED lines) instead of shadows or gradients as dividers.",
+      "Mixed-case Source Sans headings in blue; PT Sans Narrow reserved for the home display headline.",
+      "Square red action buttons; 6px chassis cards; square inputs.",
+      "Caption-style metadata labels (13px, 600, +0.04em) on badges and beside or below headings, never as eyebrows above them.",
+      "Honest empty states that always offer the next action.",
+      "Square 8px status LEDs at the right end of catalog rows (Signal Blue live, Rail Rule pending)."
+    ],
+    "rules": [
+      {
+        "name": "The One Red Rule",
+        "body": "Power Red appears only on things the user can do. No red headings, no red decoration, no red badges. The single exception is the dashed outline of a prototype placeholder frame.",
+        "section": "colors"
+      },
+      {
+        "name": "The Blue Explains Rule",
+        "body": "Blues label, organise and link. They are never the fill of a primary action.",
+        "section": "colors"
+      },
+      {
+        "name": "The Caption Rule",
+        "body": "Metadata is a caption, not a sentence: one short label, 13px, set beside or below the thing it describes. Never an eyebrow above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rail Rule",
+        "body": "Section and band edges get a 2px Signal Blue (on white) or Sky Rail (on navy) rail, never a gradient or a heavy shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep search, cart, quick order and account reachable in the header at every width.",
+      "Do use Power Red for every primary action and nothing else.",
+      "Do put a scrim (\u2265 0.55 navy) under any text set on photography.",
+      "Do label every metadata item with a caption.",
+      "Do show empty catalog, search and cart states as designed states with one clear next step.",
+      "Do reuse the storefront's own system strings (\"Your cart is empty\", \"Start shopping\", \"Sign in\")."
+    ],
+    "donts": [
+      "Don't invent products, SKUs, prices, specs, stock, ratings, totals or customer data. Don't render ADB150 or configuration keys.",
+      "Don't use the solid-plus-outline twin-CTA hero, stat trust bars, glassmorphism, gradient text or dark mode by reflex.",
+      "Don't set body text in Signal Blue or Sky Rail, or Datasheet Blue body text on the grey ground.",
+      "Don't use Rail Rule grey for input or control borders.",
+      "Don't round buttons or inputs."
+    ]
+  }
+}

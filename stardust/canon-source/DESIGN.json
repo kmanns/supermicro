@@ -1,0 +1,1092 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-19T18:12:33.955Z",
+    "readArtifacts": [
+      "stardust/canon-source/_brand-extraction.json",
+      "stardust/canon-source/_computed-styles.json",
+      "stardust/canon-source/DESIGN.md"
+    ],
+    "synthesizedInputs": [],
+    "mode": "descriptive (current state, not target)",
+    "stardustVersion": "0.29.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T18:12:33.956Z",
+  "title": "Design System: Supermicro corporate site (design donor)",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "background",
+        "value": "#f1f1f1",
+        "usedAs": [
+          "background",
+          "border",
+          "text"
+        ],
+        "occurrences": 47,
+        "sources": [
+          "en-products-gpu",
+          "en-solutions-ai-supercluster",
+          "en-solutions-dcbbs"
+        ]
+      },
+      "text-primary": {
+        "role": "text-primary",
+        "value": "#242424",
+        "usedAs": [
+          "text",
+          "background"
+        ],
+        "occurrences": 729,
+        "sources": [
+          "en-solutions-ai-supercluster",
+          "en-solutions-ai-servers",
+          "en-solutions-dcbbs"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "value": "#961919",
+        "usedAs": [
+          "background",
+          "border",
+          "text"
+        ],
+        "occurrences": 616,
+        "sources": [
+          "en-solutions-ai-servers",
+          "en-solutions-dcbbs"
+        ]
+      },
+      "heading": {
+        "role": "heading",
+        "value": "#1d7bb6",
+        "usedAs": [
+          "text",
+          "background"
+        ],
+        "occurrences": 328,
+        "sources": [
+          "en-solutions-ai-supercluster",
+          "en-solutions-ai-servers",
+          "en-solutions-dcbbs"
+        ]
+      },
+      "surface": {
+        "role": "surface",
+        "value": "#ffffff",
+        "usedAs": [
+          "text",
+          "background",
+          "border"
+        ],
+        "occurrences": 1657,
+        "sources": [
+          "en-solutions-dcbbs",
+          "en-solutions-ai-supercluster",
+          "en"
+        ]
+      },
+      "border": {
+        "role": "border",
+        "value": "#0000001a",
+        "usedAs": [
+          "border"
+        ],
+        "occurrences": 54,
+        "sources": [
+          "en",
+          "en-products-gpu",
+          "en-solutions-ai-servers"
+        ]
+      },
+      "accent-1": {
+        "role": "accent-1",
+        "value": "#0c82c4",
+        "usedAs": [
+          "text",
+          "background",
+          "border"
+        ],
+        "occurrences": 134,
+        "sources": [
+          "en-solutions-dcbbs",
+          "en"
+        ]
+      },
+      "accent-2": {
+        "role": "accent-2",
+        "value": "#cccccc",
+        "usedAs": [
+          "background",
+          "border",
+          "text"
+        ],
+        "occurrences": 95,
+        "sources": [
+          "en-solutions-dcbbs",
+          "en-solutions-ai-servers",
+          "en"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "heading": {
+        "family": "Source Sans Pro",
+        "sizes": [
+          "h1 76.1px/700",
+          "h2 42px/600",
+          "h3 20px/600",
+          "h4 18px/600"
+        ],
+        "weights": [
+          600,
+          700
+        ]
+      },
+      "body": {
+        "family": "Source Sans Pro",
+        "sizes": [
+          "16px",
+          "22px",
+          "15px"
+        ],
+        "weights": [
+          600,
+          400
+        ]
+      },
+      "other": [
+        "PT Sans Narrow"
+      ],
+      "scaleAudit": {
+        "kind": "ad-hoc",
+        "ratios": [
+          1.812,
+          2.1,
+          1.111
+        ],
+        "matchedScale": null
+      },
+      "licensing": {
+        "Source Sans Pro": "open",
+        "PT Sans Narrow": "open"
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-1",
+        "value": "rgba(0, 0, 0, 0.3) 1px 1px 2px 0px",
+        "purpose": "observed on a (109x)"
+      },
+      {
+        "name": "shadow-2",
+        "value": "rgba(0, 0, 0, 0.2) 0px 6px 15px 0px",
+        "purpose": "observed on div:nth-of-type(1), div (32x)"
+      },
+      {
+        "name": "shadow-3",
+        "value": "rgba(151, 151, 151, 0.25) 0px 5px 15px 0px",
+        "purpose": "observed on div:nth-of-type(1), div:nth-of-type(2), div:nth-of-type(3) (30x)"
+      }
+    ],
+    "motion": [],
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "backgroundColor": "rgb(150, 25, 25)",
+          "color": "rgb(244, 244, 244)",
+          "borderColor": "rgb(150, 25, 25)",
+          "hover": {
+            "backgroundColor": "rgb(211, 0, 21)",
+            "color": "rgb(255, 255, 255)",
+            "borderColor": "rgb(211, 0, 21)"
+          },
+          "count": 19,
+          "source": [
+            "en div > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > div > a",
+            "en div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > a"
+          ]
+        },
+        "secondary": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderColor": "rgb(255, 255, 255)",
+          "hover": {
+            "backgroundColor": "rgb(211, 0, 21)",
+            "borderColor": "rgb(211, 0, 21)"
+          },
+          "count": 2,
+          "source": [
+            "en div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a",
+            "en div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a"
+          ]
+        }
+      },
+      "linkHover": [
+        {
+          "from": {
+            "color": "rgb(24, 24, 24)"
+          },
+          "to": {
+            "color": "rgb(150, 25, 25)"
+          },
+          "count": 4
+        },
+        {
+          "from": {
+            "color": "rgb(34, 34, 34)"
+          },
+          "to": {
+            "color": "rgb(150, 25, 25)"
+          },
+          "count": 3
+        },
+        {
+          "from": {
+            "color": "rgb(150, 25, 25)"
+          },
+          "to": {
+            "color": "rgb(211, 0, 21)"
+          },
+          "count": 3
+        }
+      ],
+      "dualCTAPattern": null,
+      "cards": null,
+      "inputs": null
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "6px",
+        "secondary": "4px 4px 0px 0px",
+        "pill": "50%",
+        "areaMode": "15px",
+        "primarySources": [
+          "en-products-gpu",
+          "en-solutions-ai-servers"
+        ],
+        "occurrences": {
+          "50%": 120,
+          "6px": 82,
+          "4px 4px 0px 0px": 44,
+          "15px": 34,
+          "10px": 28,
+          "5px": 8,
+          "100px": 2,
+          "4px": 2,
+          "9999px": 2,
+          "1.0125px": 1,
+          "1.85625px": 1,
+          "2.025px": 1,
+          "3.7125px": 1,
+          "8px 0px 0px 8px": 1
+        }
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.3) 1px 1px 2px 0px",
+          "count": 109,
+          "uses": "a"
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.2) 0px 6px 15px 0px",
+          "count": 32,
+          "uses": "div:nth-of-type(1), div"
+        },
+        {
+          "value": "rgba(151, 151, 151, 0.25) 0px 5px 15px 0px",
+          "count": 30,
+          "uses": "div:nth-of-type(1), div:nth-of-type(2), div:nth-of-type(3)"
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(90deg, rgb(34, 148, 214) 0%, rgb(12, 130, 196) 36%, rgb(24, 98, 150) 72%, rgba(0, 58, 112, 0.86) 100%)",
+          "count": 255,
+          "uses": "h3, h2"
+        },
+        {
+          "value": "linear-gradient(rgba(239, 239, 239, 0.6), rgb(255, 255, 255) 33.3333%)",
+          "count": 24,
+          "uses": "section:nth-of-type(2)"
+        },
+        {
+          "value": "linear-gradient(rgba(146, 208, 233, 0.1), rgba(28, 155, 240, 0.1))",
+          "count": 12,
+          "uses": "section:nth-of-type(4)"
+        }
+      ],
+      "patterns": []
+    },
+    "voice": {
+      "heroHeadline": "Supermicro Now Shipping NVIDIA Vera Rubin NVL72",
+      "heroSubcopy": null,
+      "heroImage": {
+        "url": "https://www.supermicro.com/sites/default/files/content_resources/2026-09/2026-DCBBS-VeraRubinNVL72_BG-2050x1200.jpg",
+        "alt": "",
+        "source": "css-background",
+        "basis": "file name matches 4 hero-headline word(s)",
+        "localPath": "stardust/canon-source/assets/media/hero-vera-rubin-bg.webp"
+      },
+      "heroMedium": null,
+      "primaryCTALabel": "Learn More",
+      "ctaSamples": [
+        "Portfolio Overview",
+        "Portfolio",
+        "Explore More",
+        "Check out the Product Review",
+        "×",
+        "Learn More"
+      ],
+      "navItems": [
+        "Main Navigation (Enterprise)",
+        "AI Infrastructure",
+        "Data Center Building Block Solutions® (DCBBS)",
+        "AI Factory",
+        "Edge AI",
+        "AI Storage",
+        "Industry AI Solutions",
+        "NVIDIA Solutions",
+        "AMD Solutions",
+        "Intel Solutions",
+        "Arm AGI Solutions",
+        "Rackmount Servers"
+      ],
+      "footerHeadings": [
+        "About us",
+        "News",
+        "Resources",
+        "Support",
+        "Connect & Follow",
+        "Contact Us",
+        "Company Profile",
+        "Green Computing",
+        "Investor Relations",
+        "Careers",
+        "Site Map",
+        "Glossary"
+      ],
+      "firstParagraph": "Industry’s broadest selection of high quality hardware for fully application optimized server, storage, embedded/IoT, and workstation solutions"
+    },
+    "voiceTable": {
+      "ctaFrequency": [
+        {
+          "label": "Learn More",
+          "total": 64,
+          "pageCount": 5,
+          "pages": [
+            "en-products-gpu",
+            "en-solutions-ai-servers",
+            "en-solutions-ai-supercluster",
+            "en-solutions-dcbbs",
+            "en"
+          ],
+          "closedListMatch": true
+        },
+        {
+          "label": "Download Datasheet",
+          "total": 10,
+          "pageCount": 1,
+          "pages": [
+            "en-solutions-ai-supercluster"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Privacy Policy",
+          "total": 9,
+          "pageCount": 5,
+          "pages": [
+            "en-products-gpu",
+            "en-solutions-ai-servers",
+            "en-solutions-ai-supercluster",
+            "en-solutions-dcbbs",
+            "en"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Contact Us",
+          "total": 9,
+          "pageCount": 5,
+          "pages": [
+            "en-products-gpu",
+            "en-solutions-ai-servers",
+            "en-solutions-ai-supercluster",
+            "en-solutions-dcbbs",
+            "en"
+          ],
+          "closedListMatch": true
+        },
+        {
+          "label": "Read the Solution Brief",
+          "total": 9,
+          "pageCount": 1,
+          "pages": [
+            "en-solutions-ai-servers"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Read Datasheet",
+          "total": 8,
+          "pageCount": 1,
+          "pages": [
+            "en-solutions-dcbbs"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Accept",
+          "total": 5,
+          "pageCount": 5,
+          "pages": [
+            "en-products-gpu",
+            "en-solutions-ai-servers",
+            "en-solutions-ai-supercluster",
+            "en-solutions-dcbbs",
+            "en"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Decline",
+          "total": 5,
+          "pageCount": 5,
+          "pages": [
+            "en-products-gpu",
+            "en-solutions-ai-servers",
+            "en-solutions-ai-supercluster",
+            "en-solutions-dcbbs",
+            "en"
+          ],
+          "closedListMatch": false
+        }
+      ],
+      "headingFrequency": [
+        {
+          "text": "Resources",
+          "total": 11,
+          "pageCount": 5,
+          "level": 2
+        },
+        {
+          "text": "About us",
+          "total": 5,
+          "pageCount": 5,
+          "level": 2
+        },
+        {
+          "text": "News",
+          "total": 5,
+          "pageCount": 5,
+          "level": 2
+        },
+        {
+          "text": "Support",
+          "total": 5,
+          "pageCount": 5,
+          "level": 2
+        },
+        {
+          "text": "Connect & Follow",
+          "total": 5,
+          "pageCount": 5,
+          "level": 2
+        }
+      ],
+      "toneMetrics": {
+        "headingsTotal": 187,
+        "headingsUppercasePercent": 2,
+        "distinctHeadings": 138,
+        "distinctCtaLabels": 140
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 5,
+        "ctaLabels": [],
+        "domFingerprintHash": "sha256:9368e4bdc97840b3",
+        "exampleSlug": "en-products-gpu",
+        "exampleSelector": "header",
+        "examplePages": [
+          "en-products-gpu",
+          "en-solutions-ai-servers",
+          "en-solutions-ai-supercluster",
+          "en-solutions-dcbbs",
+          "en"
+        ],
+        "headingSequence": [
+          "Main Navigation (Enterprise)",
+          "AI Infrastructure",
+          "Data Center Building Block Solutions® (DCBBS)",
+          "AI Factory",
+          "Edge AI",
+          "AI Storage",
+          "Industry AI Solutions",
+          "NVIDIA Solutions",
+          "AMD Solutions",
+          "Intel Solutions",
+          "Arm AGI Solutions",
+          "Rackmount Servers",
+          "Artificial Intelligence",
+          "AI InfrastructureSupermicro delivers the broadest selection of AI systems and solutions",
+          "AI SuperCluster",
+          "Featured: xAI Colossus",
+          "AI Data Platform",
+          "Data Lakes",
+          "AI for Retail",
+          "AI for Telco"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 3,
+        "ctaLabels": [],
+        "domFingerprintHash": "sha256:2590518967e6ad5f",
+        "exampleSlug": "en-products-gpu",
+        "exampleSelector": "footer",
+        "examplePages": [
+          "en-products-gpu",
+          "en-solutions-dcbbs",
+          "en"
+        ],
+        "headingSequence": [
+          "About us",
+          "News",
+          "Resources",
+          "Support",
+          "Connect & Follow",
+          "Contact Us",
+          "Company Profile",
+          "Green Computing",
+          "Investor Relations",
+          "Careers",
+          "Site Map",
+          "Glossary",
+          "Press Releases",
+          "Supermicro in the News",
+          "Product Reviews",
+          "Press Kits",
+          "Events",
+          "Webinars",
+          "Brochures",
+          "Product Briefs"
+        ]
+      },
+      {
+        "name": "shared-background",
+        "kind": "background-motif",
+        "occurrences": 2,
+        "url": "https://www.supermicro.com/sites/default/files/content_resources/2024-03/banner-ai-supercluster-lp.jpg",
+        "examplePages": [
+          "en-solutions-ai-servers",
+          "en-solutions-ai-supercluster"
+        ],
+        "headingSequence": []
+      },
+      {
+        "name": "shared-background",
+        "kind": "background-motif",
+        "occurrences": 2,
+        "url": "https://www.supermicro.com/sites/default/files/content_resources/2024-10/03_2024-GB200-NVL72_WebBanner-BG_2050x650px.jpg",
+        "examplePages": [
+          "en-solutions-ai-servers",
+          "en-solutions-ai-supercluster"
+        ],
+        "headingSequence": []
+      },
+      {
+        "name": "shared-background",
+        "kind": "background-motif",
+        "occurrences": 3,
+        "url": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/solutions/dcbbs/v2/banner-dcbbs-foreground-v2.png",
+        "examplePages": [
+          "en-solutions-ai-supercluster",
+          "en-solutions-dcbbs",
+          "en"
+        ],
+        "headingSequence": []
+      }
+    ],
+    "iconFont": {
+      "families": [
+        "FontAwesome",
+        "Glyphicons Halflings"
+      ],
+      "glyphs": [
+        {
+          "class": "button-icon fa fa-envelope-o",
+          "pseudo": "::before",
+          "codepoint": "U+F003",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "fa fa-angle-left",
+          "pseudo": "::before",
+          "codepoint": "U+F104",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "fa fa-angle-right",
+          "pseudo": "::before",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "fa-close lazy",
+          "pseudo": "::before",
+          "codepoint": "U+F00D",
+          "fontFamily": "\"Source Sans Pro\", Helvetica, Arial, sans-serif",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "js-menu-action js-create",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "js-menu-action js-forget",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "js-menu-action js-jumpstart",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "js-menu-action js-sign-in",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "js-menu-action js-sign-out",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "js-menu-action js-update",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "js-menu-action js-update-mail",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 10,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "icaret nav-plus fa fa-angle-down",
+          "pseudo": "::before",
+          "codepoint": "U+F067",
+          "fontFamily": "FontAwesome",
+          "count": 5,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu",
+            "https://www.supermicro.com/en/solutions/ai-servers"
+          ]
+        },
+        {
+          "class": "icaret nav-plus fa fa-angle-down",
+          "pseudo": "::before",
+          "codepoint": "U+F107",
+          "fontFamily": "FontAwesome",
+          "count": 5,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu",
+            "https://www.supermicro.com/en/solutions/ai-servers"
+          ]
+        },
+        {
+          "class": "fa fa-play",
+          "pseudo": "::before",
+          "codepoint": "U+F04B",
+          "fontFamily": "FontAwesome",
+          "count": 4,
+          "sources": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 2,
+          "sources": [
+            "https://www.supermicro.com/en/solutions/ai-supercluster",
+            "https://www.supermicro.com/en/solutions/ai-supercluster"
+          ]
+        },
+        {
+          "class": "fa fa-spinner fa-pulse fa-4x fa-fw",
+          "pseudo": "::before",
+          "codepoint": "U+F110",
+          "fontFamily": "FontAwesome",
+          "count": 2,
+          "sources": [
+            "https://www.supermicro.com/en/products/gpu",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "class": "product-card-link",
+          "pseudo": "::after",
+          "codepoint": "U+F105",
+          "fontFamily": "FontAwesome",
+          "count": 2,
+          "sources": [
+            "https://www.supermicro.com/en/products/gpu",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        }
+      ]
+    },
+    "register": "brand",
+    "registerBasis": "marketing landing indicators dominate: photographic heroes, solution storytelling, Learn More/Contact Us CTAs, no auth",
+    "breakpoints": {
+      "containerMaxWidth": "1660px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1660,
+          "via": "max-width",
+          "selector": "div.paragraph.paragraph--type--banner > div.container > div.row.banner-content > div.col-xs-12.col-sm-5",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1600,
+          "via": "other",
+          "selector": "div.slick-track > div.slick-slide.slick-cloned > div.paragraph.paragraph--type--banner > div.container",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1473,
+          "via": "other",
+          "selector": "div.col-xs-12.col-sm-5 > div.banner-text > div.field.field--name-field-banner-text > div.banner-logos",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "fixed",
+          "selector": "#content > div.container",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1170,
+          "via": "max-width",
+          "selector": "#resources > div.box-title",
+          "pages": [
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1000,
+          "via": "max-width",
+          "selector": "#hs-eu-cookie-confirmation-inner",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 888,
+          "via": "fixed",
+          "selector": "#hs-en-cookie-confirmation-buttons-area",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 816,
+          "via": "fixed",
+          "selector": "#hs-eu-policy-wording > p",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 714,
+          "via": "max-width",
+          "selector": "div.container > div.row.banner-content > div.col-xs-12.col-sm-5 > div.banner-title",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 680,
+          "via": "max-width",
+          "selector": "div.paragraph.paragraph--type--banner > div.container > div.row.banner-content > div.col-xs-12.col-sm-5",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 655,
+          "via": "max-width",
+          "selector": "div.field.field--name-field-body > div.full-width > div.bb-container > div.text1",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 630,
+          "via": "max-width",
+          "selector": "div.paragraph.paragraph--type--banner > div.container > div.row.banner-content > div.col-xs-12.col-sm-5",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 550,
+          "via": "max-width",
+          "selector": "div.col-xs-12.col-sm-5 > div.banner-text > div.field.field--name-field-banner-text > div.banner-subtitle",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 520,
+          "via": "fixed",
+          "selector": "div.container > div.row.banner-content > div.col-xs-12.col-sm-5 > div.banner-title",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 483,
+          "via": "other",
+          "selector": "div.col-xs-12.col-sm-5 > div.banner-text > div.field.field--name-field-banner-text > div.banner-logos",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 396,
+          "via": "fixed",
+          "selector": "div.banner-text > div.field.field--name-field-banner-text > div.banner-subtitle > span.term",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 360,
+          "via": "max-width",
+          "selector": "#gold-series-slide-in",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 332,
+          "via": "fixed",
+          "selector": "div.row.blocks-wrapper > div.col.col-md-12 > div.text > h2",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 287,
+          "via": "fixed",
+          "selector": "div.widget-content.text-center > div.team-body.text-left > div.team-body-content > h3.team-name",
+          "pages": [
+            "https://www.supermicro.com/en/",
+            "https://www.supermicro.com/en/products/gpu"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 261,
+          "via": "fixed",
+          "selector": "div.widget-content.text-center > div.team-body.text-center > div.team-body-content > h3.team-name",
+          "pages": [
+            "https://www.supermicro.com/en/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.supermicro.com/en/",
+          "section": 0,
+          "selector": "#hs-eu-cookie-confirmation",
+          "px": 1000
+        },
+        {
+          "url": "https://www.supermicro.com/en/",
+          "section": 1,
+          "selector": "body.layout-no-sidebars.not-preloader > a.visually-hidden.focusable",
+          "px": null
+        },
+        {
+          "url": "https://www.supermicro.com/en/",
+          "section": 2,
+          "selector": "body.layout-no-sidebars.not-preloader > div.dialog-off-canvas-main-canvas",
+          "px": 1660
+        },
+        {
+          "url": "https://www.supermicro.com/en/",
+          "section": 3,
+          "selector": "#hs-web-interactives-top-anchor",
+          "px": null
+        },
+        {
+          "url": "https://www.supermicro.com/en/products/gpu",
+          "section": 0,
+          "selector": "#hs-eu-cookie-confirmation",
+          "px": 1000
+        },
+        {
+          "url": "https://www.supermicro.com/en/products/gpu",
+          "section": 1,
+          "selector": "body.layout-no-sidebars.not-preloader > a.visually-hidden.focusable",
+          "px": null
+        },
+        {
+          "url": "https://www.supermicro.com/en/products/gpu",
+          "section": 2,
+          "selector": "body.layout-no-sidebars.not-preloader > div.dialog-off-canvas-main-canvas",
+          "px": 1660
+        },
+        {
+          "url": "https://www.supermicro.com/en/products/gpu",
+          "section": 3,
+          "selector": "#hs-web-interactives-top-anchor",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-19T18:13:05.836Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.supermicro.com/en/",
+          "https://www.supermicro.com/en/products/gpu"
+        ]
+      }
+    }
+  },
+  "components": [],
+  "narrative": {
+    "northStar": null,
+    "overview": "Descriptive capture; see DESIGN.md Overview.",
+    "keyCharacteristics": [],
+    "rules": [],
+    "dos": [],
+    "donts": []
+  }
+}

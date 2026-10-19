@@ -3,3 +3,16 @@ main .commerce-login-container {
     margin: 40px auto;
     width: 100%;
 }
+
+/* Supermicro: sign-in panel with the Signal Blue rail and a page-scale title */
+main .commerce-login-container .auth-sign-in-form {
+  border-top: var(--shape-rail) solid var(--color-signal-blue);
+  border-radius: 0 0 var(--shape-border-radius-2) var(--shape-border-radius-2);
+  box-shadow: var(--shape-shadow-3);
+}
+
+main .commerce-login-container .auth-sign-in-form__title .dropin-header-container__title {
+  font: var(--type-display-2-font);
+  letter-spacing: var(--type-display-2-letter-spacing);
+  color: var(--color-neutral-800);
+}

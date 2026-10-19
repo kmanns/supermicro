@@ -12,12 +12,20 @@
 }
 
 .cards > ul > li {
-  border: var(--shape-border-width-1) solid var(--color-neutral-500);
-  background-color: var(--background-color);
+  background-color: var(--color-chassis-white);
+  border-top: var(--shape-rail) solid var(--color-neutral-400);
+  border-radius: 0 0 var(--shape-border-radius-2) var(--shape-border-radius-2);
+  box-shadow: var(--shape-shadow-3);
+  transition: transform 0.38s cubic-bezier(0.42, 0, 0, 1), box-shadow 0.38s cubic-bezier(0.42, 0, 0, 1);
+}
+
+.cards > ul > li:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shape-shadow-1);
 }
 
 .cards .cards-card-body {
-  margin: var(--spacing-small);
+  margin: var(--spacing-small) var(--spacing-medium) var(--spacing-medium);
 }
 
 .cards .cards-card-image {

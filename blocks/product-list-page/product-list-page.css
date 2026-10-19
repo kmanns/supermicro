@@ -137,3 +137,18 @@
         justify-content: flex-end;
     }
 }
+
+/* Supermicro: the empty result reads as a designed status panel, not a warning */
+.block.product-list-page .product-discovery-search-alert-message__wrapper .dropin-in-line-alert {
+  border: 0;
+  border-top: var(--shape-rail) solid var(--color-signal-blue);
+  border-radius: 0 0 var(--shape-border-radius-2) var(--shape-border-radius-2);
+  background-color: var(--color-chassis-white);
+  box-shadow: var(--shape-shadow-3);
+  padding: var(--spacing-big) var(--spacing-medium);
+  color: var(--color-neutral-800);
+}
+
+.block.product-list-page .product-discovery-search-alert-message__wrapper .dropin-in-line-alert svg {
+  color: var(--color-datasheet-blue);
+}

@@ -8,11 +8,11 @@
 
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: var(--color-chassis-white);
   width: 100%;
   z-index: 3;
   position: fixed;
-  border-bottom: 1px solid var(--color-neutral-300);
+  border-bottom: 1px solid var(--color-neutral-400);
 }
 
 header nav {
@@ -46,7 +46,7 @@ header nav[aria-expanded='true'] {
     display: flex;
     justify-content: space-between;
     gap: 0 32px;
-    max-width: 1264px;
+    max-width: var(--max-content-width);
     padding: 0 32px;
   }
 
@@ -64,16 +64,20 @@ header nav p {
 /* hamburger */
 header nav .nav-hamburger {
   grid-area: hamburger;
-  height: 22px;
+  height: 44px;
   display: flex;
   align-items: center;
 }
 
 header nav .nav-hamburger button {
   cursor: pointer;
-  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   margin: 0;
-  border: 0;
+  border: 1px solid var(--color-neutral-600);
   border-radius: 0;
   padding: 0;
   background-color: var(--color-neutral-50);
@@ -154,6 +158,12 @@ header nav .nav-brand a {
   font: var(--type-headline-1-font);
   letter-spacing: var(--type-headline-1-letter-spacing);
   font-weight: bold;
+  color: var(--color-rack-navy);
+}
+
+header nav .nav-brand .icon {
+  width: 96px;
+  height: auto;
 }
 
 li.nav-drop img {
@@ -165,6 +175,11 @@ li.nav-drop img {
 
 header nav .nav-brand img {
   width: 128px;
+  height: auto;
+}
+
+header nav .nav-brand .icon img {
+  width: 100%;
   height: auto;
 }
 
@@ -193,6 +208,7 @@ header nav .nav-sections ul>li,
 header nav .nav-sections ul>li>a {
   font: var(--type-body-2-strong-font);
   letter-spacing: var(--type-body-2-strong-letter-spacing);
+  color: var(--color-neutral-800);
 }
 
 header nav .nav-brand a:hover {
@@ -228,11 +244,12 @@ header nav .nav-sections ul>li:empty {
 
   header nav .nav-sections .default-content-wrapper>ul>li,
   header nav .nav-sections .nav-drop {
-    border-radius: 4px;
+    border-radius: 0;
     padding: 0 var(--spacing-small);
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li a {
+    color: var(--color-neutral-800);
     text-decoration: none;
   }
 
@@ -258,7 +275,9 @@ header nav .nav-sections ul>li:empty {
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded='true'] .submenu-wrapper {
-    background-color: var(--color-neutral-50);
+    background-color: var(--color-chassis-white);
+    border-top: var(--shape-rail) solid var(--color-signal-blue);
+    box-shadow: var(--shape-shadow-2);
     box-sizing: border-box;
     left: 0;
     max-height: var(--desktop-panel-max-height);
@@ -314,7 +333,7 @@ header nav .nav-tools-panel {
   z-index: 100;
   position: absolute;
   box-shadow: var(--shape-shadow-2);
-  background: var(--background-color);
+  background: var(--color-chassis-white);
   top: var(--nav-height);
   right: 0;
   width: 100%;
@@ -332,18 +351,27 @@ header nav .nav-tools {
   height: 100%;
   gap: var(--spacing-small);
   align-items: center;
-  background: var(--background-color);
+  background: var(--color-chassis-white);
   z-index: 3;
 }
 
 header nav .nav-tools-wrapper>button {
-  color: var(--color-brand-700);
+  color: var(--color-neutral-800);
   background: transparent;
   padding: 10px;
   border: unset;
   cursor: pointer;
-  height: 40px;
-  width: 40px;
+  height: 44px;
+  width: 44px;
+}
+
+header nav .nav-tools-wrapper>button:hover {
+  outline: 1px solid var(--color-neutral-600);
+}
+
+header nav .nav-tools-wrapper>button:focus-visible {
+  outline: 2px solid var(--color-signal-blue);
+  outline-offset: 2px;
 }
 
 header nav .nav-tools button.nav-cart-button {
@@ -358,8 +386,8 @@ header nav .nav-tools button.nav-cart-button[data-count]::after {
   position: absolute;
   top: 0;
   right: -2px;
-  background-color: var(--color-brand-700);
-  color: var(--color-neutral-100);
+  background-color: var(--color-brand-500);
+  color: var(--color-on-accent);
   border-radius: 50%;
   width: 1.75em;
   height: 1.75em;
@@ -395,6 +423,20 @@ header nav .nav-tools button.nav-search-button {
   background-position: center;
 }
 
+/* from desktop up the search control reads as a field; it still opens the Product Discovery panel */
+@media (min-width: 900px) {
+  header nav .nav-tools button.nav-search-button {
+    width: clamp(200px, 22vw, 320px);
+    padding: 0 12px 0 40px;
+    border: 1px solid var(--color-neutral-600);
+    background-color: var(--color-chassis-white);
+    background-position: 12px center;
+    color: var(--color-neutral-700);
+    font: var(--type-body-1-default-font);
+    text-align: start;
+  }
+}
+
 header .nav-search-panel {
   padding: var(--spacing-small);
   box-sizing: border-box;
@@ -410,6 +452,7 @@ header .nav-search-panel input {
   letter-spacing: var(--type-headline-2-default-letter-spacing);
   border: 1px solid currentcolor;
   appearance: none;
+  border-radius: 0;
 }
 
 header .nav-search-panel .dropin-input-container {
@@ -640,6 +683,16 @@ header .nav-search-input .search_autocomplete .popover-container {
 
   header nav {
     position: relative;
+    gap: 0 8px;
+    padding: 0 16px;
+  }
+
+  header nav .nav-brand {
+    min-width: 96px;
+  }
+
+  header nav .nav-tools {
+    gap: var(--spacing-xxsmall);
   }
 
   header nav[aria-expanded='true'] {
@@ -649,7 +702,7 @@ header .nav-search-input .search_autocomplete .popover-container {
   }
 
   header nav[aria-expanded='true'] .nav-tools {
-    background: var(--background-color);
+    background: var(--color-chassis-white);
     bottom: 0;
     height: auto;
     left: 0;
@@ -888,5 +941,95 @@ body:has(.seller-assisted-buying-banner) {
   .seller-assisted-buying-banner__close-button span {
     line-height: 1.1;
     display: inline-block;
+  }
+}
+
+/* Supermicro utility strip (built in header.js from the authored B2B links) */
+.nav-utility {
+  background-color: var(--color-rack-navy);
+  border-bottom: var(--shape-rail) solid var(--color-sky-rail);
+}
+
+.nav-utility .nav-utility-list {
+  display: block;
+  height: auto;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.nav-utility-items {
+  display: flex;
+  gap: 0 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-utility .nav-utility-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  color: var(--color-chassis-white);
+  font: var(--type-details-caption-1-font);
+  letter-spacing: var(--type-details-caption-1-letter-spacing);
+  text-decoration: none;
+}
+
+.nav-utility .nav-utility-link:hover,
+.nav-utility .nav-utility-link:focus-visible {
+  color: var(--color-status-amber);
+  outline-color: var(--color-status-amber);
+}
+
+.nav-utility-wide {
+  display: none;
+}
+
+body.has-nav-utility header {
+  height: calc(var(--nav-height) + 34px);
+}
+
+@media (min-width: 600px) {
+  .nav-utility .nav-utility-list {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 900px) {
+  .nav-utility .nav-utility-list {
+    padding: 0 32px;
+  }
+
+  .nav-utility-items {
+    justify-content: flex-end;
+  }
+
+  .nav-utility-wide {
+    display: list-item;
+  }
+
+  header nav .nav-brand .icon {
+    width: 128px;
+  }
+}
+
+/* narrowest phones: keep all four header controls on screen */
+@media (max-width: 359px) {
+  header nav .nav-brand {
+    min-width: 72px;
+  }
+
+  header nav .nav-brand .icon {
+    width: 72px;
+  }
+
+  header nav .nav-tools {
+    gap: 0;
+  }
+
+  header nav .nav-tools-wrapper>button {
+    width: 40px;
+    height: 40px;
   }
 }
