@@ -1,0 +1,579 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-19T18:09:52.270Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/apparel.json",
+      "stardust/current/pages/cart.json",
+      "stardust/current/pages/customer-account.json",
+      "stardust/current/pages/customer-login.json",
+      "stardust/current/pages/index.json",
+      "stardust/current/pages/search.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.29.1",
+    "notes": [
+      "palette capped at 8; dropped #d6d6d6 (weight 3)",
+      "type.files[] not captured: crawl.mjs does not download font files (extract Phase 3 note); family names recorded from computed styles",
+      "voice.heroImage resolved without rects (page records carry none): headline-matched css background, else first large non-logo <img> in DOM order",
+      "primary (most-used button background #3d3d3d, 4 buttons) is the same value as text-primary; recorded as alsoRole on that entry"
+    ]
+  },
+  "site": {
+    "name": null,
+    "tagline": "The content you are looking at is served from da.live:",
+    "originUrl": "https://main--supermicro--kmanns.aem.page"
+  },
+  "origins": [
+    {
+      "origin": "https://main--supermicro--kmanns.aem.page",
+      "role": "primary",
+      "pagesCaptured": 6,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "favicon",
+    "sourceSelector": "link[rel~=icon] | /favicon.ico",
+    "localPath": "stardust/current/assets/favicon.ico",
+    "format": "ico",
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "note": "No image logo: the header renders a text wordmark (census logo chain found none); favicon is the only captured mark"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 77,
+      "bgArea": 17455577,
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "censusRoles": [
+        "background"
+      ],
+      "sourceSelectors": [
+        "index body (background)",
+        "cart body (background)",
+        "customer-account body (background)"
+      ],
+      "sources": [
+        "index",
+        "cart",
+        "customer-account"
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#3d3d3d",
+      "occurrences": 184,
+      "bgArea": 29673,
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "censusRoles": [
+        "surface",
+        "text",
+        "primary",
+        "heading"
+      ],
+      "sourceSelectors": [
+        "index #nav > div:nth-of-type(3) > div > ul > li:nth-of-type(1) > p (text)",
+        "index #launch-faster-with-boilerplates (text)",
+        "index #nav > div:nth-of-type(2) > div > p > a (text)"
+      ],
+      "sources": [
+        "index",
+        "customer-account",
+        "apparel"
+      ],
+      "alsoRole": "primary"
+    },
+    {
+      "role": "border",
+      "value": "#b8b8b8",
+      "occurrences": 14,
+      "bgArea": null,
+      "usedAs": [
+        "border"
+      ],
+      "censusRoles": [
+        "border"
+      ],
+      "sourceSelectors": [
+        "index main > div:nth-of-type(3) > div:nth-of-type(2) > div > ul > li:nth-of-type(1) (border)"
+      ],
+      "sources": [
+        "index"
+      ]
+    },
+    {
+      "role": "accent-1",
+      "value": "#2b2b2b",
+      "occurrences": 10,
+      "bgArea": null,
+      "usedAs": [
+        "text"
+      ],
+      "censusRoles": [],
+      "sourceSelectors": [
+        "index #nav > div:nth-of-type(4) > div:nth-of-type(3) > button (text)",
+        "apparel #nav > div:nth-of-type(4) > div:nth-of-type(3) > button (text)",
+        "cart #nav > div:nth-of-type(4) > div:nth-of-type(3) > button (text)"
+      ],
+      "sources": [
+        "index",
+        "apparel",
+        "cart"
+      ]
+    },
+    {
+      "role": "accent-2",
+      "value": "#e8e8e8",
+      "occurrences": 10,
+      "bgArea": null,
+      "usedAs": [
+        "border"
+      ],
+      "censusRoles": [],
+      "sourceSelectors": [
+        "index header > div:nth-of-type(2) > div (border)",
+        "apparel header > div:nth-of-type(2) > div (border)",
+        "cart header > div:nth-of-type(2) > div (border)"
+      ],
+      "sources": [
+        "index",
+        "apparel",
+        "cart"
+      ]
+    },
+    {
+      "role": "accent-3",
+      "value": "#666666",
+      "occurrences": 4,
+      "bgArea": null,
+      "usedAs": [
+        "text"
+      ],
+      "censusRoles": [],
+      "sourceSelectors": [
+        "customer-account div > form > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div > label (text)"
+      ],
+      "sources": [
+        "customer-account"
+      ]
+    },
+    {
+      "role": "accent-4",
+      "value": "#8f8f8f",
+      "occurrences": 4,
+      "bgArea": null,
+      "usedAs": [
+        "border"
+      ],
+      "censusRoles": [],
+      "sourceSelectors": [
+        "customer-account div > form > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div > input (border)"
+      ],
+      "sources": [
+        "customer-account"
+      ]
+    },
+    {
+      "role": "accent-5",
+      "value": "#e79f5c",
+      "occurrences": 4,
+      "bgArea": null,
+      "usedAs": [
+        "border"
+      ],
+      "censusRoles": [],
+      "sourceSelectors": [
+        "apparel div > div > div:nth-of-type(5) > div:nth-of-type(1) > div > div > div > div (border)",
+        "search div > div > div:nth-of-type(5) > div:nth-of-type(1) > div > div > div > div (border)"
+      ],
+      "sources": [
+        "apparel",
+        "search"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "adobe-clean",
+      "stack": "\"adobe-clean\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [
+        300,
+        700
+      ],
+      "sizes": [
+        "h1 60px/300",
+        "h3 34px/300",
+        "h2 20px/700"
+      ],
+      "usage": {
+        "family": "adobe-clean",
+        "count": 52,
+        "headings": 14,
+        "text": 32,
+        "buttons": 6
+      },
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3",
+        "h4"
+      ]
+    },
+    "bodyFamily": {
+      "name": "adobe-clean",
+      "stack": "\"adobe-clean\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [
+        300
+      ],
+      "sizes": [
+        "16px",
+        "14px"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li",
+        "a"
+      ]
+    },
+    "otherFamilies": [],
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.765,
+        1.7
+      ],
+      "matchedScale": null
+    },
+    "loadStrategy": null,
+    "files": [],
+    "licensing": {
+      "adobe-clean": "private"
+    }
+  },
+  "spacing": {
+    "baseUnit": null,
+    "scale": [
+      "--spacing-xxsmall: 4px",
+      "--spacing-xsmall: 8px",
+      "--spacing-small: 16px",
+      "--spacing-medium: 24px",
+      "--spacing-big: 32px",
+      "--spacing-xbig: 40px",
+      "--spacing-xxbig: 48px",
+      "--spacing-large: 64px",
+      "--spacing-xlarge: 72px",
+      "--spacing-xxlarge: 96px",
+      "--spacing-huge: 120px",
+      "--spacing-xhuge: 144px",
+      "--spacing-xxhuge: 192px"
+    ],
+    "sectionPadding": null,
+    "containerMaxWidth": null,
+    "gridGap": null,
+    "source": "home customProps (:root)"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "4px",
+      "secondary": "24px",
+      "pill": null,
+      "areaMode": "8px",
+      "primarySources": [
+        "index",
+        "apparel"
+      ],
+      "occurrences": {
+        "4px": 15,
+        "24px": 10,
+        "3px": 8,
+        "2px": 5,
+        "8px": 4
+      }
+    },
+    "shadows": [],
+    "gradients": [],
+    "patterns": []
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "backgroundColor": "rgb(69, 69, 69)",
+        "hover": {
+          "backgroundColor": "rgb(56, 56, 56)"
+        },
+        "count": 4,
+        "source": [
+          "cart div > div:nth-of-type(2) > div > div > div > div > div > a",
+          "cart div > div:nth-of-type(2) > div > div > div > div > div > a"
+        ]
+      },
+      "secondary": {
+        "color": "rgb(69, 69, 69)",
+        "borderColor": "rgb(69, 69, 69)",
+        "hover": {
+          "color": "rgb(56, 56, 56)",
+          "borderColor": "rgb(56, 56, 56)"
+        },
+        "count": 2,
+        "source": [
+          "index main > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2) > a",
+          "index main > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2) > a"
+        ]
+      }
+    },
+    "linkHover": [],
+    "dualCTAPattern": null,
+    "cards": null,
+    "inputs": null
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 6,
+      "headingSequence": [
+        "All Categories",
+        "Sign in",
+        "Boilerplate",
+        "Apparel",
+        "Log in",
+        "Registration",
+        "My Account",
+        "Create New Company Account",
+        "Quick Order",
+        "Combined Auth",
+        "Search Order"
+      ],
+      "ctaLabels": [
+        "Close navigation",
+        "Wishlist",
+        "Cart",
+        "Search",
+        "Click to show password",
+        "Forgot password?",
+        "Sign in",
+        "Logout"
+      ],
+      "domFingerprintHash": "sha256:1f2830a192a1ccd4",
+      "exampleSlug": "apparel",
+      "exampleSelector": "header",
+      "examplePages": [
+        "apparel",
+        "cart",
+        "customer-account",
+        "customer-login",
+        "index",
+        "search"
+      ]
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 6,
+      "headingSequence": [
+        "Privacy",
+        "Terms of Use",
+        "Cookie preferences",
+        "Do not sell my personal information",
+        "AdChoices"
+      ],
+      "ctaLabels": [],
+      "domFingerprintHash": "sha256:721f25491e722c1e",
+      "exampleSlug": "apparel",
+      "exampleSelector": "footer",
+      "examplePages": [
+        "apparel",
+        "cart",
+        "customer-account",
+        "customer-login",
+        "index",
+        "search"
+      ]
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Ready to go - B2B!",
+    "heroSubcopy": null,
+    "heroImage": {
+      "url": "https://main--supermicro--kmanns.aem.page/media_15aa45e90a36da2ef5b48972e82c24294c185a213.png?width=2000&format=webply&optimize=medium",
+      "alt": "",
+      "source": "img",
+      "intrinsic": "750x169",
+      "basis": "first non-logo image >= 100000 px2 in DOM order"
+    },
+    "heroMedium": null,
+    "primaryCTALabel": "Tutorial",
+    "ctaSamples": [
+      "Start shopping",
+      "Tutorial"
+    ],
+    "navItems": [
+      "All Categories",
+      "Sign in",
+      "Boilerplate",
+      "Apparel",
+      "Log in",
+      "Registration",
+      "My Account",
+      "Create New Company Account",
+      "Quick Order",
+      "Combined Auth",
+      "Search Order"
+    ],
+    "footerHeadings": [
+      "Privacy",
+      "Terms of Use",
+      "Cookie preferences",
+      "Do not sell my personal information",
+      "AdChoices"
+    ],
+    "firstParagraph": "Adjust the “fstab.yaml“ file to point to a folder either in your sharepoint or your Google drive. See the full tutorial"
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Boilerplate",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      },
+      {
+        "label": "Search Order",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      },
+      {
+        "label": "Search",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      },
+      {
+        "label": "Privacy",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      },
+      {
+        "label": "Terms of Use",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      },
+      {
+        "label": "Cookie preferences",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      },
+      {
+        "label": "Do not sell my personal information",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      },
+      {
+        "label": "AdChoices",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "closedListMatch": false
+      }
+    ],
+    "headingFrequency": [],
+    "toneMetrics": {
+      "headingsTotal": 8,
+      "headingsUppercasePercent": 0,
+      "distinctHeadings": 7,
+      "distinctCtaLabels": 12
+    }
+  },
+  "crossPromo": {
+    "detected": false,
+    "anchorHeading": null,
+    "cluster": null,
+    "pages": null,
+    "pageCount": null,
+    "totalPages": 6
+  },
+  "register": "ambiguous",
+  "registerBasis": "home is a marketing-style landing (hero + feature cards, no auth) while apparel/search/cart/login are tool surfaces (product grid with filters/sort, cart, sign-in form) — both indicator sets present"
+}

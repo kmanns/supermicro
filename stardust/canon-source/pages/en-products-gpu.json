@@ -1,0 +1,769 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-19T17:58:56.843Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "en-products-gpu",
+  "url": "https://www.supermicro.com/en/products/gpu",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-19T17:58:56.843Z",
+  "finalUrl": "https://www.supermicro.com/en/products/gpu",
+  "title": "GPU Servers For AI, Deep / Machine Learning & HPC | Supermicro",
+  "description": "Dive into Supermicro's GPU-accelerated servers, specifically engineered for AI, Machine Learning, and High-Performance Computing.",
+  "og": {
+    "title": "GPU Servers For AI, Deep / Machine Learning & HPC | Supermicro",
+    "description": "Dive into Supermicro's GPU-accelerated servers, specifically engineered for AI, Machine Learning, and High-Performance Computing.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Supermicro GPU Servers"
+    },
+    {
+      "tag": "h2",
+      "text": "Advanced architectures for rapid AI deployment"
+    },
+    {
+      "tag": "h2",
+      "text": "Supermicro GPU Servers"
+    },
+    {
+      "tag": "h3",
+      "text": "Liquid Cooled GPU Systems"
+    },
+    {
+      "tag": "h3",
+      "text": "Air Cooled GPU Systems"
+    },
+    {
+      "tag": "h3",
+      "text": "GH200: The Super-Server the US Government Doesn't Want You to Have!* ft. Supermicro ARS-111GL"
+    },
+    {
+      "tag": "h3",
+      "text": "What is the GB300 NVL72? It is the AI Factory, but who makes it?(Supermicro ofc)"
+    },
+    {
+      "tag": "h3",
+      "text": "Supermicro's Intermediate Server Rack System the B300"
+    },
+    {
+      "tag": "h3",
+      "text": "Supermicro JumpStart Review: A Week With an NVIDIA HGX B200"
+    },
+    {
+      "tag": "h2",
+      "text": "Gold Series"
+    },
+    {
+      "tag": "h2",
+      "text": "About us"
+    },
+    {
+      "tag": "h2",
+      "text": "News"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Connect & Follow"
+    }
+  ],
+  "body": [
+    "This website stores cookies on your computer to collect information about how you interact with our website and allow us to remember you. To find out more, see our Privacy Policy.",
+    "If you decline, a single cookie will be used in your browser to remember your preference not to be tracked.",
+    "Artificial Intelligence AI InfrastructureSupermicro delivers the broadest selection of AI systems and solutionsData Center Building Block Solutions® (DCBBS)AI SuperClusterFeatured: xAI ColossusAI FactoryEdge AIAI StorageAI Data PlatformData LakesIndustry AI SolutionsAI for RetailAI for TelcoAI for Financial ServicesFederal AI InfrastructureNVIDIA SolutionsNVIDIA Vera Rubin SolutionsNVIDIA Blackwell Architecture SolutionsNVIDIA RTX PRO™ Blackwell SolutionsSupermicro Super AI StationNVIDIA LaunchPadNVIDIA Hopper & Ada Lovelace SolutionsNVIDIA Jetson SolutionsAMD SolutionsRadeon™ Validated SystemsIntel SolutionsIntel Edge AIArm AGI Solutions AI Infrastructure Solutions Data Center Building Block Solutions® (DCBBS) AI SuperCluster Featured: xAI Colossus AI Factory Edge AI AI Storage Industry AI Solutions AI for Retail AI for Telco AI for Financial Services Federal AI Infrastructure AI Data Platform Data Lakes NVIDIA Solutions NVIDIA Solutions (Home) NVIDIA Vera Rubin Solutions NVIDIA Blackwell Architecture Solutions NVIDIA RTX PRO™ Blackwell Solutions Supermicro Super AI Station NVIDIA LaunchPad NVIDIA Hopper & Ada Lovelace Solutions NVIDIA Jetson Solutions AMD Solutions AMD Solutions (Home) Radeon™ Validated Systems Intel Solutions Intel Solutions (Home) Intel Edge AI Arm AGI Solutions",
+    "Products Servers & StorageBuilding BlocksEdge, Embedded & TelecomNetworkingClient Rackmount ServersSuperior Performance, Efficiency and Time-to-Market for Rapid Adoption Dual ProcessorThe industry's broadest portfolio of performance-optimized dual-processor servers for demanding workloads Single ProcessorThe industry’s broadest portfolio of single processor servers providing performance and efficiency Multi-Processor4 and 8-socket servers designed for extremely large in-memory computing and mission-critical applications GPU ServersBest GPU Servers for Modern Data Centers. The Most Comprehensive AI Systems Featuring the Latest Multi-GPU and Interconnect Technologies Liquid Cooled GPU SystemsIndustry-leading DLC technology driving AI innovation Air Cooled GPU SystemsLeading thermal innovation for traditional data center environments Twin ServersInnovative Multi-node Architectures with Reduced TCO and TCE Dual Processor Multi-NodesMaximum density configurations for HPC, cloud, and storage applications Single Processor Multi-NodesOptimized efficiency and single-processor performance for cloud, CDN, and hyperconverged applications Blade ServersHigh Performance, Density and Efficiency with Resource Saving Architecture SuperBlade®Highest Performance with Advanced Networking and NVMe MicroBlade®Highest Density, Energy-Efficiency and Value MicroCloudDense Multi-Node Solution for the Cloud Storage ServersScalable and Flexible NVMe and Hybrid Storage Architectures All Storage Systems All-Flash NVMeHighest Performing Storage Solutions for Advanced Computing Top-Loading StorageDensity Maximized Storage Systems Optimized for Software-Defined Data Centers JBOF Petascale Grace StoragePetascale All-Flash Array with NVIDIA Grace CPU Superchip and E3.S PCIe Gen5 SSDs Enterprise-Optimized StorageApplication Optimized High-Performance Storage Solutions JBOD Storage Enclosures Gold Series Servers Data Center Building Block Solutions® (DCBBS) Liquid Cooling (DLC-2) System Management Software Motherboards Server Boards Workstation Boards Embedded / IoT Boards Desktop / Gaming Boards Motherboard Matrix Global SKUs Chassis 1U Chassis 2U Chassis 3U Chassis 4U / Tower Chassis Mid / Mini-Tower Embedded / IoT Chassis Mobile Racks / Drive Kits JBOD Storage Enclosures Global SKUs SuperRack® Rack Integration Service Accessories Cable Matrix Riser Card Matrix Storage AOC Matrix Power Supply Matrix Heatsink Matrix System Fan Matrix Mobile Racks / Drive Kits Front Chassis Bezels Storage, I/O, Security All Products All Accessories Edge AI and IoT SystemsShort-depth and small form factor systems designed to deliver compute, AI, and connectivity performance to the edge of the networkCompact Edge SystemsSmall Form Factor Systems for Deployments AnywhereRackmount Edge ServersShort-depth Servers for Remote and Embedded WorkloadsEmbedded ComponentsMotherboards and chassis designed for high-density, high-performance computing performance in space-constrained and embedded use caseEmbedded MotherboardsMotherboards supporting high-performance, low-power processing to meet the needs of all types of embedded applicationsEmbedded ChassisChassis purpose-built for high-density computing in space-constrained environmentsGold Series Edge SystemsEdge AI SolutionsEdge AI & IoT Brochure Switches Standard Ethernet Switches Switch/OS Compatibility Adapters Add-on Cards 1G Ethernet10G Ethernet25G Ethernet100G Ethernet200G Ethernet400G EthernetInfiniBandFibre ChannelOmni-Path All Networking Products Cable/Transceiver Compatibility Cables Transceivers ClientPowerful graphics capabilities for rendering, image processing, scientific, and engineering applications SuperWorkstations Desktop Supero™ Gaming SolutionsServer quality, built for gaming – SUPERO systems by Supermicro are optimized for high performance and reliability, providing options for gamers at all levels Servers & Storage Rackmounts Rackmount Servers Dual Processor Single Processor Multi-Processor GPU Systems All GPU Systems Liquid Cooled GPU Systems Air Cooled GPU Systems Twin All Twin Products Dual Processor Multi-Node Single Processor Multi-Nodes Blades All Blade Products SuperBlade® MicroBlade® MicroCloud Storage All Storage Systems All-Flash NVMe Top-Loading Storage JBOF Enterprise-Optimized Storage JBOD Storage Enclosures Gold Series Servers Data Center Building Block Solutions® (DCBBS) Liquid Cooling (DLC-2) System Management Software Building Blocks Motherboards All Motherboard Products Server Boards Workstation Boards Embedded / IoT Boards Desktop / Gaming Boards Motherboard Matrix Chassis All Chassis Products 1U Chassis 2U Chassis 3U Chassis 4U / Tower Chassis Mid / Mini-Tower Embedded / IoT Chassis Mobile Racks / Drive Kits JBOD Storage Enclosures SuperRack® Supermicro Rack Series Rack Integration Service Accessories Cable Matrix Riser Card Matrix Storage AOC Matrix Power Supply Matrix Heatsink Matrix System Fan Matrix Mobile Racks / Drive Kits Front Chassis Bezels Storage, I/O, Security All Products All Accessories Edge, Embedded & Telecom Edge AI & IoT Systems All Edge AI & IoT Systems Compact Edge Systems Rackmount Edge Servers Embedded Components Embedded Motherboards Embedded Chassis Networking All Networking Products Networking Switches Networking Adapters Cable/Transceiver Compatibility Cables Transceivers Client SuperWorkstations Desktop Supero™ Gaming Solutions",
+    "Solutions IndustriesSupermicro solutions optimized for a wide variety of industrial applicationsFederalFinancial ServicesAI for Financial ServicesFSI SolutionsHealthcareManufacturingIoT Edge – ManufacturingMedia &EntertainmentRetailAMD Solutions for Retail AITelecomAI for Telco5G NetworkingTransportationHPCPlug-and-Play HPC cluster solutionsRack SolutionsLiquid CoolingData ManagementTCO Optimized Design, high density and scaling architecture to manage and protect your dataAI StorageAI Data PlatformData LakesSoftware-Defined Storage and MemoryHyperconverged InfrastructureAzure LocalSteelDome HyperServ™VMware vSANVeeamData Analytics & Enterprise ApplicationsPurpose-Built Scalable Compute for Structured and Unstructured Data AnalyticsData EngineeringDatabase & ERPMicrosoftCloud & VirtualizationComplete Solutions to Build Flexible Cloud Environments and Accelerate Digital TransformationCloud Service Providers (CSPs)IT / Hosting ServicesAMD SolutionGoogle Distributed CloudCanonical OpenStackRed Hat OpenStackKubernetesCanonical KubernetesRed Hat OpenShiftVirtual Desktop5G, IoT, and Edge ComputingOptimized Solutions for 5G Networks and Intelligent Device ManagementTelecom Solutions5G SolutionsAI for TelcoIoT Edge SolutionsHealthcareManufacturingRetailTransportationEdge AIHyperscale InfrastructureDesigned for the massively-scalable modern Data CenterOCP SolutionSuperCloud Composer® (SCC) Industries Federal Financial Services AI for Financial Services FSI Solutions Healthcare Manufacturing Manufacturing (Home) IoT Edge – Manufacturing Media & Entertainment Retail Retail (Home) AMD Solutions for Retail AI Telecom Telecom (Home) AI for Telco 5G Networking Transportation HPC HPC Solutions Rack Solutions Liquid Cooling Data Management AI Storage AI Data Platform Data Lakes Software-Defined Storage and Memory Hyperconverged Infrastructure Azure Local SteelDome HyperServ™ VMware vSAN Veeam Enterprise Applications & Data Analytics Data Engineering Database & ERP Microsoft Red Hat Product Guide (.pdf) NETINT 4K Real-Time Streaming (.pdf) Cloud & Virtualization Cloud Service Providers (CSPs) IT / Hosting Services AMD Solution Google Distributed Cloud Canonical OpenStack Red Hat OpenStack Kubernetes Canonical Kubernetes Red Hat OpenShift Virtual Desktop 5G, Edge Computing, and IoT Telecom Solutions Telecom Solutions (Home) 5G Solutions AI for Telco IoT Edge Solutions Healthcare Manufacturing Retail Transportation Edge AI Hyperscale Infrastructure OCP Solution SuperCloud Composer® (SCC)",
+    "Company About Us Careers Green Computing Contact Investor Relations Policies News & Events Press Releases Supermicro in the News Product Reviews Events Webinars Resources White Papers Solution Briefs Success Stories Product Briefs About About Us Careers Green Computing Contact Investor Relations Policies News Press Releases Supermicro in the News Product Reviews Events Webinars All News Resources White Papers Success Stories Thought Leadership Product Briefs All Resources",
+    "Support Support FAQs Security Center Technical Support Technical Resources Resources & Downloads Management Software Download Manuals Quick-Reference Guides Product Matrices (historical product lists) Services Onsite Services RMA Warranty Information Partners (MySupermicro) Partner Portal Where to Buy Resources Services and Support – Home Support FAQs Security Center Technical Support Services Onsite Services RMA Warranty Information Technical Resources Technical Resources – Home Downloads Management Software Download Manuals Quick Reference Guides Product Matrices (historical product lists) Partners (MySupermicro) Partner Portal Where to Buy Resources",
+    "Buy eStoreSupermicro online storeBuy from Our PartnersFind a Supermicro Authorized Partner eStore Buy from Our Partners",
+    "Portfolio Overview",
+    "Portfolio",
+    "Resources",
+    "Industry-leading DLC technology driving AI innovation",
+    "Leading thermal innovation for traditional data center environments",
+    "Need help? Our team is here to help you find the right solution for your business.",
+    "Certain products may not be available in your region",
+    "Get fast delivery of pre-built Supermicro servers optimized for a wide range of workloads",
+    "Learn More",
+    "Home",
+    "Products",
+    "GPU Servers For AI, Deep / Machine Learning & HPC"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.supermicro.com/en/about/policies/privacy"
+    },
+    {
+      "label": "Accept",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Decline",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Artificial Intelligence",
+      "href": "/en/solutions/ai-servers"
+    },
+    {
+      "label": "Products",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Solutions",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Company",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Support",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Buy",
+      "href": "?mlg=0"
+    },
+    {
+      "label": "Portfolio Overview",
+      "href": "#portfolio"
+    },
+    {
+      "label": "Portfolio",
+      "href": "#portfolio"
+    },
+    {
+      "label": "Resources",
+      "href": "#resources"
+    },
+    {
+      "label": "Explore More",
+      "href": "/en/products/gpu/liquid-cooled"
+    },
+    {
+      "label": "Explore More",
+      "href": "/en/products/gpu/air-cooled"
+    },
+    {
+      "label": "Check out the Product Review",
+      "href": "https://www.youtube.com/watch?v=13C_QI-e8HI"
+    },
+    {
+      "label": "Check out the Product Review",
+      "href": "https://www.youtube.com/watch?v=zENjMTLcCTM"
+    },
+    {
+      "label": "Check out the Product Review",
+      "href": "https://www.youtube.com/watch?v=3_OQmSjLg3E"
+    },
+    {
+      "label": "Check out the Product Review",
+      "href": "https://www.storagereview.com/review/supermicro-jumpstart-review-a-week-with-an-nvidia-hgx-b200"
+    },
+    {
+      "label": "×",
+      "href": null
+    },
+    {
+      "label": "×",
+      "href": null
+    },
+    {
+      "label": "Learn More",
+      "href": "/en/products/gold-series"
+    },
+    {
+      "label": "Home",
+      "href": "/en"
+    },
+    {
+      "label": "Company Profile",
+      "href": "/en/about"
+    },
+    {
+      "label": "Green Computing",
+      "href": "/en/about/green-computing"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://ir.supermicro.com/"
+    },
+    {
+      "label": "Careers",
+      "href": "/en/jobs"
+    },
+    {
+      "label": "Site Map",
+      "href": "/en/about/sitemap"
+    },
+    {
+      "label": "Glossary",
+      "href": "/en/glossary"
+    },
+    {
+      "label": "Press Releases",
+      "href": "/en/newsroom/pressreleases"
+    },
+    {
+      "label": "Supermicro in the News",
+      "href": "/en/newsroom/news"
+    },
+    {
+      "label": "Product Reviews",
+      "href": "/en/newsroom/product-reviews"
+    },
+    {
+      "label": "Press Kits",
+      "href": "/en/newsroom/press-kits"
+    },
+    {
+      "label": "Events",
+      "href": "/en/newsroom#events"
+    },
+    {
+      "label": "Webinars",
+      "href": "/en/newsroom/webinars"
+    },
+    {
+      "label": "Brochures",
+      "href": "/en/resources?type%5BBrochure%5D=Brochure"
+    },
+    {
+      "label": "Product Briefs",
+      "href": "/en/resources?type%5BProduct+Brief%5D=Product+Brief"
+    },
+    {
+      "label": "Solution Briefs",
+      "href": "/en/resources?type%5BSolution+Brief%5D=Solution+Brief"
+    },
+    {
+      "label": "Success Stories",
+      "href": "/en/resources?type%5BSuccess+Story%5D=Success+Story"
+    },
+    {
+      "label": "Videos",
+      "href": "/en/resources?type%5BVideo%5D=Video"
+    },
+    {
+      "label": "White Papers",
+      "href": "/en/resources?type%5BWhite+Paper%5D=White+Paper"
+    },
+    {
+      "label": "Thought Leadership",
+      "href": "/en/resources?type%5BThought+Leadership%5D=Thought+Leadership"
+    },
+    {
+      "label": "Validated Designs",
+      "href": "/en/resources?type%5BValidated+Design%5D=Validated+Design"
+    },
+    {
+      "label": "MySupermicro",
+      "href": "/en/mysupermicro"
+    },
+    {
+      "label": "Blog",
+      "href": "https://learn-more.supermicro.com/data-center-stories"
+    },
+    {
+      "label": "Support Home",
+      "href": "/en/support"
+    },
+    {
+      "label": "Onsite Services",
+      "href": "/en/support/onsite-services"
+    },
+    {
+      "label": "Technical Support",
+      "href": "https://webpr3.supermicro.com/SupportPortal/"
+    },
+    {
+      "label": "RMA",
+      "href": "/en/support/rma"
+    },
+    {
+      "label": "System Management",
+      "href": "/en/support/resources/downloadcenter/smsdownload"
+    },
+    {
+      "label": "Product Resources",
+      "href": "/en/support/product-resources"
+    },
+    {
+      "label": "Security Center",
+      "href": "/en/support/security_center"
+    },
+    {
+      "label": "Warranty Policy",
+      "href": "/en/support/warranty"
+    },
+    {
+      "label": "FAQs",
+      "href": "/FAQ/index.php?mlg=0"
+    },
+    {
+      "label": "Locations",
+      "href": "/en/about/contact"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/en/contact/feedback"
+    },
+    {
+      "label": "Newsletter Sign-up",
+      "href": "/en/news/newsletter-sign-up"
+    },
+    {
+      "label": "Click for Logo Guidelines",
+      "href": "/manuals/SUPERMICRO_Logo_Guidelines.pdf"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/en/about/policies/privacy"
+    },
+    {
+      "label": "Anti-Slavery and Human Trafficking Statement",
+      "href": "/about/policies/Anti-Slavery_Human_Trafficking_Statement.pdf"
+    }
+  ],
+  "links": [
+    "https://www.supermicro.com/en/about/policies/privacy",
+    "javascript:void(0);",
+    "https://www.supermicro.com/en/products/gpu#main-content",
+    "https://www.supermicro.com/en/",
+    "https://www.supermicro.com/en/solutions/ai-servers",
+    "https://www.supermicro.com/en/solutions/dcbbs",
+    "https://www.supermicro.com/en/solutions/ai-supercluster",
+    "https://www.supermicro.com/en/featured/xai-colossus",
+    "https://www.supermicro.com/en/accelerators/nvidia/ai-factory",
+    "https://www.supermicro.com/en/solutions/edge-ai",
+    "https://www.supermicro.com/en/solutions/ai-storage",
+    "https://www.supermicro.com/en/solutions/ai-storage/nvidia-ai-data-platform",
+    "https://www.supermicro.com/en/solutions/ai-storage/data-lakes",
+    "https://www.supermicro.com/en/solutions/retail",
+    "https://www.supermicro.com/en/solutions/ai/telco",
+    "https://www.supermicro.com/en/solutions/ai/finance",
+    "https://www.supermicro.com/en/solutions/ai/federal",
+    "https://www.supermicro.com/en/accelerators/nvidia",
+    "https://www.supermicro.com/en/accelerators/nvidia/vera-rubin",
+    "https://www.supermicro.com/en/accelerators/nvidia/blackwell",
+    "https://www.supermicro.com/en/accelerators/nvidia/supermicro-rtx-pro-bse",
+    "https://www.supermicro.com/en/accelerators/nvidia/super-ai-station",
+    "https://www.supermicro.com/en/accelerators/nvidia/launchpad",
+    "https://www.supermicro.com/en/accelerators/nvidia/hopper-ada-lovelace",
+    "https://www.supermicro.com/en/products/nvidia-jetson",
+    "https://www.supermicro.com/en/accelerators/amd",
+    "https://www.supermicro.com/en/accelerators/amd/radeon-validated-systems",
+    "https://www.supermicro.com/en/accelerators/intel",
+    "https://www.supermicro.com/en/products/intel-edge-ai",
+    "https://www.supermicro.com/en/solutions/arm-agi",
+    "https://www.supermicro.com/en/products/gpu?mlg=0",
+    "https://www.supermicro.com/accelerators/nvidia/blackwell?mlg=0",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/0",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/1",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/2",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/3",
+    "https://www.supermicro.com/en/quicktabs/nojs/products_menu_enterprise/4",
+    "https://www.supermicro.com/en/products/rackmount",
+    "https://www.supermicro.com/en/products/dual-processor",
+    "https://www.supermicro.com/en/products/single-processor",
+    "https://www.supermicro.com/en/products/mp",
+    "https://www.supermicro.com/en/products/gpu",
+    "https://www.supermicro.com/en/products/gpu/liquid-cooled",
+    "https://www.supermicro.com/en/products/gpu/air-cooled",
+    "https://www.supermicro.com/en/products/twin",
+    "https://www.supermicro.com/en/products/twin/dual-processor",
+    "https://www.supermicro.com/en/products/twin/single-processor",
+    "https://www.supermicro.com/en/products/blade",
+    "https://www.supermicro.com/en/products/superblade",
+    "https://www.supermicro.com/en/products/microblade",
+    "https://www.supermicro.com/en/products/microcloud",
+    "https://www.supermicro.com/en/products/storage",
+    "https://www.supermicro.com/en/products/nvme",
+    "https://www.supermicro.com/en/products/top-loading-storage",
+    "https://www.supermicro.com/en/products/jbof",
+    "https://www.supermicro.com/en/products/petascale-grace-storage",
+    "https://www.supermicro.com/en/products/general-purpose-storage",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dfeature%26feature%3DJBOD",
+    "https://www.supermicro.com/en/products/gold-series",
+    "https://www.supermicro.com/en/solutions/liquid-cooling",
+    "https://www.supermicro.com/en/solutions/management-software",
+    "https://store.supermicro.com/?utm_source=corp_menu&utm_medium=referral",
+    "https://www.supermicro.com/en/products/motherboards",
+    "https://www.supermicro.com/en/products/motherboards/server-boards",
+    "https://www.supermicro.com/en/products/motherboards/workstation-boards",
+    "https://www.supermicro.com/en/products/motherboards/embedded-iot-boards",
+    "https://www.supermicro.com/en/products/motherboards/desktop-gaming-boards",
+    "https://www.supermicro.com/en/products/motherboards/matrix",
+    "https://www.supermicro.com/en/products/SMC_Global_skus#motherboards",
+    "https://www.supermicro.com/en/products/chassis",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D1U%2CMini-1U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D2U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D3U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D4U",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3DMid-Tower%2CMini-Tower%2CCompact%20Mini-Tower",
+    "https://www.supermicro.com/en/products/chassis/embedded-iot",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dfeature%26feature%3DMobile%20Rack",
+    "https://www.supermicro.com/en/products/SMC_Global_skus#chassis",
+    "https://www.supermicro.com/en/products/rack",
+    "https://www.supermicro.com/en/solutions/rack-integration",
+    "https://www.supermicro.com/en/products/accessories",
+    "https://www.supermicro.com/en/support/resources/cable",
+    "https://www.supermicro.com/en/support/resources/riser",
+    "https://www.supermicro.com/en/products/storage/cards",
+    "https://www.supermicro.com/en/support/resources/pws",
+    "https://www.supermicro.com/en/support/resources/heatsink",
+    "https://www.supermicro.com/en/support/resources/thermal",
+    "https://www.supermicro.com/en/products/chassis?pro=feature%3DMobile%20Rack",
+    "https://www.supermicro.com/en/support/resources/bezels",
+    "https://www.supermicro.com/en/products/accessories/type",
+    "https://www.supermicro.com/en/support/product-matrices",
+    "https://www.supermicro.com/en/products/edge/servers",
+    "https://www.supermicro.com/en/products/edge/compact-edge-systems",
+    "https://www.supermicro.com/en/products/edge/rackmount-edge-servers",
+    "https://www.supermicro.com/en/products/gold-series#intelligent-edge",
+    "https://www.supermicro.com/manuals/brochure/Brochure_Edge-AI-IoT.pdf",
+    "https://www.supermicro.com/en/products/networking/switches",
+    "https://www.supermicro.com/en/products/networking/switches#standard",
+    "https://www.supermicro.com/en/products/networking/switches#compatibility",
+    "https://www.supermicro.com/en/products/networking/adapters",
+    "https://www.supermicro.com/en/products/networking/adapters?type=208#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=207#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=209#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=261#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=290#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=295#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=210#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=254#product_list",
+    "https://www.supermicro.com/en/products/networking/adapters?type=341#product_list",
+    "https://www.supermicro.com/en/products/networking",
+    "https://www.supermicro.com/en/support/resources/aoc/cables-transceivers",
+    "https://store.supermicro.com/cable/networking.html",
+    "https://store.supermicro.com/transceiver.html",
+    "https://www.supermicro.com/en/products/client",
+    "https://www.supermicro.com/en/products/superworkstation",
+    "https://www.supermicro.com/en/products/client-systems",
+    "https://www.supermicro.com/en/products/SuperO",
+    "https://www.supermicro.com/en/products/chassis?pro=filter%3Dformfactor%26formfactor%3D1U",
+    "https://www.supermicro.com/en/products/gpu#",
+    "https://www.supermicro.com/en/solutions/finance",
+    "https://www.supermicro.com/en/solutions/iot-edge/healthcare",
+    "https://www.supermicro.com/en/solutions/manufacturing",
+    "https://www.supermicro.com/en/solutions/iot-edge/manufacturing",
+    "https://www.supermicro.com/en/featured/media-entertainment",
+    "https://www.supermicro.com/en/solutions/ai/retail/amd",
+    "https://www.supermicro.com/en/solutions/telco",
+    "https://www.supermicro.com/en/solutions/5g",
+    "https://www.supermicro.com/en/solutions/iot-edge/transportation",
+    "https://www.supermicro.com/en/solutions/high-performance-computing",
+    "https://www.supermicro.com/en/solutions/software-defined-storage",
+    "https://www.supermicro.com/en/solutions/azure-local",
+    "https://www.supermicro.com/en/solutions/steeldome",
+    "https://www.supermicro.com/en/solutions/vmware-vsan",
+    "https://www.supermicro.com/en/solutions/veeam",
+    "https://www.supermicro.com/en/solutions/data-engineering",
+    "https://www.supermicro.com/en/solutions/database-erp",
+    "https://www.supermicro.com/en/solutions/data-management",
+    "https://www.supermicro.com/en/solutions/csp",
+    "https://www.supermicro.com/en/featured/epyc4004",
+    "https://www.supermicro.com/en/solutions/google-distributed-cloud-virtual",
+    "https://www.supermicro.com/en/solutions/canonical",
+    "https://www.supermicro.com/en/solutions/red-hat-openstack",
+    "https://www.supermicro.com/en/solutions/kubernetes-canonical",
+    "https://www.supermicro.com/en/solutions/red-hat-openshift",
+    "https://www.supermicro.com/en/accelerators/nvidia/vgpu",
+    "https://www.supermicro.com/en/solutions/iot-edge",
+    "https://www.supermicro.com/en/solutions/ocp",
+    "https://www.supermicro.com/en/solutions/management-software/supercloud-composer",
+    "https://www.supermicro.com/solutions/Product_Guide_RedHat-SMCI.pdf?mlg=0",
+    "https://www.supermicro.com/solutions/Solution-Brief_NETINT_4K_Streaming.pdf?mlg=0",
+    "https://www.supermicro.com/featured/epyc4004?mlg=0",
+    "https://www.supermicro.com/en/about",
+    "https://www.supermicro.com/en/jobs",
+    "https://www.supermicro.com/en/about/green-computing",
+    "https://www.supermicro.com/en/about/contact",
+    "https://ir.supermicro.com/",
+    "https://www.supermicro.com/en/about/policies",
+    "https://www.supermicro.com/en/newsroom",
+    "https://www.supermicro.com/en/newsroom/pressreleases",
+    "https://www.supermicro.com/en/newsroom/news",
+    "https://www.supermicro.com/en/newsroom/product-reviews",
+    "https://www.supermicro.com/en/newsroom#events",
+    "https://www.supermicro.com/en/newsroom/webinars",
+    "https://www.supermicro.com/en/resources",
+    "https://www.supermicro.com/en/resources?type%5BWhite+Paper%5D=White+Paper",
+    "https://www.supermicro.com/en/resources?type%5BSolution+Brief%5D=Solution+Brief",
+    "https://www.supermicro.com/en/resources?type%5BSuccess+Story%5D=Success+Story",
+    "https://www.supermicro.com/en/resources?type%5BProduct+Brief%5D=Product+Brief",
+    "https://www.supermicro.com/en/resources?type%5BWhite%20Paper%5D=White%20Paper",
+    "https://www.supermicro.com/en/resources?type%5BSuccess%20Story%5D=Success%20Story",
+    "https://www.supermicro.com/en/resources?type%5BThought%20Leadership%5D=Thought%20Leadership",
+    "https://www.supermicro.com/en/resources?type%5BProduct%20Brief%5D=Product%20Brief",
+    "https://www.supermicro.com/en/support",
+    "https://www.supermicro.com/FAQ/index.php?utm_source=corp&utm_medium=support&mlg=0",
+    "https://www.supermicro.com/en/support/security_center",
+    "https://webpr3.supermicro.com/SupportPortal/",
+    "https://www.supermicro.com/en/support/product-resources",
+    "https://www.supermicro.com/en/support/resources/downloadcenter/swdownload",
+    "https://www.supermicro.com/en/support/resources/downloadcenter/smsdownload",
+    "https://www.supermicro.com/support/manuals/?mlg=0",
+    "https://www.supermicro.com/support/quickrefs/?mlg=0",
+    "https://www.supermicro.com/en/support/onsite-services",
+    "https://www.supermicro.com/en/support/rma",
+    "https://www.supermicro.com/en/support/warranty",
+    "https://www.supermicro.com/en/mysupermicro",
+    "https://www.supermicro.com/en/wheretobuy?utm_source=corp&utm_medium=wheretobuy",
+    "https://www.supermicro.com/support/manuals?mlg=0",
+    "https://www.supermicro.com/support/quickrefs?mlg=0",
+    "https://www.supermicro.com/en/support/product-matrices?utm_source=corp&utm_medium=matrix",
+    "https://store.supermicro.com/?utm_source=corp_header&utm_medium=referral",
+    "https://www.supermicro.com/en/products/gpu#portfolio",
+    "https://www.supermicro.com/en/products/gpu#resources",
+    "https://www.youtube.com/watch?v=13C_QI-e8HI",
+    "https://www.youtube.com/watch?v=zENjMTLcCTM",
+    "https://www.youtube.com/watch?v=3_OQmSjLg3E",
+    "https://www.storagereview.com/review/supermicro-jumpstart-review-a-week-with-an-nvidia-hgx-b200",
+    "https://www.supermicro.com/white_paper/white_paper_Intel_TDX.pdf",
+    "https://www.supermicro.com/CaseStudies/Success_Story_Sakura_Internet_Koukaryoku.pdf",
+    "https://www.servethehome.com/supermicro-sys-821ge-tnhr-8x-nvidia-h200-gpu-air-cooled-bluefield-intel-xeon-astera-broadcom/",
+    "https://www.supermicro.com/white_paper/white_paper_Gaudi3_Reference_Archtecture.pdf",
+    "https://www.supermicro.com/products/brief/Product-Brief-Gaudi3.pdf",
+    "https://www.supermicro.com/CaseStudies/Success_Story_Lamini.pdf",
+    "https://www.supermicro.com/solutions/Solution_Brief_SMCI_Ansys_LS_DYNA.pdf",
+    "https://www.supermicro.com/CaseStudies/Success_Story_AppliedDigital.pdf",
+    "https://www.storagereview.com/review/supermicro-4u-amd-epyc-gpu-servers-offer-ai-flexibility-as-4125gs-tnrt",
+    "https://www.supermicro.com/solutions/Solution_Brief_Supermicro_Nvidia.pdf",
+    "https://www.servethehome.com/a-look-at-the-liquid-cooled-supermicro-sys-821ge-tnhr-8x-nvidia-h100-ai-server/",
+    "https://www.supermicro.com/products/brief/product-brief-GPU-Servers-Root-Explained.pdf",
+    "https://www.supermicro.com/CaseStudies/Success_Story_Pegaso_Press_Releasee_TOP500.pdf",
+    "https://www.supermicro.com/solutions/Solution-Brief_ProphetStor.pdf",
+    "https://www.supermicro.com/CaseStudies/Success_Story_Seeweb.pdf",
+    "https://www.supermicro.com/datasheet/datasheet_H12_UniversalGPU.pdf",
+    "https://www.youtube.com/watch?v=GrOsiCZ9MVE",
+    "https://www.supermicro.com/datasheet/datasheet_H12_4UGPU.pdf",
+    "https://www.supermicro.com/datasheet/datasheet_H12_2U2NodeGPU.pdf",
+    "https://www.supermicro.com/CaseStudies/Success_Story_NEC-AI.pdf",
+    "https://www.servethehome.com/hybrid-2u2n-gpu-workstation-server-platform-supermicro-sys-210gp-dnr-intel-nvidia/",
+    "https://www.servethehome.com/supermicro-sys-220gq-tnar-a-nvidia-redstone-2u-server-intel-xeon-ice-lake/",
+    "https://www.supermicro.com/manuals/brochure/brochure_SuperServer.pdf",
+    "https://www.supermicro.com/solutions/Solution-Brief_NVIDIA_HGX_A100_VCS.pdf",
+    "https://www.supermicro.com/white_paper/white_paper_NVIDIA-VDI.pdf",
+    "https://www.supermicro.com/white_paper/white_paper_1U_4GPU_Server.pdf",
+    "https://www.supermicro.com/en",
+    "https://www.supermicro.com/en/contact",
+    "https://www.supermicro.com/en/about/sitemap",
+    "https://www.supermicro.com/en/glossary",
+    "https://www.supermicro.com/en/newsroom/press-kits",
+    "https://www.supermicro.com/en/resources?type%5BBrochure%5D=Brochure",
+    "https://www.supermicro.com/en/resources?type%5BVideo%5D=Video",
+    "https://www.supermicro.com/en/resources?type%5BThought+Leadership%5D=Thought+Leadership",
+    "https://www.supermicro.com/en/resources?type%5BValidated+Design%5D=Validated+Design",
+    "https://learn-more.supermicro.com/data-center-stories",
+    "https://www.supermicro.com/FAQ/index.php?mlg=0",
+    "https://www.supermicro.com/en/contact/feedback",
+    "https://www.supermicro.com/en/news/newsletter-sign-up",
+    "https://www.facebook.com/Supermicro",
+    "https://x.com/Supermicro",
+    "https://www.linkedin.com/company/supermicro",
+    "https://www.instagram.com/supermicro_smci/",
+    "https://www.youtube.com/supermicro",
+    "https://www.supermicro.com/manuals/SUPERMICRO_Logo_Guidelines.pdf",
+    "https://www.supermicro.com/about/policies/Anti-Slavery_Human_Trafficking_Statement.pdf",
+    "javascript:void(0)"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.supermicro.com/sites/default/files/Super_Micro_Computer_Logo.svg",
+        "alt": "Home",
+        "w": 283,
+        "h": 150
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/icons/estore_logo.svg",
+        "alt": "eStore",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/lp3/gpu/liquid-cooled-gpu-systems.png",
+        "alt": "Supermicro Liquid Cooled GPU Systems",
+        "w": 800,
+        "h": 500
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/lp3/gpu/air-cooled-gpu-systems.png",
+        "alt": "Supermicro Air Cooled GPU Systems",
+        "w": 800,
+        "h": 500
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2026-08/GH200.png",
+        "alt": "Thumbnail: Product Review – GH200: The Super-Server the US Government Doesn't Want You to Have!* ft. Supermicro ARS-111GL",
+        "w": 654,
+        "h": 411
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2026-08/NVL72.png",
+        "alt": "Thumbnail: Product Review – What is the GB300 NVL72? It is the AI Factory, but who makes it?(Supermicro ofc)",
+        "w": 654,
+        "h": 409
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2026-08/B300.png",
+        "alt": "Thumbnail: Product Review – Supermicro's Intermediate Server Rack System the B300",
+        "w": 654,
+        "h": 367
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2025-12/Jumpstart.jpg",
+        "alt": "Thumbnail: Product Review – Supermicro JumpStart Review: A Week With an NVIDIA HGX B200",
+        "w": 654,
+        "h": 368
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2026-07/white_paper_Intel_TDX.png",
+        "alt": "Thumbnail: Intel TDX White Paper",
+        "w": 654,
+        "h": 435
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2025-05/Success_Story_Sakura_Internet_Koukaryoku.png",
+        "alt": "Thumbnail: Sakura Internet Koukaryoku Success Story",
+        "w": 654,
+        "h": 489
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2025-01/SYS-821GE-TNHR.jpg",
+        "alt": "Thumbnail: Product Review – Supermicro SYS-821GE-TNHR 8x NVIDIA H200 GPU Air Cooled AI Server",
+        "w": 654,
+        "h": 432
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2024-10/white_paper_Gaudi3_Reference_Archtecture.png",
+        "alt": "Thumbnail: White Paper – Supermicro with GAUDI 3 AI Delivers Scalable Performance for AI Requirements",
+        "w": 654,
+        "h": 489
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2024-09/Product-Brief-Gaudi3.png",
+        "alt": "Thumbnail: Product Brief – Supermicro and Intel GAUDI 3 Systems Advance Enterprise AI Infrastructure",
+        "w": 654,
+        "h": 489
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2024-07/Success_Story_Lamini.JPG",
+        "alt": "Thumbnail: Success Story – Lamini Chooses Supermicro GPU Servers For LLM Tuning Offering",
+        "w": 654,
+        "h": 489
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/2024-10/Solution_Brief_SMCI_Ansys_LS_DYNA.png",
+        "alt": "Thumbnail: Solution Brief – Supermicro Grace System Delivers 4X Performance For ANSYS® LS-DYNA®",
+        "w": 654,
+        "h": 435
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/video_thumbnails/fX5S3fc2fVw.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/video_thumbnails/1Q1MsPAn1N8.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 720
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/video_thumbnails/cCXJoWHzfog.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 720
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/video_thumbnails/PzYCnUx-ISw.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 720
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/video_thumbnails/nhzEDhm8wSo.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/icons/social/social-icon-white-email.svg",
+        "alt": "Envelope Icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/icons/social/social-icon-white-facebook.svg",
+        "alt": "Facebook Icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/icons/social/social-icon-white-x.svg",
+        "alt": "X (formerly Twitter) Icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/icons/social/social-icon-white-linkedin.svg",
+        "alt": "LinkedIn Icon",
+        "w": 131,
+        "h": 150
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/icons/social/social-icon-white-instagram.svg",
+        "alt": "Instagram Icon",
+        "w": 131,
+        "h": 150
+      },
+      {
+        "src": "https://www.supermicro.com/sites/default/files/content_resources/static_resources/icons/social/social-icon-white-youtube.svg",
+        "alt": "YouTube Icon",
+        "w": 169,
+        "h": 150
+      }
+    ],
+    "allImgCount": 55,
+    "cssBackgrounds": [
+      "https://www.supermicro.com/sites/default/files/content_resources/2026-08/13_2026-GPU-3-0_GPU-Main-1_v1_R01.jpg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 14,
+    "mainTextLen": 40951,
+    "realImageCount": 26,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/en-products-gpu.png",
+  "renderedHtml": "pages/en-products-gpu.html"
+}

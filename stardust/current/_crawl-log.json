@@ -1,0 +1,53 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 6,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://main--supermicro--kmanns.aem.page/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "h1 \"Ready to go - B2B!\" over dark starry hero <img>; 10 imgs accounted for; cssBackgrounds 0 is correct (img hero); logo is text \"Boilerplate\"; header shows Catalog / Account / Search Order links plus wishlist, mini-cart, search, account icons"
+    },
+    {
+      "slug": "apparel",
+      "verdict": "ok",
+      "notes": "h1 \"Apparel\" above empty product grid with \"Your search returned no results.\" alert; catalog returns no products"
+    },
+    {
+      "slug": "search",
+      "verdict": "ok",
+      "notes": "empty-results alert only, no heading (matches headings=[])"
+    },
+    {
+      "slug": "cart",
+      "verdict": "ok",
+      "notes": "h1 \"Shopping Cart\", empty-cart card, h2 \"Your cart is empty\", dark pill \"Start shopping\""
+    },
+    {
+      "slug": "customer-login",
+      "verdict": "ok",
+      "notes": "Sign in form: Email, Password with show/hide, Forgot password? link, dark Sign in button"
+    },
+    {
+      "slug": "customer-account",
+      "verdict": "ok",
+      "notes": "logged-out redirect to /customer/login; pixel-identical to customer-login; account UI unverified"
+    }
+  ]
+}

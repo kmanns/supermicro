@@ -1,0 +1,557 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-19T18:12:33.861Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/DESIGN.md"
+    ],
+    "synthesizedInputs": [],
+    "mode": "descriptive (current state, not target)",
+    "stardustVersion": "0.29.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T18:12:33.862Z",
+  "title": "Design System: Supermicro storefront (current state)",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "background",
+        "value": "#ffffff",
+        "usedAs": [
+          "background",
+          "text"
+        ],
+        "occurrences": 77,
+        "sources": [
+          "index",
+          "cart",
+          "customer-account"
+        ]
+      },
+      "text-primary": {
+        "role": "text-primary",
+        "value": "#3d3d3d",
+        "usedAs": [
+          "text",
+          "background",
+          "border"
+        ],
+        "occurrences": 184,
+        "sources": [
+          "index",
+          "customer-account",
+          "apparel"
+        ]
+      },
+      "border": {
+        "role": "border",
+        "value": "#b8b8b8",
+        "usedAs": [
+          "border"
+        ],
+        "occurrences": 14,
+        "sources": [
+          "index"
+        ]
+      },
+      "accent-1": {
+        "role": "accent-1",
+        "value": "#2b2b2b",
+        "usedAs": [
+          "text"
+        ],
+        "occurrences": 10,
+        "sources": [
+          "index",
+          "apparel",
+          "cart"
+        ]
+      },
+      "accent-2": {
+        "role": "accent-2",
+        "value": "#e8e8e8",
+        "usedAs": [
+          "border"
+        ],
+        "occurrences": 10,
+        "sources": [
+          "index",
+          "apparel",
+          "cart"
+        ]
+      },
+      "accent-3": {
+        "role": "accent-3",
+        "value": "#666666",
+        "usedAs": [
+          "text"
+        ],
+        "occurrences": 4,
+        "sources": [
+          "customer-account"
+        ]
+      },
+      "accent-4": {
+        "role": "accent-4",
+        "value": "#8f8f8f",
+        "usedAs": [
+          "border"
+        ],
+        "occurrences": 4,
+        "sources": [
+          "customer-account"
+        ]
+      },
+      "accent-5": {
+        "role": "accent-5",
+        "value": "#e79f5c",
+        "usedAs": [
+          "border"
+        ],
+        "occurrences": 4,
+        "sources": [
+          "apparel",
+          "search"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "heading": {
+        "family": "adobe-clean",
+        "sizes": [
+          "h1 60px/300",
+          "h3 34px/300",
+          "h2 20px/700"
+        ],
+        "weights": [
+          300,
+          700
+        ]
+      },
+      "body": {
+        "family": "adobe-clean",
+        "sizes": [
+          "16px",
+          "14px"
+        ],
+        "weights": [
+          300
+        ]
+      },
+      "other": [],
+      "scaleAudit": {
+        "kind": "ad-hoc",
+        "ratios": [
+          1.765,
+          1.7
+        ],
+        "matchedScale": null
+      },
+      "licensing": {
+        "adobe-clean": "private"
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "backgroundColor": "rgb(69, 69, 69)",
+          "hover": {
+            "backgroundColor": "rgb(56, 56, 56)"
+          },
+          "count": 4,
+          "source": [
+            "cart div > div:nth-of-type(2) > div > div > div > div > div > a",
+            "cart div > div:nth-of-type(2) > div > div > div > div > div > a"
+          ]
+        },
+        "secondary": {
+          "color": "rgb(69, 69, 69)",
+          "borderColor": "rgb(69, 69, 69)",
+          "hover": {
+            "color": "rgb(56, 56, 56)",
+            "borderColor": "rgb(56, 56, 56)"
+          },
+          "count": 2,
+          "source": [
+            "index main > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2) > a",
+            "index main > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2) > a"
+          ]
+        }
+      },
+      "linkHover": [],
+      "dualCTAPattern": null,
+      "cards": null,
+      "inputs": null
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "4px",
+        "secondary": "24px",
+        "pill": null,
+        "areaMode": "8px",
+        "primarySources": [
+          "index",
+          "apparel"
+        ],
+        "occurrences": {
+          "4px": 15,
+          "24px": 10,
+          "3px": 8,
+          "2px": 5,
+          "8px": 4
+        }
+      },
+      "shadows": [],
+      "gradients": [],
+      "patterns": []
+    },
+    "voice": {
+      "heroHeadline": "Ready to go - B2B!",
+      "heroSubcopy": null,
+      "heroImage": {
+        "url": "https://main--supermicro--kmanns.aem.page/media_15aa45e90a36da2ef5b48972e82c24294c185a213.png?width=2000&format=webply&optimize=medium",
+        "alt": "",
+        "source": "img",
+        "intrinsic": "750x169",
+        "basis": "first non-logo image >= 100000 px2 in DOM order"
+      },
+      "heroMedium": null,
+      "primaryCTALabel": "Tutorial",
+      "ctaSamples": [
+        "Start shopping",
+        "Tutorial"
+      ],
+      "navItems": [
+        "All Categories",
+        "Sign in",
+        "Boilerplate",
+        "Apparel",
+        "Log in",
+        "Registration",
+        "My Account",
+        "Create New Company Account",
+        "Quick Order",
+        "Combined Auth",
+        "Search Order"
+      ],
+      "footerHeadings": [
+        "Privacy",
+        "Terms of Use",
+        "Cookie preferences",
+        "Do not sell my personal information",
+        "AdChoices"
+      ],
+      "firstParagraph": "Adjust the “fstab.yaml“ file to point to a folder either in your sharepoint or your Google drive. See the full tutorial"
+    },
+    "voiceTable": {
+      "ctaFrequency": [
+        {
+          "label": "Boilerplate",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Search Order",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Search",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Privacy",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Terms of Use",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Cookie preferences",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "Do not sell my personal information",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        },
+        {
+          "label": "AdChoices",
+          "total": 6,
+          "pageCount": 6,
+          "pages": [
+            "apparel",
+            "cart",
+            "customer-account",
+            "customer-login",
+            "index",
+            "search"
+          ],
+          "closedListMatch": false
+        }
+      ],
+      "headingFrequency": [],
+      "toneMetrics": {
+        "headingsTotal": 8,
+        "headingsUppercasePercent": 0,
+        "distinctHeadings": 7,
+        "distinctCtaLabels": 12
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 6,
+        "ctaLabels": [
+          "Close navigation",
+          "Wishlist",
+          "Cart",
+          "Search",
+          "Click to show password",
+          "Forgot password?",
+          "Sign in",
+          "Logout"
+        ],
+        "domFingerprintHash": "sha256:1f2830a192a1ccd4",
+        "exampleSlug": "apparel",
+        "exampleSelector": "header",
+        "examplePages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "headingSequence": [
+          "All Categories",
+          "Sign in",
+          "Boilerplate",
+          "Apparel",
+          "Log in",
+          "Registration",
+          "My Account",
+          "Create New Company Account",
+          "Quick Order",
+          "Combined Auth",
+          "Search Order"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 6,
+        "ctaLabels": [],
+        "domFingerprintHash": "sha256:721f25491e722c1e",
+        "exampleSlug": "apparel",
+        "exampleSelector": "footer",
+        "examplePages": [
+          "apparel",
+          "cart",
+          "customer-account",
+          "customer-login",
+          "index",
+          "search"
+        ],
+        "headingSequence": [
+          "Privacy",
+          "Terms of Use",
+          "Cookie preferences",
+          "Do not sell my personal information",
+          "AdChoices"
+        ]
+      }
+    ],
+    "iconFont": null,
+    "register": "ambiguous",
+    "registerBasis": "home is a marketing-style landing (hero + feature cards, no auth) while apparel/search/cart/login are tool surfaces (product grid with filters/sort, cart, sign-in form) — both indicator sets present",
+    "breakpoints": {
+      "containerMaxWidth": "1264px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1264px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1264,
+          "via": "max-width",
+          "selector": "body.appear > main > div.section.commerce-cart-container > div.commerce-cart-wrapper",
+          "pages": [
+            "https://main--supermicro--kmanns.aem.page/cart"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1264,
+          "via": "max-width",
+          "selector": "body.appear > main > div.section.columns-container > div.default-content-wrapper",
+          "pages": [
+            "https://main--supermicro--kmanns.aem.page/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "#ready-to-go---b2b",
+          "pages": [
+            "https://main--supermicro--kmanns.aem.page/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 588,
+          "via": "fixed",
+          "selector": "div.columns-wrapper > div.columns.block > div > div",
+          "pages": [
+            "https://main--supermicro--kmanns.aem.page/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 282,
+          "via": "fixed",
+          "selector": "div.cards-wrapper > div.cards.block > ul > li",
+          "pages": [
+            "https://main--supermicro--kmanns.aem.page/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 248,
+          "via": "fixed",
+          "selector": "div.cards.block > ul > li > div.cards-card-body",
+          "pages": [
+            "https://main--supermicro--kmanns.aem.page/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://main--supermicro--kmanns.aem.page/",
+          "section": 0,
+          "selector": "body.appear > main > div.section.hero-container",
+          "px": 1200
+        },
+        {
+          "url": "https://main--supermicro--kmanns.aem.page/",
+          "section": 1,
+          "selector": "body.appear > main > div.section.columns-container",
+          "px": 1264
+        },
+        {
+          "url": "https://main--supermicro--kmanns.aem.page/",
+          "section": 2,
+          "selector": "body.appear > main > div.highlight.section",
+          "px": 1264
+        },
+        {
+          "url": "https://main--supermicro--kmanns.aem.page/cart",
+          "section": 0,
+          "selector": "div.cart__left-column > div.cart__list.dropin-design > div.cart-cart-summary-list > div.cart-cart-summary-list__heading",
+          "px": null
+        },
+        {
+          "url": "https://main--supermicro--kmanns.aem.page/cart",
+          "section": 1,
+          "selector": "div.cart__left-column > div.cart__list.dropin-design > div.cart-cart-summary-list > div.cart-cart-summary-list__content",
+          "px": null
+        }
+      ],
+      "capRegister": [
+        "shellMaxWidth differs between archetypes: fluid (https://main--supermicro--kmanns.aem.page/), 1264 (https://main--supermicro--kmanns.aem.page/cart)",
+        "module cap 1200px on a single section (#ready-to-go---b2b, https://main--supermicro--kmanns.aem.page/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-19T18:12:41.613Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://main--supermicro--kmanns.aem.page/",
+          "https://main--supermicro--kmanns.aem.page/cart"
+        ]
+      }
+    }
+  },
+  "components": [],
+  "narrative": {
+    "northStar": null,
+    "overview": "Descriptive capture; see DESIGN.md Overview.",
+    "keyCharacteristics": [],
+    "rules": [],
+    "dos": [],
+    "donts": []
+  }
+}

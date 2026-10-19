@@ -1,0 +1,49 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.supermicro.com/sites/default/files/favicon_0.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "visionCheck": [
+    {
+      "slug": "en",
+      "verdict": "ok",
+      "notes": "h1 on dark rack-photo background (cssBg 17); logo visible; mid-page cookie strip and right-edge Gold Series promo do not block content; cookie text leaked into first body lines"
+    },
+    {
+      "slug": "en-solutions-ai-servers",
+      "verdict": "suspect",
+      "notes": "visible hero headline is an h2 (\"NVIDIA Blackwell Ultra Systems, Now Shipping\"); record first h1 is a lower banner (3 h1s on page); Featured Solutions carousel rendered blank (late load). Page otherwise fully rendered; wait already at slow and headed Chrome unavailable in this runtime, so kept as design evidence with this caveat"
+    },
+    {
+      "slug": "en-solutions-ai-supercluster",
+      "verdict": "ok",
+      "notes": "hero on data-hall background; product cards rendered; 4 Featured Resources card images blank"
+    },
+    {
+      "slug": "en-solutions-dcbbs",
+      "verdict": "ok",
+      "notes": "h1 on rack background (cssBg 10); all sections rendered, ends in blue CTA band"
+    },
+    {
+      "slug": "en-products-gpu",
+      "verdict": "ok",
+      "notes": "h1 \"Supermicro GPU Servers\" on blue rack hero; full mega-menu header visible; Portfolio Overview tabs, Explore More tiles, Resources carousel; tab content may not have expanded"
+    }
+  ],
+  "donorScopeNote": "Hands-off named assumption: /en/featured/xai-colossus (editorial story) swapped for /en/products/gpu (product-family hub) within the 5-page cap, so shopping-surface evidence exists; swapped-out capture kept under stardust/.work/extract/swapped-out/. https://store.supermicro.com/us_en/ returns 403 Access Denied in a real browser: unavailable, not captured."
+}

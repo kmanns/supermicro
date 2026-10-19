@@ -1,0 +1,141 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-19T18:17:19.809Z",
+    "stardustVersion": "0.29.1"
+  },
+  "site": {
+    "originUrl": "https://main--supermicro--kmanns.aem.page",
+    "deployUrl": null,
+    "extractedAt": "2026-10-19T18:17:19.809Z",
+    "pageCap": 6,
+    "totalDiscovered": 6,
+    "crawled": 6,
+    "scopeSource": "--pages (user-chosen: four core pages plus sign-in and account)",
+    "unavailableSources": [
+      {
+        "url": "https://store.supermicro.com/us_en/",
+        "reason": "HTTP 403 Access Denied in a real browser (bot management); not captured"
+      }
+    ]
+  },
+  "direction": null,
+  "handsOff": true,
+  "designSource": {
+    "url": "https://www.supermicro.com/en/",
+    "capturedAt": "2026-10-19T18:17:19.809Z",
+    "path": "stardust/canon-source/"
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://main--supermicro--kmanns.aem.page/",
+      "title": "Ready to go - B2B!",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:23.987Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "apparel",
+      "url": "https://main--supermicro--kmanns.aem.page/apparel",
+      "title": "Apparel",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:24.093Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/apparel.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "search",
+      "url": "https://main--supermicro--kmanns.aem.page/search",
+      "title": "Product List Page",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:24.263Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/search.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "cart",
+      "url": "https://main--supermicro--kmanns.aem.page/cart",
+      "title": "Commerce Cart",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:32.055Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/cart.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-login",
+      "url": "https://main--supermicro--kmanns.aem.page/customer/login",
+      "title": "Commerce Login",
+      "type": "form",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:32.310Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-login.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-account",
+      "url": "https://main--supermicro--kmanns.aem.page/customer/account",
+      "title": "Commerce Login",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-19T17:57:32.725Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-account.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "note": "Signed-out visit redirects to /customer/login (duplicateOf customer-login). Account UI is unverified: no customer session, no account data observed.",
+      "verification": "unverified"
+    }
+  ]
+}
