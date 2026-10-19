@@ -22,7 +22,7 @@ colors:
   schematic: "#242424"
   spec-grey: "#636569"
   rail-rule: "#cccccc"
-  field-edge: "#8f8f8f"
+  field-edge: "#7a7a7a"
   rack-navy: "#003a70"
   datasheet-blue: "#1d7bb6"
   signal-blue: "#0c82c4"
@@ -190,14 +190,14 @@ The system is pinned to supermicro.com (palette, type families, square action sh
 - **Chassis White** `#ffffff`: cards, inputs, panels.
 - **Schematic** `#242424`: body text, 13.7:1 on ground.
 - **Spec Grey** `#636569`: secondary text, 5.2:1 on ground.
-- **Field Edge** `#8f8f8f`: input and control borders (3.2:1).
+- **Field Edge** `#7a7a7a`: input and control borders (4.3:1 on white, 3.8:1 on Data Hall; donor grey).
 - **Rail Rule** `#cccccc`: decorative dividers only (1.6:1, never a control boundary).
 
 ### States (inherited from the storefront drop-in tokens)
 Positive `#53824c` (4.5:1), alert `#c35050` (4.6:1), info `#5d6dd6` (4.5:1). Warning `#cc7a2e` fails as text (3.3:1), so it is used only for icons and borders, with Schematic text beside it.
 
 ### Named Rules
-**The One Red Rule.** Power Red appears only on things the user can do. No red headings, no red decoration, no red badges.
+**The One Red Rule.** Power Red appears only on things the user can do. No red headings, no red decoration, no red badges. The single exception is the dashed outline of a prototype placeholder frame (see Components).
 
 **The Blue Explains Rule.** Blues label, organise and link. They are never the fill of a primary action.
 
@@ -276,7 +276,10 @@ Chassis White, 1px Field Edge border, square, 44px tall, a visible label above. 
 - **Catalog disclosure (≥900px):** opens as a Chassis White overlay panel (6px, `overlay` shadow, 44px rows).
 
 ### Empty and status states
-A white panel with an outlined icon, a short Schematic heading, one Spec Grey sentence and one primary action. Never filled with sample products.
+A white panel with a 2px Signal Blue top rail, an outlined icon, a short heading, an optional Spec Grey sentence (only when captured or system copy exists), and one primary action. It may show a grey "Catalog pending" badge and an unlit Rail Rule status LED. It is never filled with sample products.
+
+### Placeholder frames (prototype honesty signature)
+Slots for data that does not exist yet (product tiles, a filled cart, account data) render as frames with a `2px dashed` Power Red outline, a neutral fill and a Spec Grey `PLACEHOLDER` label. They are often marked with an "Unverified" badge. This dashed outline is the one sanctioned exception to the One Red Rule. It exists so that nobody mistakes a slot for real content, and it never ships to production.
 
 ## Do's and Don'ts
 

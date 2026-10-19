@@ -94,3 +94,38 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** `$stardust prototype apparel`, reusing the approved header/footer chrome.
 
 ---
+
+## 2026-10-19T21:30:00Z — prototype (plan, render, critique, audit, adapt, approval) — apparel, search, cart, customer-login, customer-account
+
+**Prompt:** Continue hands-off: prototype the remaining five pages through impeccable craft and every stardust gate.
+
+**Decisions:**
+- plan / render: five parallel builder subagents shared one brief (`stardust/.work/stardust/builder-brief.md`). Each authored `<slug>-shape.md`, ran `$impeccable craft`, and copied the approved home chrome verbatim.
+- Coordinator rulings applied to every page:
+  - The placeholder frame keeps the stardust-mandated dashed Power Red outline, recorded in DESIGN.md as the one sanctioned exception to the One Red Rule. Its label is Spec Grey and its tint neutral.
+  - The direction contract FORM says "no concept roll: brief-pinned".
+  - Non-home pages load Source Sans 3 400/600/700 and drop PT Sans Narrow.
+- System change: the Field Edge token moved from #8f8f8f to #7a7a7a (donor grey), because #8f8f8f failed 3:1 against Data Hall.
+- Finish review: 5 reviewers in two verdict rounds. Truth fixes:
+  - Apparel's heading is now "No apparel is listed yet."; the misleading "search returned no results" line was removed.
+  - Search's "Clear search" is now a reset, not a self-link.
+- critique / audit: 10 subagents. There were no P0s and no page-level P1s. Three audits found the same shared-chrome P1 on two header problems (no-JS sticky header covering the screen; open menu unreachable on short viewports). Both were fixed on all six pages (noscript `position: static`; menu panel max-height plus scroll) and verified.
+- adapt: mobile-adapt audit passes, with 0 overflow from 320 to 1920 on all six pages.
+- approval: all six are `approvedBy: hands-off`.
+
+**Artifacts touched:**
+- stardust/prototypes/{apparel,search,cart,customer-login,customer-account}-{shape.md,proposed.html}: created
+- stardust/prototypes/index-proposed.html: shared chrome fixes
+- DESIGN.md, DESIGN.json: Field Edge token, placeholder exception, empty-state sentence optional, search-field label exception
+- stardust/state.json: 6/6 approved
+
+**Findings worth flagging:**
+- Shared chrome needs its no-JS and short-viewport behaviour tested once, centrally. Copying it across six files spread the same P1 to all of them.
+- Open, user-level: the dashed red placeholder outline breaks the strict "red only for actions" reading. It is a prototype-only honesty marker, flagged for the user.
+
+**Open questions:**
+- The user should review the six prototypes before the redesign lands in the EDS code (the handoff asked for explicit user approval).
+
+**Next:** implement the approved design in the existing EDS blocks and the drop-in `:root` tokens, keeping the Commerce and Search integrations.
+
+---

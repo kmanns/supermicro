@@ -27,3 +27,17 @@
 {"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"critique","event":"end","detail":"26/36, 0 P0/P1 after fix"}
 {"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"audit","event":"end","detail":"0 P0/P1 after 2 rounds"}
 {"ts":"2026-10-19T18:56:37Z","skill":"stardust:prototype","phase":"adapt","event":"end","detail":"mobile-adapt audit pass 320-1920"}
+{"ts":"2026-10-19T19:41:18Z","skill":"stardust:prototype","phase":"plan","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:18Z","skill":"stardust:prototype","phase":"plan","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:18Z","skill":"stardust:prototype","phase":"render","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"render","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"critique","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"critique","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"audit","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"audit","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"adapt","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"adapt","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"approval","event":"start","detail":"apparel, search, cart, customer-login, customer-account"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"approval","event":"end","detail":"5 pages; see journal"}
+{"ts":"2026-10-19T19:41:19Z","skill":"stardust:prototype","phase":"approval","event":"start","detail":"index"}
+{"ts":"2026-10-19T19:41:20Z","skill":"stardust:prototype","phase":"approval","event":"end","detail":"6/6 approved (hands-off)","next":"implement in EDS blocks + drop-in tokens"}

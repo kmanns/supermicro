@@ -55,7 +55,7 @@
         "role": "neutral",
         "displayName": "Field Edge",
         "use": "input and control borders",
-        "source": "storefront --color-neutral-600 #8f8f8f (donor rule grey fails 3:1 as a boundary)"
+        "source": "donor text grey #7a7a7a (census); replaces storefront #8f8f8f, which fails 3:1 against the Data Hall ground"
       },
       "rack-navy": {
         "role": "brand",
@@ -251,7 +251,7 @@
         "picked_by": "user-constraint",
         "role_renaming": "brand-native names (toolkit \u00a7 4): Data Hall, Chassis White, Schematic, Rack Navy, Datasheet Blue, Signal Blue, Sky Rail, Power Red, Status Amber",
         "additions": [
-          "field-edge #8f8f8f from storefront tokens (donor #cccccc fails 3:1 as a control boundary)",
+          "field-edge #7a7a7a from the donor greys (donor #cccccc fails 3:1 as a control boundary; storefront #8f8f8f fails 3:1 on Data Hall)",
           "state-* from storefront drop-in tokens (donor captured none)"
         ]
       },
@@ -379,6 +379,11 @@
         "purpose": "legal links today; room for portfolio/support columns once authored",
         "position": "bottom, Rack Navy",
         "constraint": "only links that exist; column headings in Status Amber are reserved for authored content"
+      },
+      "placeholder-frame": {
+        "purpose": "marks slots for data that does not exist yet",
+        "position": "in place of the missing content",
+        "constraint": "2px dashed Power Red outline (sanctioned One Red Rule exception), neutral fill, Spec Grey PLACEHOLDER label; never shipped to production"
       }
     },
     "voice": {
@@ -462,7 +467,7 @@
       "refersTo": "input",
       "description": "Square field with a visible label; used by sign-in and search.",
       "html": "<label class=\"ds-field\"><span>Email</span><input class=\"ds-input\" type=\"email\" placeholder=\"name@company.com\"></label>",
-      "css": ".ds-field{display:grid;gap:6px;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em;color:#242424}.ds-input{background:#fff;color:#242424;border:1px solid #8f8f8f;border-radius:0;min-height:44px;padding:10px 12px;font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-input:focus{outline:2px solid #0c82c4;outline-offset:0;border-color:#0c82c4}"
+      "css": ".ds-field{display:grid;gap:6px;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em;color:#242424}.ds-input{background:#fff;color:#242424;border:1px solid #7a7a7a;border-radius:0;min-height:44px;padding:10px 12px;font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-input:focus{outline:2px solid #0c82c4;outline-offset:0;border-color:#0c82c4}"
     },
     {
       "name": "Chassis Card",
@@ -486,7 +491,7 @@
       "refersTo": "header",
       "description": "Navy utility strip above a white header with logo, catalog nav, search field and commerce icons.",
       "html": "<div class=\"ds-strip\"><a href=\"#\">Quick Order</a><a href=\"#\">Search Order</a><a href=\"#\">Sign in</a></div><div class=\"ds-head\"><strong>SUPERMICRO</strong><label class=\"ds-search\"><span class=\"sr\">Search</span><input placeholder=\"Search the catalog\"></label><button aria-label=\"Cart\">Cart</button></div>",
-      "css": ".ds-strip{background:#003a70;display:flex;gap:20px;justify-content:flex-end;padding:6px 24px;border-bottom:2px solid #4698d5;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em}.ds-strip a{color:#fff;text-decoration:none}.ds-strip a:hover,.ds-strip a:focus-visible{color:#ffad00}.ds-head{background:#fff;display:flex;align-items:center;gap:24px;padding:10px 24px;border-bottom:1px solid #cccccc;font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-search{flex:1}.ds-search input{width:100%;min-height:40px;border:1px solid #8f8f8f;border-radius:0;padding:8px 12px;font:inherit}.ds-search input:focus{outline:2px solid #0c82c4}.ds-head button{min-height:40px;background:none;border:1px solid #8f8f8f;border-radius:0;padding:0 12px;font:600 14px \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;cursor:pointer}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}"
+      "css": ".ds-strip{background:#003a70;display:flex;gap:20px;justify-content:flex-end;padding:6px 24px;border-bottom:2px solid #4698d5;font:600 13px/1.35 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;letter-spacing:.04em}.ds-strip a{color:#fff;text-decoration:none}.ds-strip a:hover,.ds-strip a:focus-visible{color:#ffad00}.ds-head{background:#fff;display:flex;align-items:center;gap:24px;padding:10px 24px;border-bottom:1px solid #cccccc;font:400 16px/1.5 \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif}.ds-search{flex:1}.ds-search input{width:100%;min-height:40px;border:1px solid #7a7a7a;border-radius:0;padding:8px 12px;font:inherit}.ds-search input:focus{outline:2px solid #0c82c4}.ds-head button{min-height:40px;background:none;border:1px solid #7a7a7a;border-radius:0;padding:0 12px;font:600 14px \"Source Sans 3\", \"Source Sans Pro\", Helvetica, Arial, sans-serif;cursor:pointer}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}"
     },
     {
       "name": "Empty State",
@@ -511,7 +516,7 @@
     "rules": [
       {
         "name": "The One Red Rule",
-        "body": "Power Red appears only on things the user can do. No red headings, no red decoration, no red badges.",
+        "body": "Power Red appears only on things the user can do. No red headings, no red decoration, no red badges. The single exception is the dashed outline of a prototype placeholder frame.",
         "section": "colors"
       },
       {

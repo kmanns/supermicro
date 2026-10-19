@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- stardust:provenance
+    writtenBy:         stardust:prototype (rendered via impeccable:craft)
+    writtenAt:         2026-10-19T20:20:00Z
+    page:              search
+    pageUrl:           https://main--supermicro--kmanns.aem.page/search
+    againstDirection:  stardust/direction.md (Active 2026-10-19T19:00:00Z)
+    readArtifacts:
+      - stardust/prototypes/search-shape.md
+      - stardust/prototypes/search-improvements.md
+      - stardust/prototypes/index-proposed.html (approved chrome and tokens)
+      - stardust/current/pages/search.json
+      - stardust/current/pages/search.html
+      - DESIGN.md
+      - DESIGN.json
+      - PRODUCT.md
+    divergenceVersion: v1.0 (stardust v2)
+    fontDeck:          brand-inherited (Source Sans 3 400/600/700; PT Sans Narrow not loaded — home display only)
+    paletteSource:     donor canon-source (supermicro.com/en), brand-native role names
+    reflexRejectAudit: { bypassed: "Mode A — families pinned to the donor (Source Sans Pro → Source Sans 3); whole surface inside the approved world, structure pinned by the builder brief (no concept roll)" }
+    craftDecisions:
+      - "Improvements #1 'Search' caption above the h1 dropped: impeccable craft floor bans eyebrows above headings (same decision as home)."
+      - "Empty state uses a 2px Signal Blue TOP rail (DESIGN.json Empty State), not a side stripe (craft floor)."
+      - "Captured result-count line omitted: counts are never rendered in the prototype; the drop-in owns it at runtime."
+      - "Search submit keeps its visible 'Search' label at every width (home hides it <641px); this field is the page's primary action."
+      - "html canvas is Rack Navy so on tall screens the footer's navy continues below this short page instead of a grey void."
+      - "Finish-review batch 1: Clear search is a reset button for #results-form (page models the post-'view all' state, a query was run); field and panel share an 880px measure; results field and submit 48px; actions divider Rail Rule; Account tools navy band appended verbatim from approved home; fonts Source Sans 3 400/600/700 only."
+    critique:          "finish review by coordinator; batch 1 applied 2026-10-19"
+    adapt:
+      - { breakpoints: [320, 390, 768, 1440], mediaRules: "mobile-first min-width 600/900/1200; shared header rules max-width 899/640/359 carried from home" }
+    motionValidation:  "n/a — static prototype (hover/focus transitions only)"
+    copyCadenceBypass: none
+    gates:
+      finishReview: "impeccable finish reviewer — 2 verdict rounds (round-2 residuals fixed by coordinator)"
+      critique: { score: "28/40", p0: 0, p1: 0, by: "impeccable critique (subagent)" }
+      audit: { score: "17/20", p0: 0, p1: "shared-chrome P1s (no-JS sticky header; open menu unreachable on short viewports) fixed site-wide and verified: noJS header static, last menu link reachable at 640x360", by: "impeccable audit (subagent)" }
+      adapt: "mobile-adapt audit pass; overflow 0 at 320/360/375/414/600/768/800/1280/1440/1920"
+      motionValidation: "n/a — static prototype"
+      visionCheck: { verdict: pass, by: "finish reviewer screenshots + coordinator thumbnail review" }
+    unsourcedContent:  []
+    stardustVersion:   0.29.1
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search results | Supermicro Storefront</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    :root {
+      /* type families (DESIGN.md typography.h1 / body / display) */
+      --heading-font-family: "Source Sans 3", "Source Sans Pro", Helvetica, Arial, sans-serif;
+      --body-font-family: "Source Sans 3", "Source Sans Pro", Helvetica, Arial, sans-serif;
+      --display-font-family: "PT Sans Narrow", "Arial Narrow", "Source Sans 3", Helvetica, Arial, sans-serif;
+      /* major-third scale (DESIGN.json typographyMeta.scale) */
+      --heading-xxl: 61px;
+      --heading-xl: 49px;
+      --heading-lg: 39px;
+      --heading-md: 25px;
+      --heading-sm: 20px;
+      --body: 16px;
+      --body-sm: 13px;
+      --line-height-heading: 1.15;
+      --line-height-body: 1.5;
+      /* Data Hall — page ground */
+      --color-bg: #f1f1f1;
+      /* Schematic — body text */
+      --color-fg: #242424;
+      /* Power Red — the only action colour */
+      --color-accent: #961919;
+      /* Power Red Live — action hover/active */
+      --color-accent-live: #d30015;
+      /* Chassis White — cards, inputs, panels */
+      --color-chassis: #ffffff;
+      /* Spec Grey — secondary text */
+      --color-spec: #636569;
+      /* Field Edge — control borders */
+      --color-field-edge: #7a7a7a;
+      /* Rail Rule — decorative dividers only */
+      --color-rail-rule: #cccccc;
+      /* Rack Navy — bands, strip, footer */
+      --color-rack-navy: #003a70;
+      /* Datasheet Blue — headings and links on white */
+      --color-datasheet: #1d7bb6;
+      /* Signal Blue — large text and rails on white, focus */
+      --color-signal: #0c82c4;
+      /* Sky Rail — rails and large labels on navy */
+      --color-sky-rail: #4698d5;
+      /* Status Amber — hover/focus on navy only */
+      --color-amber: #ffad00;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 16px;
+      --spacing-lg: 24px;
+      --spacing-xl: 48px;
+      --spacing-2xl: 64px;
+      --section-padding: 24px;
+      --max-width: 1440px;
+      --gutter: 16px;
+      --radius: 6px;
+      --radius-square: 0px;
+      --shadow-card-rest: 0 1px 2px rgba(0, 0, 0, 0.18);
+      --shadow-card-hover: 0 6px 15px rgba(0, 0, 0, 0.2);
+      --shadow-button: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      --shadow-overlay: 0 12px 32px rgba(0, 0, 0, 0.28);
+      --ease: cubic-bezier(0.42, 0, 0, 1);
+    }
+    @media (min-width: 600px) { :root { --section-padding: 36px; --gutter: 24px; } }
+    @media (min-width: 900px) { :root { --section-padding: 48px; } }
+    @media (min-width: 1200px) { :root { --gutter: 32px; } }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; scroll-padding-top: 96px; }
+    body {
+      margin: 0;
+      font: 400 var(--body)/var(--line-height-body) var(--body-font-family);
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+    img, svg { display: block; max-width: 100%; }
+    a { color: var(--color-datasheet); text-underline-offset: 3px; }
+    a:hover { color: var(--color-accent); }
+    :focus-visible { outline: 2px solid var(--color-signal); outline-offset: 2px; }
+    .wrap { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--gutter); }
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+      overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+    }
+    .skip-link {
+      position: absolute; left: 8px; top: -60px; z-index: 50;
+      background: var(--color-rack-navy); color: #fff; padding: 10px 14px; font-weight: 600;
+    }
+    .skip-link:focus { top: 8px; color: #fff; outline-color: var(--color-amber); }
+
+    /* ---------- utility strip (≥900px) ---------- */
+    .ds-nav-burger { display: none; }
+    .strip { background: var(--color-rack-navy); border-bottom: 2px solid var(--color-sky-rail); }
+    .strip ul { display: flex; justify-content: flex-end; gap: var(--spacing-lg); list-style: none; margin: 0; padding: 0; }
+    .strip a {
+      display: inline-flex; align-items: center; min-height: 32px;
+      color: #fff; text-decoration: none; font-size: var(--body-sm); font-weight: 600; letter-spacing: 0.04em;
+    }
+    .strip a:hover, .strip a:focus-visible { color: var(--color-amber); outline-color: var(--color-amber); }
+
+    /* ---------- header ---------- */
+    .site-header { position: sticky; top: 0; z-index: 20; background: var(--color-chassis); border-bottom: 1px solid var(--color-rail-rule); }
+    .bar { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--spacing-sm) var(--spacing-md); padding-block: 10px; }
+    .logo { display: inline-flex; align-items: center; min-height: 44px; }
+    .logo img { width: 112px; height: auto; }
+    .header-search { grid-column: 1 / -1; display: flex; }
+    .header-search input, .results-search input {
+      flex: 1; min-width: 0; min-height: 44px; padding: 10px 12px;
+      font: 400 var(--body)/1.2 var(--body-font-family); color: var(--color-fg);
+      background: var(--color-chassis); border: 1px solid var(--color-field-edge); border-radius: var(--radius-square);
+    }
+    input::placeholder { color: var(--color-spec); opacity: 1; }
+    .header-search input:focus, .results-search input:focus { outline: 2px solid var(--color-signal); outline-offset: 0; border-color: var(--color-signal); }
+    .header-search button, .icon-btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      min-width: 44px; min-height: 44px; padding: 0 10px;
+      font: 600 var(--body-sm)/1 var(--body-font-family); letter-spacing: 0.04em; color: var(--color-fg);
+      background: var(--color-chassis); border: 1px solid var(--color-field-edge); border-radius: var(--radius-square); cursor: pointer;
+    }
+    .header-search button { border-left: 0; }
+    .header-search button:hover, .icon-btn:hover { color: var(--color-accent); border-color: var(--color-accent); }
+    .icon-btn svg, .header-search svg { width: 20px; height: 20px; }
+    a.icon-btn { text-decoration: none; }
+    .controls { display: flex; gap: var(--spacing-sm); }
+    .controls .label { display: none; }
+    .controls .icon-btn { border-color: transparent; }
+    .controls .icon-btn:hover { border-color: var(--color-field-edge); }
+    .primary-nav { display: none; }
+    .primary-nav ul { list-style: none; margin: 0; padding: 0; }
+    .primary-nav a, .primary-nav summary {
+      display: flex; align-items: center; min-height: 44px; padding: 0 2px;
+      font-weight: 600; color: var(--color-fg); text-decoration: none; cursor: pointer; list-style: none;
+    }
+    .primary-nav summary::-webkit-details-marker { display: none; }
+    .primary-nav details { position: relative; }
+    .primary-nav details ul {
+      position: absolute; top: calc(100% + 8px); left: 0; z-index: 30; min-width: 220px; padding: 8px 0;
+      background: var(--color-chassis); border-radius: var(--radius); box-shadow: var(--shadow-overlay);
+    }
+    .primary-nav details a { padding: 0 16px; font-weight: 400; }
+    .primary-nav details a:hover { background: var(--color-bg); }
+    .primary-nav summary::after { content: ""; width: 8px; height: 8px; margin-left: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); }
+    .primary-nav a:hover, .primary-nav summary:hover { color: var(--color-accent); }
+
+    /* mobile menu panel */
+    .menu-panel { display: none; grid-column: 1 / -1; border-top: 1px solid var(--color-rail-rule); padding: var(--spacing-sm) 0 var(--spacing-md); }
+    .site-header.is-open .menu-panel { display: block; max-height: calc(100dvh - 72px); overflow-y: auto; overscroll-behavior: contain; }
+    .menu-panel h2 { margin: var(--spacing-md) 0 var(--spacing-xs); font-size: var(--body-sm); letter-spacing: 0.04em; color: var(--color-spec); }
+    .menu-panel ul { list-style: none; margin: 0; padding: 0; }
+    .menu-panel a { display: flex; align-items: center; min-height: 44px; border-bottom: 1px solid var(--color-bg); color: var(--color-fg); font-weight: 600; text-decoration: none; }
+    .menu-panel a:hover { color: var(--color-accent); }
+    .menu-panel a[aria-current="page"] { box-shadow: inset 0 -2px 0 var(--color-signal); }
+    .menu-wishlist { margin-top: var(--spacing-sm); }
+    .menu-wishlist button { width: 100%; display: flex; align-items: center; min-height: 44px; padding: 0; background: none; border: 0; border-bottom: 1px solid var(--color-bg); font: 600 var(--body)/1.2 var(--body-font-family); color: var(--color-fg); cursor: pointer; text-align: left; }
+    .menu-wishlist button:hover { color: var(--color-accent); }
+    @media (min-width: 641px) { .menu-wishlist { display: none; } }
+
+    /* ---------- buttons and badges (shared) ---------- */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      min-height: 44px; padding: 10px 16px;
+      font: 600 var(--body)/1.2 var(--body-font-family); text-decoration: none; white-space: nowrap;
+      border-radius: var(--radius-square); cursor: pointer;
+      transition: background-color 0.18s var(--ease), border-color 0.18s var(--ease), color 0.18s var(--ease);
+    }
+    .btn-primary { background: var(--color-accent); color: #f4f4f4; border: 1px solid var(--color-accent); box-shadow: var(--shadow-button); }
+    .btn-primary:hover { background: var(--color-accent-live); border-color: var(--color-accent-live); color: #fff; }
+    .btn-secondary { background: transparent; color: var(--color-accent); border: 1px solid var(--color-accent); }
+    .btn-secondary:hover { background: var(--color-accent); color: #f4f4f4; }
+    .badge {
+      display: inline-block; padding: 2px 8px; border-radius: var(--radius-square);
+      font: 600 var(--body-sm)/1.35 var(--body-font-family); letter-spacing: 0.04em; white-space: nowrap;
+    }
+    .badge--pending { background: var(--color-bg); color: var(--color-spec); }
+
+    /* ---------- footer ---------- */
+    .site-footer { background: var(--color-rack-navy); border-top: 1px solid rgba(255, 255, 255, 0.28); color: #fff; padding-block: var(--spacing-lg); }
+    .site-footer .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--spacing-md); }
+    .logo-chip { display: inline-flex; background: #fff; padding: 6px 10px; }
+    .logo-chip img { width: 96px; height: auto; }
+    .site-footer ul { display: flex; flex-wrap: wrap; gap: 4px 20px; list-style: none; margin: 0; padding: 0; }
+    .site-footer a { display: inline-flex; align-items: center; min-height: 44px; color: #fff; font-size: var(--body-sm); }
+    .site-footer a:hover, .site-footer a:focus-visible { color: var(--color-amber); outline-color: var(--color-amber); }
+
+    /* ---------- below desktop: stock hamburger (mobile-nav-collapse.md) ---------- */
+    @media (max-width: 899px) {
+      .ds-nav-burger {
+        display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+        min-width: 44px; min-height: 44px; padding: 0 10px; cursor: pointer; user-select: none;
+        font: 600 var(--body-sm)/1 var(--body-font-family); letter-spacing: 0.04em; color: var(--color-fg);
+        border: 1px solid var(--color-field-edge); border-radius: var(--radius-square);
+      }
+      .ds-nav-burger-icon { position: relative; width: 16px; height: 12px; border-top: 2px solid currentColor; border-bottom: 2px solid currentColor; }
+      .ds-nav-burger-icon::before { content: ""; position: absolute; left: 0; right: 0; top: 3px; height: 2px; background: currentColor; }
+      .ds-nav-burger { background: var(--color-chassis); }
+      .strip ul { justify-content: flex-start; }
+      .strip .wide, .header-search { display: none; }
+      .bar { grid-template-columns: auto minmax(96px, 1fr) auto; grid-template-areas: "burger logo controls" "search search search" "panel panel panel"; }
+      .logo img { max-width: none; }
+      .site-header.search-open .header-search { display: flex; grid-area: search; }
+      .strip a { min-height: 44px; }
+      .ds-nav-burger { grid-area: burger; justify-self: start; }
+      .logo { grid-area: logo; }
+      .controls { grid-area: controls; justify-self: end; gap: 10px; }
+      .menu-panel { grid-area: panel; }
+    }
+
+    /* ---------- phones ---------- */
+    @media (max-width: 640px) {
+      .ds-nav-burger-label { display: none; }
+      .badge { white-space: normal; }
+      .wishlist-btn { display: none; }
+      .logo img { width: 96px; }
+    }
+
+    @media (max-width: 359px) {
+      .logo img { width: 80px; }
+      .bar { column-gap: 8px; }
+      .controls { gap: 0; }
+    }
+
+    /* ---------- tablet ---------- */
+    @media (min-width: 600px) {
+      .controls .label { display: inline; }
+    }
+
+    /* ---------- desktop ---------- */
+    @media (min-width: 900px) {
+      .strip { display: block; }
+      .bar { grid-template-columns: auto auto 1fr auto; gap: var(--spacing-lg); padding-block: 10px; }
+      .ds-nav-burger, .menu-panel, .site-header.is-open .menu-panel, .search-btn { display: none; }
+      .primary-nav { display: block; }
+      .header-search { grid-column: auto; max-width: 560px; }
+      .controls .label { display: inline; }
+      .logo img { width: 128px; }
+    }
+
+    /* ---------- search results (page-specific, mobile first) ---------- */
+    /* short page: the canvas below the footer continues the footer's navy instead of leaving a grey void */
+    html { background: var(--color-rack-navy); }
+    .results-head { padding-top: var(--section-padding); }
+    .results-head h1 {
+      margin: 0 0 var(--spacing-md);
+      font: 700 clamp(2.125rem, 1.6rem + 2vw, 3.0625rem)/1.1 var(--heading-font-family);
+      color: var(--color-fg); text-wrap: balance;
+    }
+    /* one shared measure for the field and the empty panel */
+    .results-search, .empty { max-width: 880px; }
+    .results-search { display: flex; }
+    .results-search input, .results-search .btn { min-height: 48px; }
+    .results-search .btn { padding-inline: 16px; }
+    .results-search .btn svg { width: 18px; height: 18px; flex: none; }
+    .results { padding-block: var(--spacing-lg) var(--section-padding); }
+    .empty {
+      display: grid; grid-template-columns: auto 1fr; gap: var(--spacing-md); align-items: start;
+      padding: var(--spacing-lg) 20px;
+      background: var(--color-chassis); border-top: 2px solid var(--color-signal);
+      border-radius: 0 0 var(--radius) var(--radius); box-shadow: var(--shadow-card-rest);
+    }
+    .empty-glyph { width: 32px; height: 32px; color: var(--color-signal); }
+    .empty h2 {
+      margin: 2px 0 var(--spacing-sm);
+      font: 600 clamp(1.25rem, 1rem + 1vw, var(--heading-md))/1.2 var(--heading-font-family);
+      color: var(--color-fg); text-wrap: balance;
+    }
+    .empty-note { display: flex; flex-wrap: wrap; align-items: center; gap: 4px var(--spacing-sm); margin: 0; color: var(--color-spec); }
+    .empty-actions {
+      grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: var(--spacing-sm) var(--spacing-lg);
+      list-style: none; margin: 0; padding: var(--spacing-md) 0 0; border-top: 1px solid var(--color-rail-rule);
+    }
+    .text-link { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-weight: 600; }
+    .text-link svg { width: 16px; height: 16px; flex: none; transition: transform 0.18s var(--ease); }
+    .text-link:hover svg { transform: translateX(2px); }
+    .empty-actions li:first-child { flex-basis: 100%; }
+
+    /* ---------- account tools (verbatim from approved home) ---------- */
+    .tools { background: var(--color-rack-navy); color: #fff; padding-block: var(--section-padding); border-top: 2px solid var(--color-sky-rail); }
+    .tools h2 { margin: 0 0 var(--spacing-md); font: 600 clamp(1.75rem, 1.4rem + 1.4vw, var(--heading-lg))/var(--line-height-heading) var(--heading-font-family); color: #fff; }
+    .tools ul { list-style: none; margin: 0; padding: 0; display: grid; border-top: 1px solid rgba(255, 255, 255, 0.28); }
+    .tools li { border-bottom: 1px solid rgba(255, 255, 255, 0.28); }
+    .tools a {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 56px;
+      color: #fff; text-decoration: none; font-weight: 600; font-size: var(--heading-sm);
+    }
+    .tools a:hover, .tools a:focus-visible { color: var(--color-amber); outline-color: var(--color-amber); }
+    .tools a svg { width: 16px; height: 16px; flex: none; }
+
+    @media (min-width: 600px) {
+      .empty { padding-inline: var(--spacing-lg); }
+      .empty-actions { grid-column: 2; }
+      .empty-actions li:first-child { flex-basis: auto; }
+      .tools ul { grid-template-columns: 1fr 1fr; column-gap: var(--spacing-lg); }
+    }
+
+    @media (min-width: 900px) {
+      .empty { column-gap: var(--spacing-lg); padding: 28px 32px; }
+      .tools ul { grid-template-columns: repeat(4, 1fr); }
+      .tools li { border-bottom: 0; border-right: 1px solid rgba(255, 255, 255, 0.28); padding-inline: 16px; }
+      .tools li:first-child { padding-left: 0; }
+      .tools li:last-child { border-right: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+    }
+  </style>
+  <noscript><style>@media (max-width: 899px) { .site-header { position: static; } .menu-panel { display: block; } .ds-nav-burger, .search-btn { display: none; } .header-search { display: flex; grid-area: search; } }</style></noscript>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap");
+  </style>
+</head>
+<body>
+  <!-- impeccable:direction
+    THESIS: The results page is a retry console: page title, the search field right under it, then the honest state of the catalog with the next three moves. It refuses the count-and-facets results header and the orange warning alert.
+    OWN-WORLD: Data Hall #f1f1f1 ground, a Chassis White status panel at 6px with a 2px Signal Blue top rail, Schematic Source Sans 3 titles, square Field Edge input joined to a square Power Red Search, Spec Grey caption badge, Datasheet Blue text links.
+    STORY: A buyer whose phrase found nothing sees it plainly, retries in place, or leaves for Apparel, Quick Order or an account tool without hunting.
+    FIRST VIEWPORT: Navy strip, white header, h1 "Search results", an 880px 48px-tall field with the red Search button, then the same-measure white panel: glyph, "Your search returned no results.", "Catalog pending" plus "Products are being added.", Clear search and two links; the navy Account tools band below.
+    FORM: operate-mode retry console — no concept roll: brief-pinned under the user's hands-off instruction
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+  -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="strip" data-section="utility-strip" data-intent="route B2B account tools" data-layout="edge-to-edge" data-items="4">
+    <nav class="wrap" aria-label="B2B shortcuts">
+      <ul>
+        <li><a href="/quick-order">Quick Order</a></li>
+        <li><a href="/order-status">Search Order</a></li>
+        <li class="wide"><a href="/customer/company/create">Create New Company Account</a></li>
+        <li class="wide"><a href="/customer/login">Sign in</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="site-header" data-section="header" data-intent="navigate and search" data-layout="contained" data-nav-collapse="hamburger">
+    <div class="wrap bar">
+      <button class="ds-nav-burger" type="button" aria-label="Menu" aria-controls="menu-panel" aria-expanded="false">
+        <span class="ds-nav-burger-icon" aria-hidden="true"></span>
+        <span class="ds-nav-burger-label">Menu</span>
+      </button>
+      <div class="menu-panel" id="menu-panel">
+        <h2>Catalog</h2>
+        <ul><li><a href="/apparel">Apparel</a></li></ul>
+        <ul class="menu-wishlist"><li><button type="button">Wishlist</button></li></ul>
+        <h2>Account</h2>
+        <ul>
+          <li><a href="/customer/login">Sign in</a></li>
+          <li><a href="/customer/create">Registration</a></li>
+          <li><a href="/customer/account">My Account</a></li>
+          <li><a href="/customer/company/create">Create New Company Account</a></li>
+          <li><a href="/quick-order">Quick Order</a></li>
+          <li><a href="/order-status">Search Order</a></li>
+        </ul>
+      </div>
+
+      <a class="logo" href="/"><img src="assets/supermicro-logo.svg" alt="Supermicro" width="128" height="68"></a>
+
+      <nav class="primary-nav" aria-label="Catalog">
+        <details>
+          <summary>Catalog</summary>
+          <ul><li><a href="/apparel">Apparel</a></li></ul>
+        </details>
+      </nav>
+
+      <form class="header-search" id="header-search" action="/search" method="get" role="search" aria-label="Site search">
+        <label class="sr-only" for="header-q">Search the catalog</label>
+        <input id="header-q" name="q" type="search" placeholder="Search the catalog" autocomplete="off">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="square" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+        </button>
+      </form>
+
+      <div class="controls">
+        <button class="icon-btn search-btn" type="button" aria-label="Search" aria-controls="header-search" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="square" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+        </button>
+        <button class="icon-btn wishlist-btn" type="button" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5 4.2 12.9a4.6 4.6 0 0 1 6.5-6.6l1.3 1.3 1.3-1.3a4.6 4.6 0 0 1 6.5 6.6Z"/></svg>
+          <span class="label">Wishlist</span>
+        </button>
+        <button class="icon-btn" type="button" aria-label="Cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1.2 12H6.2Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="label">Cart</span>
+        </button>
+        <a class="icon-btn" href="/customer/account" aria-label="My Account">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="8.5" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></svg>
+          <span class="label">My Account</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="main" data-template="listing">
+    <section class="results-head" data-section="results-head" data-intent="name the page and retry the search" data-layout="contained" data-interactive="form">
+      <div class="wrap">
+        <h1>Search results</h1>
+        <form class="results-search" id="results-form" action="/search" method="get" role="search" aria-label="Results search">
+          <label class="sr-only" for="results-q">Search the catalog</label>
+          <input id="results-q" name="q" type="search" placeholder="Search the catalog" autocomplete="off">
+          <button class="btn btn-primary" type="submit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="square" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+            <span>Search</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="results" data-section="results" data-intent="honest empty result with next actions" data-layout="contained" data-items="3" aria-labelledby="results-h">
+      <div class="wrap">
+        <div class="empty">
+          <svg class="empty-glyph" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true"><circle cx="14" cy="14" r="9"/><path d="M21 21l8 8"/></svg>
+          <div class="empty-body" role="status">
+            <h2 id="results-h">Your search returned no results.</h2>
+            <p class="empty-note"><span class="badge badge--pending">Catalog pending</span> <span>Products are being added.</span></p>
+          </div>
+          <ul class="empty-actions">
+            <li><button class="btn btn-secondary" type="reset" form="results-form">Clear search</button></li>
+            <li><a class="text-link" href="/apparel">Browse Apparel
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools" data-section="account-tools" data-intent="route B2B account tools" data-layout="grid" data-items="4" aria-labelledby="tools-h">
+      <div class="wrap">
+        <h2 id="tools-h">Account tools</h2>
+        <ul>
+          <li><a href="/quick-order">Quick Order <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"/></svg></a></li>
+          <li><a href="/order-status">Search Order <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"/></svg></a></li>
+          <li><a href="/customer/company/create">Create New Company Account <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"/></svg></a></li>
+          <li><a href="/customer/account">My Account <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"/></svg></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-section="footer" data-intent="legal navigation" data-layout="contained">
+    <div class="wrap">
+      <a class="logo-chip" href="/"><img src="assets/supermicro-logo.svg" alt="Supermicro home" width="96" height="51" loading="lazy"></a>
+      <nav aria-label="Legal">
+        <ul>
+          <li><a href="https://www.adobe.com/privacy.html">Privacy</a></li>
+          <li><a href="https://www.adobe.com/legal/terms.html">Terms of Use</a></li>
+          <li><a href="https://www.adobe.com/#openPrivacy">Cookie preferences</a></li>
+          <li><a href="https://www.adobe.com/privacy/ca-rights.html">Do not sell my personal information</a></li>
+          <li><a href="https://www.adobe.com/privacy/opt-out.html#interest-based-ads">AdChoices</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+  (() => {
+    const h = document.querySelector('.site-header');
+    const b = document.querySelector('.ds-nav-burger');
+    const q = document.querySelector('.search-btn');
+    const tog = (btn, cls) => { const o = btn.getAttribute('aria-expanded') !== 'true'; h.classList.toggle(cls, o); btn.setAttribute('aria-expanded', o); return o; };
+    b.addEventListener('click', () => tog(b, 'is-open'));
+    q.addEventListener('click', () => { if (tog(q, 'search-open')) document.getElementById('header-q').focus(); });
+    document.addEventListener('pointerdown', (e) => document.querySelectorAll('.primary-nav details[open]').forEach((d) => { if (!d.contains(e.target)) d.open = false; }));
+    addEventListener('keydown', (e) => { if (e.key !== 'Escape') return; document.querySelectorAll('.primary-nav details[open]').forEach((d) => { d.open = false; d.querySelector('summary').focus(); }); if (h.classList.contains('is-open')) { tog(b, 'is-open'); b.focus(); } if (h.classList.contains('search-open')) { tog(q, 'search-open'); q.focus(); } });
+  })();
+  </script>
+</body>
+</html>
