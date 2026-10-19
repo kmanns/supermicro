@@ -96,7 +96,7 @@
       "status-amber": {
         "role": "reserved",
         "displayName": "Status Amber",
-        "use": "hover/focus on navy, active header rail",
+        "use": "hover/focus on navy grounds only",
         "source": "donor footer headings / link hover #ffad00"
       },
       "state-positive": {
@@ -144,7 +144,7 @@
       "scale": {
         "ratio": 1.25,
         "name": "major-third",
-        "basis": "committed expressive axis; donor scale was ad-hoc (76 → 42 → 20 → 18)"
+        "basis": "committed expressive axis; donor scale was ad-hoc (76 \u2192 42 \u2192 20 \u2192 18)"
       },
       "fonts": {
         "Source Sans 3": "OFL (Google Fonts), successor of the donor Source Sans Pro",
@@ -175,7 +175,7 @@
     ],
     "motion": {
       "register": "kinetic-grid",
-      "registerRationale": "PRODUCT.md Brand Commitments personality lists `transactional` and `modular-catalogue` → kinetic-grid (selection heuristic). Not applied unless --cinematic.",
+      "registerRationale": "PRODUCT.md Brand Commitments personality lists `transactional` and `modular-catalogue` \u2192 kinetic-grid (selection heuristic). Not applied unless --cinematic.",
       "easings": {
         "entrance": "cubic-bezier(0.42, 0, 0, 1)",
         "transition": "cubic-bezier(0.42, 0, 0, 1)"
@@ -213,7 +213,7 @@
       "mode": "design-donor Mode A (brand-faithful to https://www.supermicro.com/en/); signal-strong (8 palette roles, named families Source Sans Pro + PT Sans Narrow)",
       "research": {
         "tier": 3,
-        "detail": "refero MCP absent; no WebSearch tool in this runtime → seed fallback for un-pinned dimensions",
+        "detail": "refero MCP absent; no WebSearch tool in this runtime \u2192 seed fallback for un-pinned dimensions",
         "picked_by_default": "deterministic (research unavailable)"
       },
       "seed": {
@@ -229,13 +229,13 @@
             "dimension": "ground_family",
             "override": "brand-faithful",
             "value": "data-hall #f1f1f1 page ground",
-            "note": "Mode C: donor ground wins; the dark roll informs the alt-section surface → Rack Navy bands, header utility strip, footer"
+            "note": "Mode C: donor ground wins; the dark roll informs the alt-section surface \u2192 Rack Navy bands, header utility strip, footer"
           }
         ],
         "translation": {
           "decade": "2025-now: current product-UI conventions (persistent search field, honest empty states, fluid clamp type)",
-          "craft": "Neon bending → thin luminous 2px rails on band edges and the active header item, read as rack status-LED lines; no glow, no blur, no neon colours outside the donor palette",
-          "register": "Broadcast captioning → caption-style metadata labels (13px/600/+0.04em), terse factual headings, one-line state messages"
+          "craft": "Neon bending \u2192 thin luminous 2px rails on band edges and the active header item, read as rack status-LED lines; no glow, no blur, no neon colours outside the donor palette",
+          "register": "Broadcast captioning \u2192 caption-style metadata labels (13px/600/+0.04em), terse factual headings, one-line state messages"
         }
       },
       "font_deck": {
@@ -249,7 +249,7 @@
       "palette_source": {
         "source": "inherited from stardust/canon-source/_brand-extraction.json (design donor)",
         "picked_by": "user-constraint",
-        "role_renaming": "brand-native names (toolkit § 4): Data Hall, Chassis White, Schematic, Rack Navy, Datasheet Blue, Signal Blue, Sky Rail, Power Red, Status Amber",
+        "role_renaming": "brand-native names (toolkit \u00a7 4): Data Hall, Chassis White, Schematic, Rack Navy, Datasheet Blue, Signal Blue, Sky Rail, Power Red, Status Amber",
         "additions": [
           "field-edge #8f8f8f from storefront tokens (donor #cccccc fails 3:1 as a control boundary)",
           "state-* from storefront drop-in tokens (donor captured none)"
@@ -280,7 +280,7 @@
         {
           "from": "off_toolbox_moves",
           "to": "removed",
-          "move": "Donor blue band gradient (#2294d6 → #003a70) as section header fill",
+          "move": "Donor blue band gradient (#2294d6 \u2192 #003a70) as section header fill",
           "reason": "gradient band is the donor motif, but the self-audit reads it as decoration competing with the action red at packed density; replaced by flat Rack Navy bands with a rail"
         }
       ],
@@ -347,7 +347,7 @@
     "systemComponentRoles": {
       "utility-strip": {
         "purpose": "B2B account tools (quick order, order search, company account, sign in / my account)",
-        "position": "top of header, ≥900px; folds into the mobile menu below 900px",
+        "position": "top of header, \u2265900px; folds into the mobile menu below 900px",
         "constraint": "links route to the existing storefront paths; labels reuse the storefront strings"
       },
       "header": {
@@ -504,8 +504,9 @@
       "Navy bands with thin luminous blue rails (status-LED lines) instead of shadows or gradients as dividers.",
       "Mixed-case Source Sans headings in blue; PT Sans Narrow reserved for the home display headline.",
       "Square red action buttons; 6px chassis cards; square inputs.",
-      "Caption-style metadata labels (13px, 600, +0.04em) above headings and on badges.",
-      "Honest empty states that always offer the next action."
+      "Caption-style metadata labels (13px, 600, +0.04em) on badges and beside or below headings, never as eyebrows above them.",
+      "Honest empty states that always offer the next action.",
+      "Square 8px status LEDs at the right end of catalog rows (Signal Blue live, Rail Rule pending)."
     ],
     "rules": [
       {
@@ -520,7 +521,7 @@
       },
       {
         "name": "The Caption Rule",
-        "body": "Metadata is a caption, not a sentence: one short label, 13px, set above or beside the thing it describes.",
+        "body": "Metadata is a caption, not a sentence: one short label, 13px, set beside or below the thing it describes. Never an eyebrow above a heading.",
         "section": "typography"
       },
       {
@@ -532,7 +533,7 @@
     "dos": [
       "Do keep search, cart, quick order and account reachable in the header at every width.",
       "Do use Power Red for every primary action and nothing else.",
-      "Do put a scrim (≥ 0.55 navy) under any text set on photography.",
+      "Do put a scrim (\u2265 0.55 navy) under any text set on photography.",
       "Do label every metadata item with a caption.",
       "Do show empty catalog, search and cart states as designed states with one clear next step.",
       "Do reuse the storefront's own system strings (\"Your cart is empty\", \"Start shopping\", \"Sign in\")."

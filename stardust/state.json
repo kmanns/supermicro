@@ -1,7 +1,7 @@
 {
   "_provenance": {
-    "writtenBy": "stardust:direct",
-    "writtenAt": "2026-10-19T18:26:30Z",
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-10-19T18:56:37Z",
     "stardustVersion": "0.29.1"
   },
   "site": {
@@ -39,7 +39,7 @@
       "url": "https://main--supermicro--kmanns.aem.page/",
       "title": "Ready to go - B2B!",
       "type": "landing",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -48,12 +48,21 @@
         {
           "status": "directed",
           "at": "2026-10-19T18:26:30Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-19T18:56:37Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-19T18:56:37Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/index-proposed.html",
       "migratedPath": null
     },
     {

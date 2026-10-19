@@ -66,3 +66,31 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** `$stardust prototype index` (then apparel, search, cart, customer-login, customer-account).
 
 ---
+
+## 2026-10-19T19:45:00Z — prototype index — plan, render, critique, audit, adapt, approval (hands-off)
+
+**Prompt:** Continue hands-off: prototype the home page through impeccable craft and every stardust gate.
+
+**Decisions:**
+- plan: `index-shape.md` passes the brief validator (lineage 6/6, anti-template pass 4 patterns, surprise low, 2 substrate transitions, voice 6/6). The form is a rack-elevation category index. The brief pins the structure, so impeccable's concept roll was skipped.
+- render: `$impeccable craft` (new-work, established world). The craft floor banned eyebrows above headings, so captions moved beside/below headings and the DESIGN.md Caption Rule was amended. Account tools render as a ruled ledger, not icon cards.
+- render: the finish reviewer found 8 material fixes; all 8 were resolved over 2 verdict rounds. These included an availability claim: "Available now" + "Live" became "In the storefront". A requested 2px left rail was replaced by right-end status LEDs, because the craft floor bans coloured side stripes.
+- critique: run 1 scored 25/36 with one P1 (dead-end pending rows), fixed with next-action lines. Run 2 scored 26/36 with no P0/P1.
+- audit: run 1 scored 16/20 with one P0 (no-JS mobile menu hidden), fixed. Run 2 found one P1 regression (no-JS search overlapped Registration), fixed and verified. Acknowledged for the prototype: no hero srcset, unminified logo SVG, Google Fonts @import.
+- adapt: the mobile-adapt audit passes from 320 to 1920. Below 900px: hamburger, search button, Wishlist moved into the menu, and a strip with Quick Order and Search Order.
+- approval: `approvedBy: hands-off` after all gates cleared. Motion gate n/a (static).
+
+**Artifacts touched:**
+- stardust/prototypes/index-shape.md, index-proposed.html, assets/ (favicon, logo, hero): created
+- DESIGN.md, DESIGN.json: amended (Caption Rule, mobile header, Status Amber scope, search-field label exception)
+- stardust/state.json: index → prototyped → approved
+
+**Findings worth flagging:**
+- Running the impeccable critique and audit as parallel subagents worked. Each found issues the other missed: critique found the dead ends, audit found the no-JS P0.
+
+**Open questions:**
+- none
+
+**Next:** `$stardust prototype apparel`, reusing the approved header/footer chrome.
+
+---

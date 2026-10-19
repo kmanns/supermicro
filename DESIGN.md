@@ -167,7 +167,8 @@ The system is pinned to supermicro.com (palette, type families, square action sh
 - Navy bands with thin luminous blue rails (status-LED lines) instead of shadows or gradients as dividers.
 - Mixed-case Source Sans headings in blue; PT Sans Narrow is reserved for the home display headline.
 - Square red action buttons; 6px chassis cards; square inputs.
-- Caption-style metadata labels (13px, 600, +0.04em) above headings and on badges.
+- Caption-style metadata labels (13px, 600, +0.04em) on badges and beside or below headings, never as eyebrows above them.
+- Square 8px status LEDs at the right end of catalog rows (Signal Blue live, Rail Rule pending).
 - Honest empty states that always offer the next action.
 
 ## Colors
@@ -182,7 +183,7 @@ The system is pinned to supermicro.com (palette, type families, square action sh
 - **Sky Rail** `#4698d5`: rails and large labels on navy (3.7:1); never body text.
 
 ### Tertiary
-**Status Amber** `#ffad00`: reserved for link hover and focus on navy grounds, and the active-state rail in the header (6.1:1 on navy). Never on white.
+**Status Amber** `#ffad00`: reserved for link hover and focus on navy grounds (6.1:1 on navy). Never on white.
 
 ### Neutral
 - **Data Hall** `#f1f1f1`: page ground.
@@ -221,10 +222,10 @@ h1, h2 and display clamp down for mobile. Headings are 600 (h1 700), mixed case.
 - Page title (h1) in Schematic on product surfaces, white on navy bands.
 - Section heading (h2) in Datasheet Blue.
 - Card title (h3/h4) in Schematic.
-- Caption label above any heading that needs context ("Category", "Search results", "Account").
+- Context labels sit beside or below a heading as captions or badges ("Catalog pending", a results note). No eyebrow above a heading.
 
 ### Named Rules
-**The Caption Rule.** Metadata is a caption, not a sentence: one short label, 13px, set above or beside the thing it describes.
+**The Caption Rule.** Metadata is a caption, not a sentence: one short label, 13px, set beside or below the thing it describes. Never an eyebrow above a heading.
 
 ## Layout
 
@@ -266,12 +267,13 @@ Depth is mostly structural (navy bands and white cards on grey). Shadows are low
 Chassis White, 6px radius, `card-rest`. Image area on white, a Schematic title, a caption line, and a text link or action. Hover lifts 2px to `card-hover`.
 
 ### Inputs / Fields
-Chassis White, 1px Field Edge border, square, 44px tall, a visible label above. Focus: 2px Signal Blue border plus a 2px outline. Error: State Alert border with a message below.
+Chassis White, 1px Field Edge border, square, 44px tall, a visible label above. Exception: search fields use an sr-only label plus the placeholder "Search the catalog", inside a form named by `aria-label`. Focus: 2px Signal Blue border plus a 2px outline. Error: State Alert border with a message below.
 
 ### Navigation
 - **Navy utility strip:** Quick Order, Search Order, Create Company Account and Sign in / My Account, as caption-size links.
 - **White header below it:** Supermicro logo, catalog navigation, a persistent search field that opens the Product Discovery overlay, and icon buttons for Wishlist, Cart (mini-cart count) and Account.
-- **Mobile:** the menu button opens a full-height panel. Search and cart stay visible in the bar.
+- **Mobile (<900px):** the navy strip keeps Quick Order and Search Order. The bar holds the menu button, logo, a 44px Search button (opens the Product Discovery overlay), Wishlist, Cart and My Account. The menu button opens an inline panel under the bar with Catalog and the Account links.
+- **Catalog disclosure (≥900px):** opens as a Chassis White overlay panel (6px, `overlay` shadow, 44px rows).
 
 ### Empty and status states
 A white panel with an outlined icon, a short Schematic heading, one Spec Grey sentence and one primary action. Never filled with sample products.
