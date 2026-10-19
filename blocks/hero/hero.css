@@ -43,6 +43,21 @@
   font: var(--type-headline-2-default-font);
 }
 
+.hero a:any-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--color-chassis-white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero a:any-link:hover,
+.hero a:any-link:focus-visible {
+  color: var(--color-status-amber);
+  outline-color: var(--color-status-amber);
+}
+
 .hero picture {
   position: absolute;
   z-index: -2;

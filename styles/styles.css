@@ -775,6 +775,7 @@ main .section.dark a.button.secondary:hover {
 /* section style "rack-index": a columns block becomes the rack-elevation category index */
 main .section.rack-index .columns.block > div {
   align-items: flex-start;
+  gap: var(--spacing-small);
 }
 
 main .section.rack-index .columns.block > div > div {
