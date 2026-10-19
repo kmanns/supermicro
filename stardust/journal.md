@@ -198,3 +198,32 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** push the branch and open a PR with the feature-preview link, or update DA content first.
 
 ---
+
+## 2026-10-20T01:00:00Z — content — Document Authoring nav and home updated and previewed (publish pending merge)
+
+**Prompt:** Make the DA content changes; preview and publish if able. The access the user enabled only took effect after a session-side retry.
+
+**Decisions:**
+- Nav: brand link → `:supermicro-logo:` (title "Supermicro home"); "Log in" → "Sign in". Built as targeted edits of the downloaded DA source.
+- Home: the boilerplate sections were replaced with three sections, all copy from the approved prototypes and donor verbatim labels:
+  - hero (data-hall photo uploaded to DA media)
+  - `rack-index` category columns
+  - `navy` Account tools list
+- Both documents previewed on main's content. The branch preview shows the result with the redesign code.
+- Publishing is held until PR #3 merges: main's code lacks the logo icon and section styles.
+- Code follow-ups from the preview check (pushed to PR #3):
+  - hero links white (contrast)
+  - mobile logo 96px, 72px at ≤359px
+  - rack-index panels shrink, and their badges wrap at ≤359px
+  - PSI now passes (90; all pages ≥ 90 perf, 100 a11y)
+
+**Artifacts touched:**
+- DA: kmanns/supermicro/nav.html, index.html (backups at stardust/.work/da/*.backup.html), media/supermicro-data-hall.webp
+- blocks/hero/hero.css, blocks/header/header.css, styles/styles.css
+
+**Open questions:**
+- Merge PR #3, then publish nav and home to live.
+
+**Next:** merge PR #3, then publish `/nav` and `/`.
+
+---
