@@ -779,6 +779,7 @@ main .section.rack-index .columns.block > div {
 }
 
 main .section.rack-index .columns.block > div > div {
+  min-width: 0;
   padding: 14px 20px 8px;
   background-color: var(--color-chassis-white);
   border-top: var(--shape-rail) solid var(--color-neutral-400);
@@ -833,6 +834,12 @@ main .section.rack-index .columns li em {
   font-style: normal;
   letter-spacing: var(--type-details-caption-1-letter-spacing);
   white-space: nowrap;
+}
+
+@media (max-width: 359px) {
+  main .section.rack-index .columns li em {
+    white-space: normal;
+  }
 }
 
 main .section.rack-index .columns li > a:any-link {

@@ -1020,6 +1020,10 @@ body.has-nav-utility header {
     min-width: 72px;
   }
 
+  header nav .nav-brand .icon {
+    width: 72px;
+  }
+
   header nav .nav-tools {
     gap: 0;
   }
