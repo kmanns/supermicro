@@ -129,3 +129,72 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** implement the approved design in the existing EDS blocks and the drop-in `:root` tokens, keeping the Commerce and Search integrations.
 
 ---
+
+## 2026-10-19T21:40:00Z — user decision — implement without separate prototype review; keep red dashed placeholders
+
+**Prompt:** Asked whether to stop for a prototype review before touching EDS code. The user chose "Implement now" and "Keep red dashed" placeholder outlines.
+
+**Decisions:**
+- The user explicitly accepted the hands-off approvals and authorised implementation on the redesign branch (not pushed).
+- The placeholder outline is confirmed as the prototype-only exception to the One Red Rule.
+
+**Open questions:**
+- none
+
+**Next:** implement in EDS (tokens, fonts, header/footer, commerce block styling).
+
+---
+
+## 2026-10-19T23:10:00Z — implement — Supermicro design applied to the EDS storefront code
+
+**Prompt:** Implement the approved design in the existing EDS blocks and the drop-in tokens, without replacing the Commerce or Search integrations.
+
+**Decisions:**
+- Theming goes mostly through the drop-in `:root` tokens in `styles/styles.css`:
+  - brand ramp: Power Red
+  - neutral ramp: Data Hall, Field Edge #7a7a7a, Spec Grey, Schematic
+  - radii: 0 / 6px / 0
+  - shadows from DESIGN.json
+  - type: Source Sans 3, major-third scale, normal tracking
+  - new brand-role tokens and a 1440px content width
+- Fonts are self-hosted (OFL): `fonts/source-sans-3-latin-variable.woff2` (28 KB) and `fonts/pt-sans-narrow-latin-700.woff2` (51 KB), plus a size-adjusted Arial fallback.
+- Header: CSS restyle done in place to satisfy stylelint. Changes:
+  - white bar
+  - 44px controls
+  - field-shaped search button that still opens the Product Discovery panel
+  - Signal Blue rail on dropdowns
+  - an additive `buildUtilityStrip()` in header.js that clones the authored B2B links into a Rack Navy strip (Quick Order and Search Order on phones, all four from 900px)
+
+  No search, mini-cart or auth logic changed.
+- Footer, hero, cards and commerce empty states are restyled:
+  - footer: navy, white links, amber hover
+  - hero: navy scrim, PT Sans Narrow display
+  - cards: white chassis cards with a rail
+  - empty states (product-list-page, cart, sign-in): Signal Blue rail panels
+- Section metadata style `navy` / `dark` renders a Rack Navy band.
+- Mobile header: tighter spacing plus a ≤359px rule keep all four controls on screen from 320px. The live site already clips the account button at 390px.
+
+**Artifacts touched:**
+- styles/styles.css, styles/fonts.css, fonts/*.woff2 (2 new), icons/supermicro-logo.svg (new)
+- blocks/header/header.{js,css}, blocks/footer/footer.css, blocks/hero/hero.css, blocks/cards/cards.css
+- blocks/product-list-page/product-list-page.css, blocks/commerce-cart/commerce-cart.css, blocks/commerce-login/commerce-login.css
+
+**Findings worth flagging:**
+- Verified on the local dev server, with every check passing:
+  - search opens the Product Discovery panel and routes to `/search?q=`
+  - the mini-cart and account menu open
+  - the hamburger works
+  - no overflow at 320–1440
+- The remaining lint errors predate this work, in files not touched: hero-v2.css, commerce-account-sidebar.js, commerce.js.
+- Content (DA), not code, is still needed for the full look:
+  - the nav brand should use the `:supermicro-logo:` icon instead of the "Boilerplate" text
+  - "Log in" → "Sign in"
+  - the home page sections (hero copy and image, category index, account tools) need authoring
+  - legal links point to adobe.com
+
+**Open questions:**
+- Should the DA nav and home documents be updated? This publishes content.
+
+**Next:** push the branch and open a PR with the feature-preview link, or update DA content first.
+
+---

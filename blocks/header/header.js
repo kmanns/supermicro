@@ -163,6 +163,42 @@ function setupSubmenu(navSection) {
  * loads and decorates the header, mainly the nav
  * @param {Element} block The header block element
  */
+/**
+ * Builds the Rack Navy utility strip from the B2B account links authored in the nav.
+ * The links are cloned, so the authored nav sections keep working unchanged.
+ * @param {Element} navSections the decorated nav sections
+ * @returns {Element|null} the strip, or null when no matching links are authored
+ */
+function buildUtilityStrip(navSections) {
+  const routes = ['/quick-order', '/order-status', '/customer/company/create', '/customer/login'];
+  const links = routes
+    .map((route) => navSections?.querySelector(`a[href$="${route}"]`))
+    .filter(Boolean);
+  if (!links.length) return null;
+
+  const strip = document.createElement('div');
+  strip.className = 'nav-utility';
+  const list = document.createElement('ul');
+  list.className = 'nav-utility-items';
+  links.forEach((link, i) => {
+    const item = document.createElement('li');
+    // only the first two shortcuts stay visible on narrow screens
+    if (i > 1) item.className = 'nav-utility-wide';
+    const a = document.createElement('a');
+    a.className = 'nav-utility-link';
+    a.href = link.href;
+    a.textContent = link.textContent.trim();
+    item.append(a);
+    list.append(item);
+  });
+  const utilityNav = document.createElement('nav');
+  utilityNav.className = 'nav-utility-list';
+  utilityNav.setAttribute('aria-label', 'B2B shortcuts');
+  utilityNav.append(list);
+  strip.append(utilityNav);
+  return strip;
+}
+
 export default async function decorate(block) {
   // Render a banner at the top of the page if seller assisted buying session identified
   const sellerAssistedBuyingBanner = await renderSellerAssistedBuyingBanner();
@@ -538,6 +574,12 @@ export default async function decorate(block) {
 
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
+  const utilityStrip = buildUtilityStrip(navSections);
+  if (utilityStrip) {
+    navWrapper.append(utilityStrip);
+    navWrapper.classList.add('has-utility');
+    document.body.classList.add('has-nav-utility');
+  }
   navWrapper.append(nav);
   block.append(navWrapper);
 

@@ -107,3 +107,17 @@
     flex-basis: auto;
   }
 }
+
+/* Supermicro: page title at h1 scale and an empty-cart panel with the Signal Blue rail */
+.commerce-cart .cart-cart-summary-list__heading-text {
+  font: var(--type-display-1-font);
+  letter-spacing: var(--type-display-1-letter-spacing);
+  color: var(--color-neutral-800);
+}
+
+.commerce-cart .cart-empty-cart .dropin-card {
+  border: 0;
+  border-top: var(--shape-rail) solid var(--color-signal-blue);
+  border-radius: 0 0 var(--shape-border-radius-2) var(--shape-border-radius-2);
+  box-shadow: var(--shape-shadow-3);
+}
