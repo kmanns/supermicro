@@ -230,6 +230,16 @@ export default async function decorate(block) {
     brandLink.closest('.button-container').className = '';
   }
 
+  // an icon-only brand link (e.g. :supermicro-logo:) needs a name, and the logo loads eagerly
+  const brandIcon = navBrand.querySelector('.icon img');
+  if (brandIcon) {
+    brandIcon.loading = 'eager';
+    const brandAnchor = brandIcon.closest('a');
+    if (brandAnchor && !brandAnchor.textContent.trim()) {
+      brandAnchor.setAttribute('aria-label', brandAnchor.title || 'Home');
+    }
+  }
+
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
     navSections
