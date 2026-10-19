@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "supermicro": {
+      "previewOrg": "kmanns",
+      "previewSite": "supermicro",
+      "contentHostUrl": "https://content.da.live/kmanns/supermicro/"
+    }
+  }
+}
