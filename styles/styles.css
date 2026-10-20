@@ -690,6 +690,17 @@ main p {
   text-wrap: pretty;
 }
 
+/* links inside running text are underlined, not colour-only (WCAG 1.4.1) */
+main p > a:any-link:not(.button) {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Datasheet Blue fails AA on the Data Hall ground (4.1:1): default-content links there are Rack Navy */
+main .default-content-wrapper a:any-link:not(.button) {
+  color: var(--color-rack-navy);
+}
+
 main input::placeholder {
   color: var(--color-neutral-700);
   opacity: 1;
@@ -787,8 +798,20 @@ main .section.rack-index .columns.block > div > div {
   box-shadow: var(--shape-shadow-3);
 }
 
-main .section.rack-index .columns.block > div > div:first-child {
+main .section.rack-index .columns.block > div > div:has(li a) {
   border-top-color: var(--color-signal-blue);
+}
+
+/* a photo authored at the top of a rack-index panel runs edge to edge */
+main .section.rack-index .columns.block > div > div > p:first-child:has(picture) {
+  margin: -14px -20px 12px;
+  line-height: 0;
+}
+
+main .section.rack-index .columns.block > div > div > p:first-child img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 main .section.rack-index .columns h3 {
