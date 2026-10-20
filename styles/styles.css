@@ -690,6 +690,12 @@ main p {
   text-wrap: pretty;
 }
 
+/* links inside running text are underlined, not colour-only (WCAG 1.4.1) */
+main p > a:any-link:not(.button) {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 main input::placeholder {
   color: var(--color-neutral-700);
   opacity: 1;
