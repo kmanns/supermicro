@@ -696,6 +696,11 @@ main p > a:any-link:not(.button) {
   text-underline-offset: 3px;
 }
 
+/* Datasheet Blue fails AA on the Data Hall ground (4.1:1): default-content links there are Rack Navy */
+main .default-content-wrapper a:any-link:not(.button) {
+  color: var(--color-rack-navy);
+}
+
 main input::placeholder {
   color: var(--color-neutral-700);
   opacity: 1;
