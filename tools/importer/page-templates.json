@@ -1,0 +1,32 @@
+{
+  "templates": [
+    {
+      "name": "eds-native",
+      "description": "Pages already authored in Document Authoring for this EDS site; imported from their published .plain.html to refresh the workspace content copy",
+      "urls": [
+        "https://main--supermicro--kmanns.aem.live/index.plain.html",
+        "https://main--supermicro--kmanns.aem.live/nav.plain.html"
+      ],
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [
+            "div.hero"
+          ]
+        },
+        {
+          "name": "columns",
+          "instances": [
+            "div.columns"
+          ]
+        },
+        {
+          "name": "section-metadata",
+          "instances": [
+            "div.section-metadata"
+          ]
+        }
+      ]
+    }
+  ]
+}
