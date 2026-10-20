@@ -227,3 +227,23 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** merge PR #3, then publish `/nav` and `/`.
 
 ---
+
+## 2026-10-20T01:30:00Z — go-live — PR #3 merged; nav and home published
+
+**Prompt:** Merge PR #3, then publish the nav and home documents.
+
+**Decisions:**
+- PR #3 merged (a4cecba). The final commit's PSI run scored 87, against 90 on the previous commit's identical code: run-to-run variance on Cart mobile.
+- Waited for the live site to serve the logo icon and the new styles, then published `/nav` and `/`.
+- Verified live:
+  - logo and hero image load
+  - h1 is "Supermicro Storefront"
+  - hero link is white
+  - no overflow at 320, 390 and 1440, with all header controls on screen
+
+**Open questions:**
+- none
+
+**Next:** the user builds the catalog; the Apparel, search and cart empty states will then fill from the drop-ins.
+
+---
