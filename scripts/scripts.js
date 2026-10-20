@@ -9,6 +9,9 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  readBlockConfig,
+  toCamelCase,
+  toClassName,
 } from './aem.js';
 import {
   loadCommerceEager,
@@ -202,10 +205,32 @@ function decorateColumnSections(main) {
   document.body.classList.add('columns');
 }
 
+/**
+ * Applies section metadata that is still present as a block. The publishing pipeline
+ * folds it into section classes before delivery; local content previews serve the
+ * authored form, so this keeps section styles working there too.
+ * @param {Element} main The container element
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > div > div.section-metadata').forEach((meta) => {
+    const section = meta.parentElement;
+    Object.entries(readBlockConfig(meta)).forEach(([key, value]) => {
+      if (key === 'style') {
+        String(value).split(',').map((v) => toClassName(v)).filter(Boolean)
+          .forEach((style) => section.classList.add(style));
+      } else {
+        section.dataset[toCamelCase(key)] = value;
+      }
+    });
+    meta.remove();
+  });
+}
+
 export function decorateMain(main) {
   decorateLinks(main);
   decorateIcons(main);
   buildAutoBlocks(main);
+  decorateSectionMetadata(main);
   decorateSections(main);
   decorateColumnSections(main);
   decorateBlocks(main);

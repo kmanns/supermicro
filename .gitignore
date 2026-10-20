@@ -20,3 +20,7 @@ scripts/__dropins__/**/*.map
 .env
 .env.*
 # <<< stardust
+
+# importer build output and run reports
+tools/importer/*.bundle.js
+tools/importer/reports/
